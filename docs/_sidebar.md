@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md -->
 
-- [Home](/docs)
+- [Início](/)
 - [Projetos](/docs/Projeto/Projeto.md)
 
 - **Base**
