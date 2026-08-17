@@ -5,7 +5,7 @@
 
 - **Base**
   - **1. Desenho de Software**
-  - [1.1 Design Sprint](/docs/Base/1.1.DesignSprint.md)
+  - [1.1 Design Sprint](/Base/1.1.DesignSprint.md)
   - [1.1.1. Understand](/Base/1.1.1.Understand.md)
   - [1.1.2. Define](/Base/1.1.2.Define.md)
   - [1.1.3. Sketch](/Base/1.1.3.Sketch.md)
