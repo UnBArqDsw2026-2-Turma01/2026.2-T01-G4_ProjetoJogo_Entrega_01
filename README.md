@@ -22,13 +22,13 @@ Repositório destinado à documentação da Entrega 01 do projeto [Título do Pr
         </td>
         <td align="center">
             <a href="https://github.com/gabemagioli">
-                <img style="border-radius: 50%;" src="https://github.com/agabemagioli.png" width="150px;"/>
+                <img style="border-radius: 50%;" src="https://github.com/gabemagioli.png" width="150px;"/>
                 <h5 class="text-center">Gabriel Andrade Magioli</h5>
             </a>
         </td>
         <td align="center">
             <a href="https://github.com/JoaoPC10">
-                <img style="border-radius: 50%;" src="https://github.com/fJoaoPC10.png" width="150px;"/>
+                <img style="border-radius: 50%;" src="https://github.com/JoaoPC10.png" width="150px;"/>
                 <h5 class="text-center">João Igor Pereira da Costa</h5>
             </a>
         </td>
