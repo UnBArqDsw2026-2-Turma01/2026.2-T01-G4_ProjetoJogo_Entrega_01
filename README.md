@@ -1,10 +1,75 @@
-# RepositorioTemplate
+# Título de Projeto
 
-Repositório que deve ser utilizado como template inicial pelos grupos da matéria de Arquitetura e Desenho de Software.
+Repositório destinado à documentação da Entrega 01 do projeto [Título do Projeto], desenvolvido pela Equipe 04 da disciplina FGA0208 – Arquitetura e Desenho de Software, ministrada pela professora Milene Serrano no semestre 2026.2.
 
-## Introdução
+## Equipe
 
-Este repositório traz um template de repo de documentação a ser seguido pelos grupos de arquitetura e desenho de software.
+## Equipe
+
+<table style="margin-left: auto; margin-right: auto;">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/Carlos-UCH">
+                <img style="border-radius: 50%;" src="https://github.com/Carlos-UCH.png" width="150px;"/>
+                <h5 class="text-center">Carlos Henrique Brasil de Souza</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/cibelinda">
+                <img style="border-radius: 50%;" src="https://github.com/cibelinda.png" width="150px;"/>
+                <h5 class="text-center">Cibelly Lourenço Ferreira</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/gabemagioli">
+                <img style="border-radius: 50%;" src="https://github.com/agabemagioli.png" width="150px;"/>
+                <h5 class="text-center">Gabriel Andrade Magioli</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/JoaoPC10">
+                <img style="border-radius: 50%;" src="https://github.com/fJoaoPC10.png" width="150px;"/>
+                <h5 class="text-center">João Igor Pereira da Costa</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/beyondmagic">
+                <img style="border-radius: 50%;" src="https://github.com/beyondmagic.png" width="150px;"/>
+                <h5 class="text-center">João Victor da Silva Batista de Farias</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/MatielloAL">
+                <img style="border-radius: 50%;" src="https://github.com/MatielloAL.png" width="150px;"/>
+                <h5 class="text-center">Marcelo de Araújo Lopes</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/MarcosViniciusG">
+                <img style="border-radius: 50%;" src="https://github.com/MarcosViniciusG.png" width="150px;"/>
+                <h5 class="text-center">Marcos Vinícius Gündel da Silva</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/PedroDev-sketch">
+                <img style="border-radius: 50%;" src="https://github.com/PedroDev-sketch.png" width="150px;"/>
+                <h5 class="text-center">Pedro Teixeira Moriel Sanchez</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/renanpr7">
+                <img style="border-radius: 50%;" src="https://github.com/renanpr7.png" width="150px;"/>
+                <h5 class="text-center">Renan Pereira Reis</h5>
+            </a>
+        </td>
+        <td align="center">
+            <a href="https://github.com/oyogi">
+                <img style="border-radius: 50%;" src="https://github.com/oyogi.png" width="150px;"/>
+                <h5 class="text-center">Yogi Nam de Souza Barbosa</h5>
+            </a>
+        </td>
+    </tr>
+</table>
 
 ## Tecnologia
 
