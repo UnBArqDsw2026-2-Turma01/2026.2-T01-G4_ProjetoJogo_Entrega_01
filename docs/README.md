@@ -14,7 +14,7 @@ Demais diretrizes constam no Moodle.
 # Nome do Projeto
 
 **Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 04<br>
 **Entrega**: 01<br>
 
 ## Alunos
