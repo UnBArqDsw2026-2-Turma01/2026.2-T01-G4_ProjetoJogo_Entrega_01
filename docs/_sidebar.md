@@ -3,6 +3,9 @@
 - [Início](/)
 - [Projetos](/docs/Projeto/Projeto.md)
 
+- **Modelagem**
+  - [Léxico](/Projeto/Modelagem/Lexico.md)
+
 - **Base**
   - **1. Desenho de Software**
   - [1.1 Design Sprint](/Base/1.1.DesignSprint.md)
