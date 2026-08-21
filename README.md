@@ -32,7 +32,9 @@ Repositório destinado à documentação da Entrega 01 do projeto [Título do Pr
                 <h5 class="text-center">João Igor Pereira da Costa</h5>
             </a>
         </td>
-        <td align="center">
+    </tr>
+    <tr>
+         <td align="center">
             <a href="https://github.com/beyondmagic">
                 <img style="border-radius: 50%;" src="https://github.com/beyondmagic.png" width="150px;"/>
                 <h5 class="text-center">João Victor da Silva Batista de Farias</h5>
