@@ -1,25 +1,52 @@
 <!-- docs/_sidebar.md -->
 
 - [Início](/)
-- [Projetos](/docs/Projeto/Projeto.md)
 
-- **Modelagem**
-  - [Léxico](/Projeto/Modelagem/Lexico.md)
+- Guias
+  - [Artefato Padrão](/Guias/ArtefatoPadrao.md)
+  - [Ata Padrão](/Guias/AtaPadrao.md)
 
-- **Base**
-  - **1. Desenho de Software**
-  - [1.1 Design Sprint](/Base/1.1.DesignSprint.md)
-    - [1.1.1. Understand](/Base/1.1.1.Understand.md)
-    - [1.1.2. Define](/Base/1.1.2.Define.md)
-    - [1.1.3. Sketch](/Base/1.1.3.Sketch.md)
-    - [1.1.4. Decide](/Base/1.1.4.Decide.md)
-    - [1.1.5. Prototype](/Base/1.1.5.Prototype.md)
-    - [1.1.6. Validate](/Base/1.1.6.Validate.md)
-  - **2. Artefatos Generalistas**
-  - [2.2 Rich Picture](/Base/2.2.RichPicture.md)
+- [Projeto](/Projeto/Projeto.md)
+
+- Atas de Reunião
+  - [Reuniões Gerais](/Atas/Gerais.md)
+    - [Ata 01 — 14/08/2026](/Atas/AtaGeral01.md)
+    - [Ata 02 — 21/08/2026](/Atas/AtaGeral02.md)
+  - [Subgrupo 01](/Atas/SubEquipe_01.md)
+  - [Subgrupo 02](/Atas/SubEquipe_02.md)
+  - [Subgrupo 03](/Atas/SubEquipe_03.md)
+
+- Base
+  - [Design Sprint](/Base/1.1.DesignSprint.md)
+    - [1. Understand](/Base/1.1.1.Understand.md)
+    - [2. Define](/Base/1.1.2.Define.md)
+    - [3. Sketch](/Base/1.1.3.Sketch.md)
+    - [4. Decide](/Base/1.1.4.Decide.md)
+    - [5. Prototype](/Base/1.1.5.Prototype.md)
+    - [6. Validate](/Base/1.1.6.Validate.md)
+
   - Relatórios
-      - [1.1.1. SubEquipe_01](/docs/Base/Relatórios/1.1.1.SubEquipe_01.md)
-      - [1.1.2. SubEquipe_02](/docs/Base/Relatórios/1.1.2.SubEquipe_02.md)
-      - [1.1.3. SubEquipe_03](/docs/Base/Relatórios/1.1.3.SubEquipe_03.md)
-  - [1.2. Participações - Base](/docs/Base/1.2.ParticipacoesBase.md)
-  - [1.3. Iniciativas Extras - Base](Base/1.3.IniciativasExtras.md)
+    - SubEquipe 01
+      - Artefatos Generalistas
+        - [Visão do Foco](/Base/Relatórios/SubEquipe_01/ArtefatoGeneralista.md)
+        - [Rich Picture](/Base/Relatórios/SubEquipe_01/RichPicture.md)
+      - [NFR Framework](/Base/Relatórios/SubEquipe_01/NFRFramework.md)
+      - [BPMN](/Base/Relatórios/SubEquipe_01/BPMN.md)
+      - [IA Generativa](/Base/Relatórios/SubEquipe_01/IAGenerativa.md)
+    - SubEquipe 02
+      - Artefatos Generalistas
+        - [Visão do Foco](/Base/Relatórios/SubEquipe_02/ArtefatoGeneralista.md)
+        - [Rich Picture](/Base/Relatórios/SubEquipe_02/RichPicture.md)
+        - [Léxico](/Base/Relatórios/SubEquipe_02/Lexico.md)
+      - [NFR Framework](/Base/Relatórios/SubEquipe_02/NFRFramework.md)
+      - [BPMN](/Base/Relatórios/SubEquipe_02/BPMN.md)
+      - [IA Generativa](/Base/Relatórios/SubEquipe_02/IAGenerativa.md)
+    - SubEquipe 03
+      - Artefatos Generalistas
+        - [Visão do Foco](/Base/Relatórios/SubEquipe_03/ArtefatoGeneralista.md)
+        - [Rich Picture](/Base/Relatórios/SubEquipe_03/RichPicture.md)
+      - [NFR Framework](/Base/Relatórios/SubEquipe_03/NFRFramework.md)
+      - [BPMN](/Base/Relatórios/SubEquipe_03/BPMN.md)
+      - [IA Generativa](/Base/Relatórios/SubEquipe_03/IAGenerativa.md)
+
+  - [Participações](/Base/1.2.ParticipacoesBase.md)
