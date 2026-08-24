@@ -68,13 +68,14 @@ Participação na Reunião Geral de 21/08/2026, às 22:00, pelo Google Meet, con
 
 ## Gravação da Reunião
 
-Não houve gravação desta reunião. Para preservar a evidência disponível, foi armazenada a [transcrição automática bruta](transcricao_subgrupo1_reuniao1.txt), gerada por computador e sujeita a erros de reconhecimento.
+Não houve gravação desta reunião. Para preservar a evidência disponível, a transcrição automática bruta foi armazenada nos arquivos do repositório, em `docs/Atas/transcricao_subgrupo1_reuniao1.txt`. O documento foi gerado por computador e pode conter erros de reconhecimento.
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 24/08/2026 | Criação da ata com base na transcrição automática da reunião | Yogi Nam de Souza Barbosa | |
+| 1.1 | 24/08/2026 | Substituição do link incompatível pela localização da transcrição no repositório | Yogi Nam de Souza Barbosa | |
 
 <p align="center">Tabela 7: Histórico de versão.</p>
 
