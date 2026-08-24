@@ -1,0 +1,858 @@
+Reunião iniciada em 2026-08-19 19:03 GMT-3
+Participantes
+Cibelly Lourenço, Gabriel Magioli, Yogi
+Transcrição
+Cibelly Lourenço: que o Yogada está.
+Yogi: Não sei.
+Cibelly Lourenço: Meu Deus.
+Gabriel Magioli: Eu
+Yogi: F respondeu.
+Cibelly Lourenço: Ah, obrigada,
+Yogi: Se precisar pelo menos tem.
+Cibelly Lourenço: Yog.
+Cibelly Lourenço: Então, eu tava pensando da gente apresentar isso.
+Yogi: É,
+Cibelly Lourenço: Que que vocês acham?
+Yogi: não acho que é interessante,
+Cibelly Lourenço: Ou não?
+Gabriel Magioli: curti.
+Cibelly Lourenço: Aí,
+Yogi: mas aí
+Cibelly Lourenço: tipo assim, os os hã pode falar aí,
+Yogi: M.
+Cibelly Lourenço: tipo assim, como a matéria é uma é arquitetura que mexe com IHC, que IH IHC, né, que era iteração humano no computador.
+Cibelly Lourenço: Isso mesmo.
+Cibelly Lourenço: Aí como é uma matéria que mexe com isso,
+Yogi: Угу.
+Cibelly Lourenço: a gente teria que fazer um aplicativo que fosse muito intuitivo para pessoas idosas, por exemplo, poder usar.
+Cibelly Lourenço: Aí seria eh com os seis jogos que eu pensei, seria sudoco, campo minado, termo, que é aquele, sabe?
+Cibelly Lourenço: Alguém jogou que Ah, então tá.
+Cibelly Lourenço: É da memória, caça palavras e dama.
+Cibelly Lourenço: Seriam esses seis jogos que a gente teria que fazer em cima de um aplicativo normal e a gente teria que desenvolver uma arquitetura muito eh personalizar ele muito intuitivo.
+Cibelly Lourenço: Assim, eu acho que o professor iria gostar também.
+Gabriel Magioli: social,
+Cibelly Lourenço: e poderia,
+Gabriel Magioli: né?
+Cibelly Lourenço: tipo assim, acabar saindo eh ter mais impacto, tipo, ah, os alunos da UnB fizeram aplicativo para prevenção de Alzheimer.
+Cibelly Lourenço: Aí se no futuro a gente quiser até lançar artigo, eh, que jogos realmente podem prevenir o Alzheimer, pode ajudar a pessoas idosas a não chegar adquirir eh demência e tals, aí consegue até desenvolver um artigo em cima desse jogo,
+Cibelly Lourenço: entendeu?
+Gabriel Magioli: Pô,
+Yogi: Mas aí vai ser tipo,
+Gabriel Magioli: acho que é válido.
+Gabriel Magioli: A gente pode,
+Yogi: vai ser tipo esses jogos mais padrão.
+Yogi: É tipo,
+Cibelly Lourenço: É padrão,
+Yogi: é tipo
+Gabriel Magioli: eu acho que dá pra gente fazer
+Cibelly Lourenço: padrão, tipo assim, é porque eles são essenciais.
+Cibelly Lourenço: O que que acontece?
+Gabriel Magioli: Eh,
+Cibelly Lourenço: O meu pai, ele tem 75 anos, ele foi no médico e o médico eh de receita passou um monte de jogos para ele baixar,
+Yogi: isso.
+Cibelly Lourenço: só que ele não tinha muita memória no celular e ele teve que baixar tipo seis jogos, entendeu?
+Cibelly Lourenço: E eu não achei um jogo que tivesse todos esses jogos em um só.
+Cibelly Lourenço: Aí ele teve que baixar sudoco, ele teve que baixar eh campo minado e jogo da da memória.
+Cibelly Lourenço: Ele ficou com esses três.
+Yogi: Parece difícil,
+Cibelly Lourenço: Aí ele ele direto aí,
+Yogi: não parece?
+Cibelly Lourenço: tipo, direto ele tem que ficar jogando isso.
+Cibelly Lourenço: Mas eu não acho que seja difícil porque, por exemplo, a gente ia fazer um que era campo minado, só que é muito fácil pra matéria e aí a gente cria dificuldade colocando RPG, não sei qu não sei o quê.
+Cibelly Lourenço: Só que aí nesse a gente pode tipo criar um bonequinho onde ele vai jogando e vai adquirindo pontuação e é isso, sabe?
+Gabriel Magioli: Pô, dá para tomar ali como base um Candy Crush, tentar fazer um Candy Curso, generalista, entendeu?
+Gabriel Magioli: Para vários jogos ali, sei lá.
+Gabriel Magioli: A gente bota ali um mapinha com várias fases,
+Cibelly Lourenço: Sim,
+Yogi: Eu gosto de ter vários
+Gabriel Magioli: bota ali um personagem, coisa assim.
+Cibelly Lourenço: eu acho que até paraa execução da Você não
+Yogi: jogos, tipo, parece tipo interessante assim.
+Cibelly Lourenço: gosta?
+Yogi: Não, eu
+Cibelly Lourenço: Ah, tá.
+Cibelly Lourenço: Ah,
+Yogi: gosto.
+Cibelly Lourenço: tá.
+Cibelly Lourenço: Sim. E eu acho que, tipo assim, até paraa execução do próprio vai ser um site,
+Yogi: Eu não sei se já viu,
+Cibelly Lourenço: né?
+Yogi: tem um que tipo chama o Brain Training que tem na Nintendo Switch e é tipo isso, é tipo vários jogos de sei lá,
+Cibelly Lourenço: Ah, não, não,
+Yogi: de tipo treinar
+Cibelly Lourenço: não conheço.
+Cibelly Lourenço: Mas manda ele no grupo aí pra gente poder pesquisar o nome.
+Yogi: sério.
+Cibelly Lourenço: Não, no grupo não, no para mim.
+Cibelly Lourenço: Manda para mim.
+Yogi: Vocês acham que a gente criou um grupo nós três?
+Cibelly Lourenço: Ah, eu acho, se for seguir desse forma, eu acho que é melhor.
+Cibelly Lourenço: E eu acho que para fazer o o picture também fica interessante.
+Cibelly Lourenço: Sei lá, na minha cabeça teria um impacto maior e seria tipo a professora ia gostar e a gente poderia fazer artigo depois sobre isso de e desenvolver melhor, entendeu?
+Cibelly Lourenço: do que ser apenas o aplicativo que a gente vai construir e vai morrer ali com a matéria depois que a gente passar.
+Yogi: Oi. Hum. Tipo, eu não achei nenhum.
+Yogi: É isso aí.
+Yogi: Onde?
+Yogi: Eu não achei nenhum.
+Yogi: Tipo, tem esse aqui.
+Cibelly Lourenço: Qual que é esse aplicativo que você tá falando?
+Cibelly Lourenço: Ah, tá.
+Cibelly Lourenço: É.
+Cibelly Lourenço: Hum. N. Tipo isso, eu nem vi o negócio dele,
+Gabriel Magioli: que eu não tô vindo o Yog não.
+Cibelly Lourenço: mas é brain.
+Gabriel Magioli: Ja.
+Cibelly Lourenço: O nome é brain é training e esses outros.
+00:05:00
+Cibelly Lourenço: Ah, tá.
+Cibelly Lourenço: Se criou.
+Yogi: Ai, tipo, eu é que eu não tô vendo fotos aqui, né?
+Yogi: Mas sei lá, se vocês precisarem deve aparecer alguma foto.
+Cibelly Lourenço: Tem que precisar ver jogo.
+Yogi: Ah.
+Cibelly Lourenço: E eu não sei, eu nunca cheguei a fazer aplicativo.
+Cibelly Lourenço: Eu sempre mexi com mais com site.
+Cibelly Lourenço: Só que eu acho que se a gente conseguisse fazer aplicativo seria tão massa.
+Cibelly Lourenço: E aí, tipo, não precisa ser um negócio, nossa, mirabolante assim, sabe, que mexe com personagem, tem que construir, não sei o que, não sei o quê.
+Cibelly Lourenço: Tipo, dá para fazer uma interface muito tranquila, intuitiva e e um jogo que funciona mesmo,
+Yogi: Entendi.
+Yogi: Gente, essa ideia é tipo fazer um aplicativo de celular que tem vários joguinhos assim para conseguir tipo e e também acessível para as
+Cibelly Lourenço: que seria um eh que seria exatamente para brainer, é para treinar o cérebro e não só para idosos,
+Yogi: idosos.
+Cibelly Lourenço: tipo assim, eu acho que todo mundo tem que ativar o cérebro para prevenir demência.
+Cibelly Lourenço: pausar, enfim.
+Yogi: É legal.
+Yogi: que tipo tá a gente tá fugindo totalmente do que a pessoa tinha definido antes, mas acho que
+Gabriel Magioli: Ah,
+Yogi: dá.
+Gabriel Magioli: mas acontece, pô.
+Cibelly Lourenço: Ah, eu acho que é tipo,
+Gabriel Magioli: Nem tudo é escrito em pedra.
+Cibelly Lourenço: a gente fez a reunião muito rápido assim, então a gente decidiu bem no finalzinho que seria algo sobre aprendizado, algo que teria impacto social, porque eu acho que o o ponto principal ali da nossa reunião foi que a gente queria fazer um jogo que tivesse impacto
+Cibelly Lourenço: social para, sei lá, ensinar alguém a aprender a programar, alguma coisa assim.
+Cibelly Lourenço: E esse tem o impacto social.
+Cibelly Lourenço: Então, de certa forma, a gente foge, mas não tanto.
+Yogi: Beleza.
+Yogi: Mas tipo picture.
+Cibelly Lourenço: É, eu não sei direito eh como que como que faz um Eu não entendi a diferença dele para um mapa mental.
+Gabriel Magioli: Aqui o mapa mental, a gente vai colocar ali tipo algumas ideias e aí pô resumindo.
+Gabriel Magioli: Então, sei lá, eh, a gente coloca ali, sei lá, o centro de tudo lá, a gente pode colocar eh, Alzheimer, pessoas com indício de Alzheimer, alguma coisa assim.
+Gabriel Magioli: Aí, a partir disso, no mapa metal, a gente vai colocando ali algumas modificações, tipo, eh, sudou, algo assim, entendeu?
+Gabriel Magioli: Na na R Pit, a gente vai colocar ali um negócio mais lúdico, pelo que eu entendi.
+Gabriel Magioli: Então, a gente pode colocar ali a imagem de um idoso, algo assim.
+Gabriel Magioli: Aí do lado a gente pode colocar eh, sei lá, umas medalhas ali, tipo um sistema de de ranking, por exemplo, conforme eles vão jogando, vão competindo.
+Gabriel Magioli: Aí a gente pode representar ali também, sei lá, tipo, esses jogos aí, tipo, sei lá, Sudoco, coisa assim, a gente coloca ali uma imagem, então, tipo, a gente vai criando ali como se fosse um mundinho,
+Cibelly Lourenço: Aham.
+Gabriel Magioli: tá ligado?
+Cibelly Lourenço: Tá, gente, pode fazer então.
+Cibelly Lourenço: Eh, quem fez esses desenhos aqui?
+Gabriel Magioli: Ah, eu tinha colocado, só que isso aí foi tipo eu tentando pensar em alguma coisa de RPG.
+Cibelly Lourenço: Cara, que
+Gabriel Magioli: Ah, não,
+Cibelly Lourenço: arte
+Gabriel Magioli: isso aí eu fui pegando, escrevendo lá a imagem 3D e
+Cibelly Lourenço: é tipo RPG, eu acho,
+Gabriel Magioli: colocando.
+Cibelly Lourenço: acho muito legal, só que eu acho muito, sei lá, confuso e você entender, querer entender o RPG de um jogo.
+Gabriel Magioli: Ah, não, pô.
+Cibelly Lourenço: Eh,
+Gabriel Magioli: Esses desenhos aí foram do Yug.
+Gabriel Magioli: O meu tá aqui minúsculo aqui do lado.
+Cibelly Lourenço: Ah,
+Gabriel Magioli: Eu não tinha visto que tinha.
+Cibelly Lourenço: justo.
+Cibelly Lourenço: Nossa, esse aqui tá cabuloso.
+Gabriel Magioli: c******,
+Cibelly Lourenço: Parabéns, Yog.
+Gabriel Magioli: tá bizarro mesmo.
+Cibelly Lourenço: Por isso que ele tá triste que a gente acabou com a ideia
+Gabriel Magioli: Se na
+Cibelly Lourenço: dele.
+Gabriel Magioli: mão,
+Yogi: Não.
+Cibelly Lourenço: Você que fez, Yog,
+Yogi: Uhum.
+Gabriel Magioli: cara.
+Cibelly Lourenço: explica para nós.
+Gabriel Magioli: É bom.
+Yogi: Ah, era tipo do Sight, né, que eu tinha proposto na reunião, só que aí o pessoal começou a mudar para ser um RPG, né?
+Yogi: E o Smil que não é um RPG.
+Yogi: Aí eu coloquei aqui que não é um bem um RPG.
+Yogi: Aí era tipo, eu não sei se vocês já jogaram, mas é tipo, você é um personagem, tu vai entrando numas salinhas e aí tem uns inimigos e e aí conforme tu vai matando os inimigos, tu vai conseguindo tipo armas novas e tals.
+Yogi: Aí como meio que definiram que tipo ia ser alguma coisa didática de programação matemática, eu pensei, tipo, em cada, tipo, nas ações do jogo, você tivesse que fazer algumas contas para, sei lá, tipo, ganhar coisas melhores ou coisas
+00:10:00
+Yogi: assim.
+Yogi: Mas aí tinha tipo alguns problemas, né, que eu acho que o pessoal falou lá também que meio que é difícil.
+Yogi: E sei lá.
+Cibelly Lourenço: A interface disso deve ser muito cabulosa para tipo ficar um jogo bom.
+Cibelly Lourenço: Não
+Yogi: É.
+Yogi: E e também, tipo,
+Cibelly Lourenço: sei.
+Yogi: acho que o acho que o nosso projeto tinha que focar em usabilidade, né?
+Yogi: Alguma coisa
+Cibelly Lourenço: É.
+Cibelly Lourenço: E tipo, cara,
+Yogi: assim.
+Cibelly Lourenço: esse esse esse ai, sei lá, eu queria tanto que o povo aprovasse logo pra gente poder fazer isso, porque na minha cabeça seria incrível a gente poderia usar que aprendeu em HC e seria exatamente mais ou menos o
+Cibelly Lourenço: que a professora quer, uma um negócio que usa da arquitetura e que seja simples, intuitivo, sabe?
+Cibelly Lourenço: E que faça sentido também pro pessoal usar.
+Cibelly Lourenço: E se a gente conseguisse fazer em aplicativo também ia ser muito f***.
+Cibelly Lourenço: Mas eu não sei, eu nunca fiz um aplicativo, só sites.
+Cibelly Lourenço: Eu não sei como funciona direito,
+Yogi: A A gente fez já uma vez,
+Cibelly Lourenço: mas conseguiram lançar tipo Play Store?
+Yogi: tipo, tem
+Gabriel Magioli: A Play Store tem que gastar $,
+Yogi: que
+Gabriel Magioli: tem que gerar só APK,
+Cibelly Lourenço: Ah,
+Gabriel Magioli: postar,
+Cibelly Lourenço: justo.
+Gabriel Magioli: tem que pagar.
+Cibelly Lourenço: E como vocês,
+Gabriel Magioli: Aí fica meio caro.
+Cibelly Lourenço: como faz para as pessoas baixarem?
+Yogi: tipo se ficar, então você conseguia compilar o APK,
+Gabriel Magioli: Você pode disponibilizar uma
+Yogi: só que tipo,
+Gabriel Magioli: PK.
+Yogi: só que tipo não é fácil para as pessoas instalarem, até porque tipo quando você instala assim ele provavelmente ia falar que tipo, ah, é tipo desenvolvedor estranho aqui e tal,
+Cibelly Lourenço: Ah, justo.
+Yogi: você falar um negócio assim,
+Cibelly Lourenço: Então a gente pode site mesmo e aí se quiser evoluir depois para clicar
+Yogi: sabe?
+Cibelly Lourenço: ativo, se der em algo.
+Yogi: Tá, não pode ser.
+Cibelly Lourenço: Então vamos.
+Yogi: Mas então o reach picture a gente vai fazer como porque tipo pelo que eu vi com o pessoal parece que é um picture pro grupo.
+Cibelly Lourenço: Sim,
+Yogi: A gente tem que
+Cibelly Lourenço: fazer o nosso, tá?
+Cibelly Lourenço: Eh,
+Yogi: Aham.
+Cibelly Lourenço: o que que é?
+Cibelly Lourenço: Como é que você fez esse negócio?
+Cibelly Lourenço: Foi, você tem um tablet aí, né?
+Yogi: É o meu notebook.
+Cibelly Lourenço: Ah, é, ele escreve, tá?
+Cibelly Lourenço: A gente pode criar a historinha do do meu pai mesmo.
+Cibelly Lourenço: Tipo, meu pai foi no médico e ele receitou.
+Cibelly Lourenço: ter esses jogos, entendeu?
+Cibelly Lourenço: Ele faz eh jogar esses jogos.
+Yogi: Ah, é legal.
+Yogi: Uhum.
+Cibelly Lourenço: O nome do meu pai é Juvenal.
+Cibelly Lourenço: Bota aí.
+Yogi: Bota aí.
+Cibelly Lourenço: Calma aí.
+Cibelly Lourenço: Vai ser o nome
+Gabriel Magioli: É só comigo que quando eu clico nesse lápis aqui e faço um risco na tela,
+Cibelly Lourenço: do
+Gabriel Magioli: ela fica recarregando.
+Cibelly Lourenço: Esse é o nome do meu
+Yogi: Sim.
+Cibelly Lourenço: pai.
+Yogi: Aham.
+Yogi: Tu vai deixar sobrenome mesmo.
+Cibelly Lourenço: Aham.
+Yogi: Tá bom.
+Yogi: Aí, aí agora, agora ele vai para pro
+Gabriel Magioli: O nome é Jal
+Yogi: hospital.
+Gabriel Magioli: Rola.
+Yogi: Ela coloca Seb
+Cibelly Lourenço: eh, tem uma imagenzinha de hospital,
+Yogi: Lourença,
+Cibelly Lourenço: galera.
+Yogi: mas na verdade não é Lourença.
+Cibelly Lourenço: Hosp hospital tem assento não.
+Cibelly Lourenço: M.
+Gabriel Magioli: Não peguei aqui já.
+Gabriel Magioli: Vê se esse aqui tá boa.
+Gabriel Magioli: 3D.
+Yogi: Aham.
+Yogi: Hospital.
+Gabriel Magioli: Deixou onde ele?
+Yogi: no lugar dessa
+Yogi: ilha.
+Gabriel Magioli: Tenho fé que essa ilha ainda vai ser usada.
+Cibelly Lourenço: Ai, que que eu escrevo aqui?
+Yogi: Coloca tipo jogos estimulantes, sei lá.
+Cibelly Lourenço: Não sei escrever Alzheimer.
+Cibelly Lourenço: Fica aí
+Gabriel Magioli: Ah,
+Cibelly Lourenço: a
+Gabriel Magioli: não sei se tem G em algum canto aí.
+Gabriel Magioli: Manda para ali.
+Gabriel Magioli: Aí.
+Cibelly Lourenço: fala do armazenamento.
+Gabriel Magioli: Oi.
+Cibelly Lourenço: fala do armazenamento,
+Gabriel Magioli: Armaz.
+Yogi: Acho que pode.
+Gabriel Magioli: Eu acho que dá pra gente deixar bem genérico,
+Yogi: Tipo,
+Gabriel Magioli: tipo assim,
+Yogi: você acha?
+Cibelly Lourenço: só tipo Alzheimer,
+Yogi: Eu acho que é legal.
+Gabriel Magioli: dá para falar,
+Cibelly Lourenço: né?
+Cibelly Lourenço: Genérico
+Yogi: Não sei, eu acho que é legal, pô.
+Yogi: Tipo,
+Cibelly Lourenço: como
+Gabriel Magioli: tipo assim, eh,
+Yogi: ah, não, eu acho que,
+Gabriel Magioli: foi no hospital e citou que jogasse jogos.
+Yogi: tipo, o texto tá muito grande, né?
+Cibelly Lourenço: é,
+Gabriel Magioli: É,
+Cibelly Lourenço: tá muito grande.
+00:15:00
+Gabriel Magioli: dá para sintetizar ali.
+Cibelly Lourenço: Acho que ninguém lê no final.
+Yogi: sem armazenamento.
+Gabriel Magioli: foi no hospital e o médico receitou que jogasse jogos de prevenção.
+Cibelly Lourenço: Ah, acho que Ah, tá.
+Cibelly Lourenço: Não tá.
+Cibelly Lourenço: Eh, Juvenal Rola.
+Cibelly Lourenço: E aí tem que colocar aqui eh 75
+Gabriel Magioli: No.
+Cibelly Lourenço: anos.
+Cibelly Lourenço: Tá.
+Cibelly Lourenço: Obrigada.
+Cibelly Lourenço: Onde eu posso pôr minha aí?
+Cibelly Lourenço: Agora coloca uma turma.
+Cibelly Lourenço: Ah, não sei.
+Cibelly Lourenço: É porque tipo a historinha seria como eh agora coloco a turmazzinha, um monte de jovenzinhos que seriam a gente vai fazer um jogo e falou tudo que falar.
+Cibelly Lourenço: Oi?
+Cibelly Lourenço: Conseguiu falar tudo que você tinha que falar?
+Cibelly Lourenço: Ali sentido.
+Cibelly Lourenço: Tá triste.
+Cibelly Lourenço: Por quê?
+Yogi: Aonde?
+Gabriel Magioli: A gente tá envolvido,
+Cibelly Lourenço: Sóar minhas coisas em torno de piada.
+Gabriel Magioli: querido.
+Cibelly Lourenço: Tipo, pegar uma imagenzinha de vários jovens e aí colocar a gente e falar: "Jovens da UnB fizeram um aplicativo?" Que que
+Cibelly Lourenço: sai?
+Yogi: Hum. Pode ser essa foto
+Cibelly Lourenço: Sei,
+Yogi: aí.
+Cibelly Lourenço: tem muita mulher nessa foto.
+Gabriel Magioli: Só repentativo.
+Cibelly Lourenço: Fizeram um aplicativo com seis.
+Cibelly Lourenço: Qual que é?
+Cibelly Lourenço: Eh,
+Gabriel Magioli: Foi,
+Cibelly Lourenço: três jogos para eh treinar o cérebro,
+Gabriel Magioli: mãe.
+Cibelly Lourenço: sei lá.
+Gabriel Magioli: Hã?
+Cibelly Lourenço: Aí a gente pega um artigo e cita e
+Gabriel Magioli: Oi, eu não
+Cibelly Lourenço: tipo,
+Gabriel Magioli: ouvi.
+Gabriel Magioli: Alô.
+Yogi: He.
+Gabriel Magioli: Oi. Eu não tinha ouvido o que você
+Cibelly Lourenço: oi.
+Gabriel Magioli: falou.
+Cibelly Lourenço: Não. Câ e prevenir e pr prevenir prevenir é com i.
+Gabriel Magioli: É.
+Cibelly Lourenço: Ah, não sei.
+Gabriel Magioli: Ah, não.
+Gabriel Magioli: Sim, tá
+Cibelly Lourenço: Demência.
+Cibelly Lourenço: Demência.
+Cibelly Lourenço: Demência mental.
+Cibelly Lourenço: baseado em artigos, em fatos reais,
+Gabriel Magioli: certo.
+Cibelly Lourenço: baseados em estudo, eh, baseado neurológicos.
+Cibelly Lourenço: Que que tá?
+Cibelly Lourenço: Ah, fecharam a porta.
+Cibelly Lourenço: Neuroló.
+Cibelly Lourenço: Кос.
+Cibelly Lourenço: Eh, armazenamento, pouco espaço de arma.
+Cibelly Lourenço: Top.
+Cibelly Lourenço: Quem tá fazendo isso é o yoga.
+Cibelly Lourenço: Parabéns.
+Cibelly Lourenço: Coloca,
+Yogi: Ja.
+Cibelly Lourenço: só que coloca mais menorzinho assim, tipo, ah, detalhezinhos menorzinhos, sabe?
+Cibelly Lourenço: Não são exatamente um caminho, mas detalhes.
+Cibelly Lourenço: Isso com seis jogos.
+Cibelly Lourenço: Por que que esse negócio não pega?
+Cibelly Lourenço: Ah, aqui mental.
+Cibelly Lourenço: Aí agora a gente pro do dos meninos.
+Cibelly Lourenço: Alguém criou uma seta?
+Cibelly Lourenço: Como que cria a seta dos meninos?
+Yogi: Onde
+Gabriel Magioli: Tem uma aqui embaixo.
+Cibelly Lourenço: A gente esse dado aqui que que vai ser o ó sudoco.
+Cibelly Lourenço: É tipo,
+Gabriel Magioli: Ó o jogo sudo jogo.
+Cibelly Lourenço: é OK.
+Yogi: é que vocês estão ficando essas imagens?
+Gabriel Magioli: Aí tipo a gente pega aqui,
+Yogi: Só estão.
+Gabriel Magioli: sei lá.
+Yogi: Ah.
+Cibelly Lourenço: É ele que tá pegando essas imagens.
+Cibelly Lourenço: Legal.
+Cibelly Lourenço: Tá.
+Cibelly Lourenço: Eh, aí a gente do jogo a gente pega e ixe, como é que chega essa imagem do Yog para pro lado?
+Cibelly Lourenço: Chega pro Ah,
+Gabriel Magioli: Ah.
+Cibelly Lourenço: que não vamos desperdiçar.
+Cibelly Lourenço: Foi uma obra de arte.
+Yogi: memory games.
+Cibelly Lourenço: Chega essa imagem sua pro lado, Yog.
+Yogi: Угу.
+Cibelly Lourenço: Consegue?
+Cibelly Lourenço: Eh, Gabriel, vamos tipo assim, coloca uma imagem para representar o jogo e do jogo a gente puxa seis jogos, entendeu?
+00:20:00
+Yogi: imagem do aplicativo, né?
+Cibelly Lourenço: Isso hã,
+Yogi: Imagem do aplicativo e do e do
+Cibelly Lourenço: isso é porque aí aqui já temos o sudoco.
+Yogi: aplicativo.
+Cibelly Lourenço: Taranã.
+Cibelly Lourenço: Tem que ser no lugar desse quebra-cabeça.
+Cibelly Lourenço: A imagem de um aplicativo.
+Yogi: Pode ser tipo um celular.
+Yogi: Lá não sei jogos para treinar
+Cibelly Lourenço: É tipo isso.
+Gabriel Magioli: Луга судука.
+Cibelly Lourenço: Vai começar a reunião do do
+Yogi: cores
+Cibelly Lourenço: GPS.
+Cibelly Lourenço: M aí quem que ia pegar quem que ia pegar aí?
+Cibelly Lourenço: Meninos vão rir desse nome.
+Yogi: Uhum.
+Yogi: Cara, eu imagino ele quando ele era novo assim na escola.
+Gabriel Magioli: Всё.
+Cibelly Lourenço: E tem que ser, tinha que ser um idoso, né?
+Cibelly Lourenço: Ô, ficou top esse essa imagem aí ficou top.
+Yogi: É verdade.
+Yogi: Ele tem 75 anos, mas ele tá conservado.
+Cibelly Lourenço: Tá com 17. Ô,
+Cibelly Lourenço: esse trem bem de deixar as linhas reta.
+Cibelly Lourenço: Difícil fazer isso no olho.
+Gabriel Magioli: Era
+Cibelly Lourenço: Tá f dentro.
+Cibelly Lourenço: Acho que agora tem que puxar bem.
+Cibelly Lourenço: Vamos parar de almoço.
+Cibelly Lourenço: Parada de almoço.
+Cibelly Lourenço: Ah, vocês que sabem.
+Cibelly Lourenço: Esqueci.
+Cibelly Lourenço: Bem aberto porque são seis, né?
+Gabriel Magioli: bomba, sudouco, qualquer outra.
+Cibelly Lourenço: Ah, sa.
+Cibelly Lourenço: Eh, dama.
+Cibelly Lourenço: É que eu tenho tenho termo.
+Cibelly Lourenço: Eu tenho quem não sabe, eu ten que arrumar minha tem que falar.
+Gabriel Magioli: Ah, tá.
+Gabriel Magioli: Cadê ele?
+Cibelly Lourenço: Ah, é que se prepar inteiro.
+Cibelly Lourenço: Credo.
+Gabriel Magioli: Qual car outro?
+Cibelly Lourenço: Eh, deixa eu ver.
+Cibelly Lourenço: Dã, que que é esse?
+Cibelly Lourenço: Esse preto.
+Gabriel Magioli: Qual a bomba?
+Cibelly Lourenço: Eh, o outro era caça palavras.
+Gabriel Magioli: Esse é ter de coisa
+Cibelly Lourenço: É o quê?
+Cibelly Lourenço: Ah, tá justo.
+Cibelly Lourenço: Aí, como que cria legendinha?
+Gabriel Magioli: pulando.
+Cibelly Lourenço: Copiar assim 6 horas à noite crítica, graças.
+Gabriel Magioli: Seis aí.
+Cibelly Lourenço: Boa noite, eita, sou eu que fiz
+Yogi: Nossa, pergunta grande essa mãe.
+Cibelly Lourenço: isso.
+Yogi: M.
+Cibelly Lourenço: Ah, eu vou ficar
+Gabriel Magioli: O SC também que explicativo.
+Cibelly Lourenço: eh, mas vai que a gente bota aberto assim, circular, né?
+Cibelly Lourenço: Ou reto.
+Gabriel Magioli: Pode ser assim, tá bom?
+Cibelly Lourenço: Ah, fechou.
+Cibelly Lourenço: Diminuir essa dama aqui.
+Cibelly Lourenço: o cheiro quase bem pouquinho.
+Cibelly Lourenço: Hã, vai fácil tudo que transcrição, pô.
+Cibelly Lourenço: Ah, é.
+Cibelly Lourenço: Aham.
+Cibelly Lourenço: f***.
+Cibelly Lourenço: f***.
+Yogi: E tipo,
+Cibelly Lourenço: É bom que ela
+Gabriel Magioli: Eu
+Yogi: a parte da usabilidade
+Cibelly Lourenço: sa Ah, falar aqui no negócio,
+Yogi: Não sei.
+Cibelly Lourenço: perguntar pro Lucas se Mas acho que a gente pode
+Gabriel Magioli: acho que as habilidades não entra ali na R picture.
+Cibelly Lourenço: colocar num cantinho, tipo assim, o que o objetivo para nós é fazer um aplicativo intuitivo de fácil usabilidade, não sei o quê, não sei o quê.
+00:25:00
+Cibelly Lourenço: Pera aí.
+Cibelly Lourenço: Aí fica fica.
+Cibelly Lourenço: Так.
+Cibelly Lourenço: Ligada ligada.
+Cibelly Lourenço: Só o anos.
+Cibelly Lourenço: Ah, eh, a gente puxa para cima, uma setinha para cima para falar sobre a usabilidade, tipo, vai ficar bem para cá assim.
+Cibelly Lourenço: Aí bota, sei lá, um trem de informações.
+Cibelly Lourenço: Ah.
+Gabriel Magioli: um desenho para as
+Gabriel Magioli: habilidades.
+Yogi: Да.
+Gabriel Magioli: Pô, dá pra gente pegar ali alguma coisa organizada, sei lá, pô.
+Gabriel Magioli: Não sei, mano, que um desenho que ele vai representar as habilidades.
+Gabriel Magioli: Вот.
+Cibelly Lourenço: auste, sei lá.
+Cibelly Lourenço: Eh, uma lupa, sei lá, faça ideia também.
+Cibelly Lourenço: Eh, gente, vocês agora vamos pensar aqui uma coisa.
+Cibelly Lourenço: Vocês acham que eu acho que moedas em jogo faz faz eu querer sempre ter mais, sabe?
+Cibelly Lourenço: Ou então níveis, tipo, ah, eu sou nível tal no jogo de memória, naquele jogo de treinar o cérebro.
+Cibelly Lourenço: Aí, será que a gente coloca algo assim?
+Gabriel Magioli: A gente pode botar ali met, tipo metalha paraar alguma coisa sentido.
+Cibelly Lourenço: Medalha.
+Gabriel Magioli: o negócio ali escrito assim na pedra, tá ligado?
+Gabriel Magioli: Só pra gente demonstrar ali que vai ter um sistema de competição, entendeu?
+Gabriel Magioli: Premiação só pra pessoa ver e falar:
+Cibelly Lourenço: Sì.
+Gabriel Magioli: "Ah, entende? É um jogo vai ter elementos ali de premiação ou competição ou foco em
+Gabriel Magioli: usabilidade aí.
+Gabriel Magioli: Beleza.
+Gabriel Magioli: Só que aí nesse jogo, como que vai ser essa premiação aqui?
+Gabriel Magioli: dela vai ter ali um ramo.
+Gabriel Magioli: Isso aí vai ser o quê?
+Gabriel Magioli: Um ranking.
+Gabriel Magioli: Vai ser pô, a gente vai ter um negócio de prêmio.
+Cibelly Lourenço: Pois é, a pessoa,
+Gabriel Magioli: Vai ser baú.
+Cibelly Lourenço: sei lá, completou um jogo de memória,
+Gabriel Magioli: Que que vai ser?
+Cibelly Lourenço: ela ganha um tanto X de dinheiro ou ela passa de nível?
+Cibelly Lourenço: Que que você acha, que fala alguma coisa?
+Gabriel Magioli: Ai, cacete.
+Yogi: Hum. Pior que eu não gosto muito das moedas.
+Yogi: É porque, tipo, o termo, pelo menos, o negócio dele é que tem palavras novas todo dia, né?
+Cibelly Lourenço: Tem irmão.
+Gabriel Magioli: Posso pegar aqui?
+Yogi: É o Sudoco.
+Yogi: Eu também não acho que ninguém faz por causa de moedas ou coisa,
+Cibelly Lourenço: Então é só para ficar bom, né?
+Cibelly Lourenço: Eu acho que não precisa,
+Gabriel Magioli: Dá pra gente fazer um negócio geral.
+Cibelly Lourenço: então, tipo disso, acho que quanto mais simples for, muito mais fácil pra gente, melhor, tipo, a gente realmente consegue concluir.
+Cibelly Lourenço: Tchau,
+Gabriel Magioli: Então,
+Cibelly Lourenço: Artur, tá indo?
+Cibelly Lourenço: Não dá.
+Cibelly Lourenço: Tá de
+Gabriel Magioli: pô,
+Cibelly Lourenço: boa.
+Gabriel Magioli: mas pensa assim, a gente pode estar propondo aqui muita coisa, mas não necessariamente elas vão estar na entrega, né, do código, porque a professora quer ver ali é tipo uma certa complexidade na forma que a gente pensa
+Cibelly Lourenço: Sim.
+Gabriel Magioli: no na solução, né, tipo no design da parada.
+Cibelly Lourenço: Aham.
+Gabriel Magioli: Então acho que tipo aqui a gente pode tipo assim ir mais a fundo, saca?
+Cibelly Lourenço: Então você acha que e que a gente pode aprofundar mesmo, né?
+Gabriel Magioli: É, dá pra gente usar ali,
+Cibelly Lourenço: Então a gente precisa
+Gabriel Magioli: tipo, criatividade, saco, porque não necessariamente ali no negócio final que a gente vai é tipo,
+Cibelly Lourenço: entregar, né?
+Gabriel Magioli: não necessariamente vão ter seis jogos, por exemplo, a gente pode fazer ali um termo e uma dama,
+Yogi: Eu
+Gabriel Magioli: por exemplo,
+Cibelly Lourenço: Uhum.
+Gabriel Magioli: porque ela tem noção ali que a gente não vai ter tempo para
+00:30:00
+Cibelly Lourenço: Justo.
+Gabriel Magioli: tudo.
+Cibelly Lourenço: Você tá puxando o quê?
+Cibelly Lourenço: Agora,
+Gabriel Magioli: Tô puxando
+Yogi: acho que seria legal ter, tipo, M.
+Gabriel Magioli: nada
+Yogi: O que que esse jogo treina, sabe?
+Cibelly Lourenço: tipo assim,
+Yogi: Memória treina memória,
+Cibelly Lourenço: um não é a memória,
+Gabriel Magioli: agora.
+Yogi: né?
+Cibelly Lourenço: tipo assim, tem tem um estudo já disso que a gente pode puxar um artigo de um estudo e colar e colocar eh sei lá,
+Gabriel Magioli: Всё.
+Cibelly Lourenço: acho que é é por fazer o cérebro pensar, não é nem só a questão da memória, mas por fazer o cérebro pensar, ele acaba prevenindo esse tipo de doença.
+Cibelly Lourenço: E aí por isso que, tipo assim, a a maioria das pessoas que que na velice adquirem demência são pessoas que não fizeram faculdade, que não exerceram o seu cérebro durante a vida, tipo assim, de forma muito ativa.
+Cibelly Lourenço: Aí de alguma forma acaba tanto que pessoas que são que não leem, que são analfabetas, elas têm muita chance de ficar com demência na velice.
+Cibelly Lourenço: Pior que saiu.
+Cibelly Lourenço: Outra
+Yogi: Stei,
+Cibelly Lourenço: boca.
+Yogi: velho.
+Yogi: Pô,
+Gabriel Magioli: aqui,
+Yogi: minha internet tá muito
+Gabriel Magioli: pô.
+Yogi: ruim e eu paguei.
+Yogi: E esse cérebro?
+Gabriel Magioli: Ah,
+Cibelly Lourenço: Então é pra gente poder falar isso que que aí eu colo
+Gabriel Magioli: é o negócio que indica ali eh,
+Cibelly Lourenço: um artigo em
+Gabriel Magioli: essa questão ali das Mas é que a questão do artigo,
+Cibelly Lourenço: cima.
+Gabriel Magioli: tipo assim, o que a professora Kela, não quer negócio específico falando que a gente vai aprofundar no artigo.
+Gabriel Magioli: Isso aí eu acho que entra ali em outras questões.
+Cibelly Lourenço: Sim.
+Gabriel Magioli: O que ela quer um desenho.
+Gabriel Magioli: Tanto que, tipo assim, essas descrições eu acho que, tipo assim, a gente talvez nem precisasse delas, sabe?
+Gabriel Magioli: Que ela quer ali uma representação visual
+Cibelly Lourenço: Сто.
+Gabriel Magioli: só.
+Yogi: Será que tipo, a gente explica aqui o que que são esses jogos ou ou tipo da person que todo mundo conhece?
+Gabriel Magioli: Dá para te
+Cibelly Lourenço: Ah, dá para sumir.
+Gabriel Magioli: alguém.
+Cibelly Lourenço: Acho que dá para sumir.
+Cibelly Lourenço: Não é possível.
+Cibelly Lourenço: Ai, eu queria equilibrar aqui.
+Cibelly Lourenço: Eu
+Cibelly Lourenço: mexi.
+Gabriel Magioli: Ча.
+Cibelly Lourenço: Maoli.
+Cibelly Lourenço: É maollei.
+Cibelly Lourenço: Nem é machollei.
+Gabriel Magioli: Да.
+Cibelly Lourenço: É maisollei.
+Cibelly Lourenço: Que que você que que você acha então do do lance da medalha da recompensa?
+Gabriel Magioli: Se vocês quiserem, a gente pode tirar.
+Cibelly Lourenço: Não, não.
+Cibelly Lourenço: Você você gostou, pô.
+Gabriel Magioli: Não,
+Cibelly Lourenço: Não tem porque tirar.
+Gabriel Magioli: tipo assim,
+Cibelly Lourenço: É igual você falou,
+Gabriel Magioli: não,
+Cibelly Lourenço: a gente,
+Gabriel Magioli: para mim é indiferente.
+Cibelly Lourenço: a professora quer aprofundar um pouco,
+Gabriel Magioli: O que eu penso aí, tipo,
+Cibelly Lourenço: né?
+Gabriel Magioli: o que eu penso é que, tipo, a gente não precisa ter, tá ligado?
+Gabriel Magioli: Mas eu vejo ali que a gente pode tentar subir um pouco do nível de complexidade para dar uma parada mais diferenciada.
+Cibelly Lourenço: tipo propor,
+Gabriel Magioli: Não necessariamente pont não necessariamente ponto,
+Cibelly Lourenço: né?
+Gabriel Magioli: medalha, coisa assim, mas sei lá, tentar colocar ali algum atributo a mais, por exemplo,
+Cibelly Lourenço: Uhum.
+Gabriel Magioli: que não seja mais jogo, mas não sei,
+Yogi: Olha
+Cibelly Lourenço: Concordem.
+Gabriel Magioli: tipo, sei lá, botar ali uma história, não necessariamente a pessoa vai estar fazendo ali uma dama, mas pode colocar ali missões aí dentro deí a pessoa vai evoluindo ali e ajudar o personagem a, sei lá, voltar para casa,
+Gabriel Magioli: sei lá, qualquer coisa assim.
+Gabriel Magioli: Aí se ela botar ele em modo de jogo diferente, a consegue jogar ele unitário em modo história.
+Gabriel Magioli: Não sei.
+Gabriel Magioli: Só tô jogando ali as ideias para vocês verem vocês concordam.
+Cibelly Lourenço: Pensa, pensa, né?
+Cibelly Lourenço: aquele jogo que, tipo, aparece uma mulher pobre tremendo de frio assim numa casa toda.
+Gabriel Magioli: Já
+Cibelly Lourenço: A gente pode fazer isso aí, tipo assim, de acordo que a pessoa vai jogando, ela vai ganhando, ganhando um teto, uma porta.
+Gabriel Magioli: então aí, pô, também tem que ter em mente Eu gosto da ideia, só que aí a gente também pode vender alguma coisa.
+00:35:00
+Gabriel Magioli: Deus iria gostar de fazer.
+Cibelly Lourenço: quê?
+Gabriel Magioli: gostar que parado assim ou pesquisar que é
+Yogi: Pior que ficou muito baixo
+Gabriel Magioli: f***.
+Cibelly Lourenço: Não,
+Yogi: agora.
+Cibelly Lourenço: tu tá falando nada.
+Cibelly Lourenço: Ô Magiolo, cresce esse áudio aí.
+Gabriel Magioli: Alô, alô, alô.
+Cibelly Lourenço: Alô, alô, merulho.
+Gabriel Magioli: Boa.
+Gabriel Magioli: Não, o que eu tô falando que tem que ver também que que Deus iria gostar porque, tipo, é o público alvo, né?
+Gabriel Magioli: Aí, por exemplo, se for fazer um negocinho tipo de história que aí eles vão montando, aí tem que ver ali também se seria algo ali atrativo, né, para questão de ou
+Cibelly Lourenço: S
+Gabriel Magioli: sei lá botar um negócio com é sei lá, tipo, ah, vamos supor que o personagem é o neto deles.
+Gabriel Magioli: Acho que pode ser uma uma ideia, talvez
+Cibelly Lourenço: Hum. Sou tipo familiar,
+Yogi: Tu morre se ele não jogar.
+Cibelly Lourenço: né?
+Cibelly Lourenço: Top.
+Gabriel Magioli: é, não sei.
+Cibelly Lourenço: Eu tipo, qual que qual o nome da pessoa que você mais ama?
+Cibelly Lourenço: Aí aí aí cria um personagem.
+Cibelly Lourenço: Ela é menino ou menino?
+Cibelly Lourenço: Aí cria, quantos anos tem?
+Cibelly Lourenço: Aí cria um personagenzinho.
+Cibelly Lourenço: Aí a gente pode, tipo, ah, três etapas da vida.
+Cibelly Lourenço: Se depende da idade que ele responder.
+Cibelly Lourenço: Eu sou ruim de jogo, gente.
+Gabriel Magioli: que eu também.
+Gabriel Magioli: Quem que escolhe esse tema, mano?
+Gabriel Magioli: É o mais difícil,
+Cibelly Lourenço: Ou pior que eu é o que eu mais curti.
+Cibelly Lourenço: Eu não eu não entendo muito,
+Gabriel Magioli: pô.
+Cibelly Lourenço: mas é o que eu mais curti.
+Cibelly Lourenço: Só que eu odeio RPG, velho.
+Cibelly Lourenço: p*** que pariu, me dá uma preguiça.
+Cibelly Lourenço: Ou então jogo que você precisa,
+Gabriel Magioli: Achei o tema mais difícil assim em
+Cibelly Lourenço: você precisa de muita coisa para aprender a regra.
+Gabriel Magioli: coisa.
+Cibelly Lourenço: Acho que tá ficando bonitinho.
+Cibelly Lourenço: Nossa!
+Cibelly Lourenço: Eh, no dia que a gente for apresentar, como que vai ser?
+Cibelly Lourenço: Tipo, cada grupo escolhe lá e tals.
+Gabriel Magioli: Como
+Yogi: Eu acho que tipo na
+Gabriel Magioli: assim?
+Yogi: próxima reunião a gente deve fazer uma votação, né?
+Cibelly Lourenço: Sim, vai ter.
+Yogi: E aí sei
+Cibelly Lourenço: Ah, eu queria muito, velho.
+Cibelly Lourenço: Qual a chance, Yog,
+Yogi: lá.
+Cibelly Lourenço: dos seus amigos escolherem esse jogo?
+Yogi: Hum.
+Cibelly Lourenço: Sincero, eles são muito nerdes, velho.
+Yogi: Eu acho que o
+Cibelly Lourenço: Eles vão querer alguma coisa que RPG ess
+Yogi: Marcos curtiria a ideia.
+Cibelly Lourenço: caramba.
+Yogi: O Pedro provavelmente curtiria também.
+Yogi: Apesar dele gostar de RPG, eu acho que ele veria isso aqui como algo mais factível.
+Cibelly Lourenço: E o Carlos?
+Yogi: O Carlos deve ir no ver ele na live.
+Cibelly Lourenço: Eu já posso mutar o carro.
+Yogi: Eu acho que tipo tem uma boa chance de Só que tipo é que eu não sei o que que o pessoal
+Gabriel Magioli: É só tu argumentar, pô.
+Gabriel Magioli: seus pontos
+Yogi: tá fazendo
+Gabriel Magioli: ali.
+Yogi: também.
+Cibelly Lourenço: O que fez vocês convencerem a se convencerem a fazer esse jogo nos meus
+Gabriel Magioli: Aí
+Cibelly Lourenço: argumentos,
+Yogi: Eu gosto que, tipo, sei lá,
+Gabriel Magioli: aí,
+Yogi: eu gosto que eu gosto que fique com caso real assim.
+Cibelly Lourenço: tá?
+Yogi: que é,
+Cibelly Lourenço: que realmente foi meu pai que foi lá e tals.
+Yogi: eu acho que isso é muito bom.
+Yogi: Tipo, eu também gosto que, tipo, esse negócio de, é porque tem esse jogo do do de treinar o cérebro e eu gostei assim que eu não vi.
+Yogi: E isso aqui é tipo parecido,
+Cibelly Lourenço: link do o link para
+Yogi: achei interessante.
+Cibelly Lourenço: just a o link de convite
+Yogi: Bom, será que a gente põe mais coisas aqui?
+Cibelly Lourenço: Acho que não.
+Cibelly Lourenço: Acho que tá
+Yogi: Aqui a gente põe tipo sistema de conquista.
+Cibelly Lourenço: bom.
+Yogi: Como que é?
+Yogi: Nessa medalha
+Cibelly Lourenço: É, tem que avisar que que é essa medalha, né?
+Yogi: não tem aquele negócio, apesar que ser um pouco difícil, mas tem tipo um aplicativo que o pessoal, tipo esses aplicativos que você conecta com os amigos, né?
+00:40:00
+Yogi: Aí tem de estudo que o pessoal coloca lá quantas horas estudou.
+Cibelly Lourenço: Sim.
+Yogi: tem de academia, né?
+Cibelly Lourenço: Aham.
+Yogi: E se a gente fizesse tipo
+Cibelly Lourenço: Eh, Rats é tipo,
+Yogi: isso?
+Cibelly Lourenço: mas aí seria tipo o do Olingo que você acompanha seus amigos,
+Yogi: Seria tipo um rank?
+Cibelly Lourenço: o R, o quanto de Não,
+Yogi: É.
+Cibelly Lourenço: eu acho interessante, acho difícil empregar, tipo fazer mesmo de fato, mas acho bingo
+Yogi: Por que que não tem bingo aqui?
+Yogi: Aham.
+Yogi: Pessoal não gosta de
+Cibelly Lourenço: Mas aí tu escaralhou os velhos,
+Yogi: bingo.
+Cibelly Lourenço: né?
+Cibelly Lourenço: Meu pai não gosta de bingo não.
+Yogi: Ele ver foi chamado
+Cibelly Lourenço: Não,
+Yogi: por tu tem que tu tem
+Cibelly Lourenço: mas bingo, como que bingo treina o cérebro?
+Cibelly Lourenço: Bingo não treina o
+Yogi: que ouvir,
+Cibelly Lourenço: cérebro.
+Yogi: tem que marcar.
+Yogi: Certo.
+Cibelly Lourenço: Mas aí como que seria um bingo jogo?
+Cibelly Lourenço: Nunca vi.
+Cibelly Lourenço: Jogo do bicho aí.
+Cibelly Lourenço: É jogo do bicho.
+Yogi: foi
+Cibelly Lourenço: Se for um negócio de aposta.
+Cibelly Lourenço: Deposite R$ 5 e gira a roleta.
+Yogi: não que a gente foi no negócio e apostou muito dinheiro,
+Cibelly Lourenço: Nossa,
+Yogi: velho.
+Cibelly Lourenço: a gente podia fazer um aplicativo de jogo do bicho também.
+Cibelly Lourenço: Sou pro.
+Yogi: Sabe aquelas máquinas de caixa surpresa?
+Cibelly Lourenço: Não sei
+Yogi: A gente comprou uma caixa surpresa.
+Cibelly Lourenço: quão à toa tem que ser para isso acontecer.
+Yogi: E esse cérebro aqui tem descrição.
+Cibelly Lourenço: Podemos tipo, estudos neurológicos
+Yogi: Como tá?
+Cibelly Lourenço: apontam.
+Yogi: Tu vai pôr tipo não tá bom.
+Cibelly Lourenço: Vai pô.
+Yogi: Sei lá, não sei o que pô mais.
+Cibelly Lourenço: Não, eu acho que tá bem bonitinho.
+Cibelly Lourenço: Tá limpo visualmente,
+Gabriel Magioli: M.
+Cibelly Lourenço: dá para entender numa boa.
+Cibelly Lourenço: Precisamos pergunta não, mas é para da minha scorf.
+Yogi: Só poderia trocar aqui, né?
+Yogi: foto de um velhinho
+Cibelly Lourenço: Ah,
+Gabriel Magioli: Pegar aqui.
+Yogi: M.
+Cibelly Lourenço: o moço da foto aí é o é o
+Cibelly Lourenço: magiol.
+Gabriel Magioli: Pronto, temos o seu juvenal polêmico.
+Gabriel Magioli: Ч.
+Cibelly Lourenço: Vou mandar print esse negócio do meu pai.
+Cibelly Lourenço: que a gente tá
+Gabriel Magioli: Assim
+Cibelly Lourenço: no não, mas Júlio, eu tô alinhando aqui há um tempão.
+Gabriel Magioli: cadeira
+Cibelly Lourenço: Nossa, eu me infarta não, pô.
+Yogi: Pior que ficou alinhadinho mesmo, né?
+Cibelly Lourenço: Tom brain story.
+Cibelly Lourenço: Então é isso, guys.
+Yogi: Uhum.
+Yogi: Acho que sim.
+Yogi: Acho que tá bom.
+Cibelly Lourenço: Eh, tá, torceremos.
+Cibelly Lourenço: Vamos tentar ser o primeiro no dia lá da sexta,
+Gabriel Magioli: Так.
+Cibelly Lourenço: porque eu acho que de acordo com que o povo for apresentando aqueles RPG, vai ficando cansativo demais.
+Yogi: Tá bom.
+Gabriel Magioli: Fechou.
+Yogi: Beleza.
+Yogi: Como é que eu pego essa transcrição aqui agora?
+Gabriel Magioli: Cadê pessoal?
+Yogi: St.
+Gabriel Magioli: Ah, eu acho que eles mandam por e-mail, né?
+Gabriel Magioli: M.
+A reunião terminou depois de 00:44:22 👋
+Esta transcrição editável foi gerada por computador e pode conter erros. Depois de criada, ela poderá ser editada pelos usuários.
+
