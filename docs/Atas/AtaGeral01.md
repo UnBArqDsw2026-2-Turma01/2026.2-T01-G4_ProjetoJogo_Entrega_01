@@ -6,7 +6,7 @@
 | :--: | :---------------: | :----------------: | :---: | :-----: | :-----: |
 | 14/08/2026 | 21:59 | 23:10 | Google Meet | G4_ProjetoJogo | Gemini 3.1 Pro Estendido (IA) |
 
-<p align="center">Tabela 1: Identificação da reunião. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026).</p>
+<p align="center">Tabela 1: Identificação da reunião. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 ## Participantes da Reunião
 
@@ -23,7 +23,7 @@
 | Renan Pereira Reis | Sim |
 | Yogi Nam de Souza Barbosa | Sim |
 
-<p align="center">Tabela 2: Participantes da reunião. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026).</p>
+<p align="center">Tabela 2: Participantes da reunião. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 ## Pauta
 
@@ -33,7 +33,7 @@
 | 2 | Subgrupos e rigor metodológico |
 | 3 | Definição do projeto educativo |
 
-<p align="center">Tabela 3: Pauta da reunião. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026).</p>
+<p align="center">Tabela 3: Pauta da reunião. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 ## Pendências Anteriores
 
@@ -41,7 +41,7 @@
 | :-: | :-------- | :---------- | :--: |
 | | | | |
 
-<p align="center">Tabela 4: Pendências anteriores. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026).</p>
+<p align="center">Tabela 4: Pendências anteriores. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 ## Assuntos Tratados
 
@@ -69,7 +69,7 @@
 | 20 | Acesso ao Repositório: João Igor identificou que seu nome não constava na lista de contribuidores do repositório da entrega. Marcos Gündel assumiu a responsabilidade de verificar a situação. | 5 |
 | 21 | Agendamento da Próxima Reunião: A próxima reunião foi agendada para a sexta-feira seguinte, no mesmo horário, para apresentação dos materiais dos subgrupos. | 2 |
 
-<p align="center">Tabela 5: Assuntos tratados. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026).</p>
+<p align="center">Tabela 5: Assuntos tratados. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 > **Tipos:** 1. Apresentação · 2. Decisão · 3. Definição · 4. Solicitação · 5. Pendência. Ver [Ata Padrão](/Guias/AtaPadrao.md) para a descrição de cada tipo.
 
@@ -85,7 +85,7 @@ Sexta-feira, 21/08/2026, no mesmo horário (21:59), para apresentação dos mate
 | 2 | Desenvolver Material de Planejamento: desenvolver o Rich Picture ou o Mapa Mental do projeto para apresentação na próxima reunião. | Cada subgrupo | Até a próxima reunião geral (21/08/2026) |
 | 3 | Rastreabilidade: realizar upload da gravação da reunião no Youtube e adicionar o link no GitPages juntamente com o resumo da reunião feito pelo Gemini. | Marcos Gündel | Até a entrega definitiva (27/08/2026) |
 
-<p align="center">Tabela 6: Compromissos acordados. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026).</p>
+<p align="center">Tabela 6: Compromissos acordados. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 ## Gravação da Reunião
 
@@ -100,6 +100,6 @@ https://youtu.be/GpzvEWBgX6I
 | 1.0 | 22/08/2026 | Criação da ata no modelo padrão | Marcelo de Araújo Lopes | |
 | 1.1 | 23/08/2026 | Preenchimento da ata com as observações e resumo gerados pelo Gemini a partir da gravação da reunião | Marcos Vinícius Gündel da Silva | |
 
-<p align="center">Tabela 7: Histórico de versão. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026).</p>
+<p align="center">Tabela 7: Histórico de versão. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 Ver também: [Reuniões Gerais](Gerais.md) · [Ata 02 — 21/08/2026](AtaGeral02.md) · [Ata Padrão](/Guias/AtaPadrao.md)
