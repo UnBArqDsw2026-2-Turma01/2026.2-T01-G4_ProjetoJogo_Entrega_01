@@ -6,7 +6,7 @@
 | :--: | :---------------: | :----------------: | :---: | :-----: | :-----: |
 | 14/08/2026 | 21:59 | 23:10 | Google Meet | G4_ProjetoJogo | Gemini 3.1 Pro Estendido (IA) |
 
-<p align="center">Tabela 1: Identificação da reunião. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
+<p align="center">Tabela 1: Identificação da reunião. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026).</p>
 
 ## Participantes da Reunião
 
@@ -23,7 +23,7 @@
 | Renan Pereira Reis | Sim |
 | Yogi Nam de Souza Barbosa | Sim |
 
-<p align="center">Tabela 2: Participantes da reunião. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
+<p align="center">Tabela 2: Participantes da reunião. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026).</p>
 
 ## Pauta
 
@@ -100,6 +100,6 @@ https://youtu.be/GpzvEWBgX6I
 | 1.0 | 22/08/2026 | Criação da ata no modelo padrão | Marcelo de Araújo Lopes | |
 | 1.1 | 23/08/2026 | Preenchimento da ata com as observações e resumo gerados pelo Gemini a partir da gravação da reunião | Marcos Vinícius Gündel da Silva | |
 
-<p align="center">Tabela 7: Histórico de versão. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
+<p align="center">Tabela 7: Histórico de versão. Fonte: Elaborada por LOPES, Marcelo; SILVA, Marcos (2026).</p>
 
 Ver também: [Reuniões Gerais](Gerais.md) · [Ata 02 — 21/08/2026](AtaGeral02.md) · [Ata Padrão](/Guias/AtaPadrao.md)
