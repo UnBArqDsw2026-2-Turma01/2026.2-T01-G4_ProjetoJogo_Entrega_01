@@ -4,9 +4,9 @@
 
 | Data | Horário de Início | Horário de Término | Local | Projeto | Redator |
 | :--: | :---------------: | :----------------: | :---: | :-----: | :-----: |
-| 19/08/2026 | 21:57 | 23:10 | Google Meet | G4_ProjetoJogo | Gemini (IA) |
+| 19/08/2026 | 21:57 | 23:10 | Google Meet | G4_ProjetoJogo | Gemini Pro 3.1 Estendido (IA) |
 
-<p align="center">Tabela 1: Identificação da reunião. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 1: Identificação da reunião. Fonte: Elaborada por SILVA, Marcos (2026)</p>
 
 ## Participantes da Reunião
 
@@ -17,7 +17,7 @@
 | Marcelo de Araújo Lopes | Não |
 | Marcos Vinícius Gündel da Silva | Sim |
 
-<p align="center">Tabela 2: Participantes da reunião. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 2: Participantes da reunião. Fonte: Elaborada por SILVA, Marcos (2026).</p>
 
 ## Pauta
 
@@ -27,7 +27,7 @@
 | 2 | Modelagem e escopo definidos |
 | 3 | Validação de hipóteses projetadas |
 
-<p align="center">Tabela 3: Pauta da reunião. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 3: Pauta da reunião. Fonte: Elaborada por SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 ## Pendências Anteriores
 
@@ -35,7 +35,7 @@
 | :-: | :-------- | :---------- | :--: |
 | | | | |
 
-<p align="center">Tabela 4: Pendências anteriores. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 4: Pendências anteriores. Fonte: Elaborada por SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 ## Assuntos Tratados
 
@@ -54,7 +54,7 @@
 | 11 | Nome do Projeto e Atividade de Léxico: João Igor destacou a necessidade de definir um nome oficial para o projeto, com inspiração atual em "Final Fantasy", ainda sem título definitivo. A atividade de Léxico segue sob responsabilidade de Marcelo de Araújo Lopes, com base no Rich Picture já desenvolvido. | 5 |
 | 12 | Validação de Hipóteses com Formulário: João Igor propôs a criação de um questionário via Google Forms para validar as hipóteses geradas pelo Gemini sobre a experiência do usuário, com meta de 10 a 15 respostas para embasar o relatório final. João Igor ficará responsável pela gestão do repositório para as entregas mínimas. | 2 |
 
-<p align="center">Tabela 5: Assuntos tratados. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 5: Assuntos tratados. Fonte: Elaborada por SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 > **Tipos:** 1. Apresentação · 2. Decisão · 3. Definição · 4. Solicitação · 5. Pendência. Ver [Ata Padrão](/Guias/AtaPadrao.md) para a descrição de cada tipo.
 
@@ -72,7 +72,7 @@ Sexta-feira, 21/08/2026 (Reunião Geral) — consolidação do material do subgr
 | 4 | Criar questionário: elaborar perguntas no Google Forms para validar as hipóteses levantadas pelo Gemini sobre a experiência do usuário, distribuindo para o grupo de amigos. | João Victor | Até a próxima reunião geral (21/08/2026) |
 | 5 | Arrumar repositório: organizar o repositório para garantir a base de embasamentos necessária para as entregas mínimas. | João Igor | Até a próxima reunião geral (21/08/2026) |
 
-<p align="center">Tabela 6: Compromissos acordados. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 6: Compromissos acordados. Fonte: Elaborada por SILVA, Marcos (2026), com dados gerados por Gemini 3.1 Pro Estendido.</p>
 
 ## Gravação da Reunião
 
@@ -86,6 +86,6 @@ https://youtu.be/Pk_O5VpRJxU
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 23/08/2026 | Criação da ata com as observações e resumo gerados pelo Gemini a partir da gravação da reunião | Marcos Vinícius Gündel da Silva | |
 
-<p align="center">Tabela 7: Histórico de versão. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 7: Histórico de versão. Fonte: Elaborada por SILVA, Marcos (2026).</p>
 
 Ver também: [Subgrupo 02](SubEquipe_02.md) · [Ata Padrão](/Guias/AtaPadrao.md)
