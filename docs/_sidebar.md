@@ -32,6 +32,7 @@
       - Artefatos Generalistas
         - [Visão do Foco](/Base/Relatórios/SubEquipe_01/ArtefatoGeneralista.md)
         - [Rich Picture](/Base/Relatórios/SubEquipe_01/RichPicture.md)
+        - [Experimento com IA](/Base/Relatórios/SubEquipe_01/RichPictureIA.md)
       - [NFR Framework](/Base/Relatórios/SubEquipe_01/NFRFramework.md)
       - [BPMN](/Base/Relatórios/SubEquipe_01/BPMN.md)
       - [IA Generativa](/Base/Relatórios/SubEquipe_01/IAGenerativa.md)
