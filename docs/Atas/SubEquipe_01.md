@@ -40,9 +40,9 @@ Toda reunião é registrada em uma ata própria, seguindo o modelo definido em [
 
 | Nome | % de Contribuição |
 |------|-------------------|
-| Cibelly Lourenço Ferreira | A definir |
-| Gabriel Andrade Magioli | A definir |
-| Yogi Nam de Souza Barbosa | A definir |
+| Cibelly Lourenço Ferreira | 33,4% |
+| Gabriel Andrade Magioli | 33,3% |
+| Yogi Nam de Souza Barbosa | 33,3% |
 
 <p align="center">Tabela 3: Contribuição dos integrantes.</p>
 
