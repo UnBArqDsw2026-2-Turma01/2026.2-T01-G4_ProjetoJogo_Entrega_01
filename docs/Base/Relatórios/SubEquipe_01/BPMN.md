@@ -12,7 +12,7 @@ Identificar atividades, decisões e regras dos fluxos observados para orientar s
 
 A engenharia reversa analisa um sistema existente para recuperar seus componentes, relações e representações em maior nível de abstração (CHIKOFSKY; CROSS, 1990). Sem acesso ao código-fonte, os fluxos foram executados, gravados e divididos em capturas. As ações visíveis foram registradas como observações; regras internas não demonstradas diretamente foram marcadas como inferências.
 
-Os processos serão modelados segundo a BPMN 2.0.2, que admite a representação de processos existentes e o uso de *lanes* para organizar responsabilidades (OBJECT MANAGEMENT GROUP, 2014).
+Os processos serão modelados segundo a BPMN 2.0.2, que admite a representação de processos existentes e organiza participantes e responsabilidades por elementos como *pools* e *lanes* (OBJECT MANAGEMENT GROUP, 2014).
 
 ## Conteúdo
 
@@ -20,7 +20,7 @@ Os processos serão modelados segundo a BPMN 2.0.2, que admite a representação
 
 | Fluxo | Responsável pela análise | Evidências disponíveis | Situação da modelagem BPMN |
 |-------|--------------------------|------------------------|----------------------------|
-| Equipar itens | Yogi Nam de Souza Barbosa | Vídeo e quatro capturas | Processo reconstruído; BPMN pendente |
+| Equipar itens | Yogi Nam de Souza Barbosa | Vídeo, quatro capturas e BPMN | Concluído |
 | Utilizar itens | Yogi Nam de Souza Barbosa | Vídeo e sete capturas | Processo reconstruído; BPMN pendente |
 | Batalha | Demais integrantes | Pendente | Pendente |
 | Lojas | Demais integrantes | Pendente | Pendente |
@@ -102,9 +102,13 @@ Abrir menu → selecionar Itens → carregar inventário → selecionar item
 
 ### Modelagem BPMN
 
-*Inserir aqui o modelo BPMN do fluxo levantado, com legenda e fonte.*
+#### Equipar item
 
-<p align="center">Figura 1: Modelo BPMN do fluxo de &lt;&lt;nome do fluxo&gt;&gt;. Fonte: Autores, 2026.</p>
+O modelo separa os participantes **Jogador** e **Sistema do jogo** em dois *pools*. O fluxo representa a seleção de personagem e espaço, as alternativas de otimizar ou remover equipamentos, a simulação dos atributos, a confirmação da escolha e a atualização do personagem, inventário e interface.
+
+![Modelo BPMN do fluxo de equipar item](assets/subgrupo_01_bpmn_equipar.svg)
+
+<p align="center">Figura 1: Modelo BPMN do fluxo de equipar item. Fonte: Yogi Nam de Souza Barbosa, 2026.</p>
 
 ## Referências
 
@@ -132,6 +136,7 @@ SQUARE ENIX. **Final Fantasy VI Pixel Remaster** [jogo eletrônico]. 2022. Dispo
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | |
 | 1.1 | 26/08/2026 | Documentação da engenharia reversa dos fluxos de equipar e utilizar itens | Yogi Nam de Souza Barbosa | |
+| 1.2 | 26/08/2026 | Inserção do modelo BPMN do fluxo de equipar item | Yogi Nam de Souza Barbosa | |
 
 <p align="center">Tabela 5: Histórico de versão.</p>
 
