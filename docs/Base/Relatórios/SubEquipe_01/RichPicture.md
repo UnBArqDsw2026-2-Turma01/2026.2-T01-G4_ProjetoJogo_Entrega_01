@@ -66,9 +66,9 @@ TLDRAW. **tldraw: collaborative digital whiteboard** [software]. Disponível em:
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
-| 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | |
-| 1.1 | 26/08/2026 | Documentação e publicação das duas versões do Rich Picture | Yogi Nam de Souza Barbosa | |
-| 1.2 | 26/08/2026 | Remoção de referências metodológicas descontinuadas e inclusão da iniciativa experimental com IA | Yogi Nam de Souza Barbosa | |
+| 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | Marcos Vinícius Gündel da Silva |
+| 1.1 | 26/08/2026 | Documentação e publicação das duas versões do Rich Picture | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
+| 1.2 | 26/08/2026 | Remoção de referências metodológicas descontinuadas e inclusão da iniciativa experimental com IA | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 2: Histórico de versão.</p>
 
