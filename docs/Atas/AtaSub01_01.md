@@ -74,8 +74,8 @@ Não houve gravação desta reunião. Para preservar a evidência disponível, a
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
-| 1.0 | 24/08/2026 | Criação da ata com base na transcrição automática da reunião | Yogi Nam de Souza Barbosa | |
-| 1.1 | 24/08/2026 | Substituição do link incompatível pela localização da transcrição no repositório | Yogi Nam de Souza Barbosa | |
+| 1.0 | 24/08/2026 | Criação da ata com base na transcrição automática da reunião | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
+| 1.1 | 24/08/2026 | Substituição do link incompatível pela localização da transcrição no repositório | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 7: Histórico de versão.</p>
 
