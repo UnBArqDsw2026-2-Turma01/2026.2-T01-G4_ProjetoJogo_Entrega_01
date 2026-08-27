@@ -4,7 +4,7 @@
 
 | Data | Horário de Início | Horário de Término | Local | Projeto | Redator |
 | :--: | :---------------: | :----------------: | :---: | :-----: | :-----: |
-| 19/08/2026 | 18:59 | 21:10 | Google Meet | RPG Didático | Assistente AI (baseado em anotações do Gemini) |
+| 19/08/2026 | 18:59 | 21:10 | Google Meet | RPG Didático | Gemini PRO 3.1 |
 
 <p align="center">Tabela 1: Identificação da reunião. Fonte: transcrição automática da reunião, 2026.</p>
 
@@ -77,6 +77,6 @@ A reunião foi devidamente gravada e os arquivos salvos no repositório do grupo
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
-| 1.0 | 24/08/2026 | Criação da ata com base na transcrição e anotações do Google Meet | Assistente AI | Pedro Teixeira |
+| 1.0 | 24/08/2026 | Criação da ata com base na transcrição e anotações do Google Meet | Gemini PRO 3.1 | Pedro Teixeira |
 
 <p align="center">Tabela 7: Histórico de versão.</p>
