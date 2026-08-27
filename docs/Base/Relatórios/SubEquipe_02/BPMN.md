@@ -10,7 +10,7 @@ Modelar em BPMN um fluxo identificado durante o processo de Engenharia Reversa, 
 
 ## Metodologia
 
-A Engenharia Reversa foi conduzida com base na literatura (BRAGA; PENTEADO, [s. d.]), que a define como o "processo de exame e compreensão do software existente, para recapturar ou recriar o projeto e decifrar os requisitos atualmente implementados pelo sistema, apresentando-os em um nível ou grau mais alto de abstração". Como a subequipe não possui acesso ao código-fonte do jogo, foi adotada uma abordagem de Engenharia Reversa por observação da caixa-preta (*black-box*): assistir ao software em execução, catalogar sistematicamente os elementos de interface e as transições de tela, e inferir as regras de negócio a partir do comportamento observado, etapas detalhadas na seção [Processo de Engenharia Reversa Aplicado](#processo-de-engenharia-reversa-aplicado).
+A Engenharia Reversa foi conduzida com base na literatura *(BRAGA; PENTEADO, [s. d.])*, que a define como o "processo de exame e compreensão do software existente, para recapturar ou recriar o projeto e decifrar os requisitos atualmente implementados pelo sistema, apresentando-os em um nível ou grau mais alto de abstração". Como a subequipe não possui acesso ao código-fonte do jogo, foi adotada uma abordagem de Engenharia Reversa por observação da caixa-preta (*black-box*): assistir ao software em execução, catalogar sistematicamente os elementos de interface e as transições de tela, e inferir as regras de negócio a partir do comportamento observado, etapas detalhadas na seção [Processo de Engenharia Reversa Aplicado](#processo-de-engenharia-reversa-aplicado).
 
 O jogo escolhido pela subequipe foi **Final Fantasy VI**. Os sistemas do jogo a serem modelados em BPMN foram divididos entre os quatro integrantes conforme definido em conversa da equipe (Figura 1):
 
@@ -35,7 +35,7 @@ Para o levantamento do fluxo do Coliseu, foi assistido o vídeo *"Final Fantasy 
 
 ### Sistema de Magicites
 
-*A ser preenchido.*
+Para a obtenção dos recursos necessários, foi utilizado como fonte o [vídeo](https://www.youtube.com/watch?v=TMMd1fNsKG4), publicado no canal **Solanus Dracon**, no YouTube. A partir desse material, foram extraídas informações sobre o funcionamento das Magicites, suas formas de obtenção e utilização, bem como sobre o sistema de afinidades associado a elas.
 
 ### Habilidades Exclusivas
 
@@ -155,6 +155,91 @@ As capturas de tela a seguir, extraídas do vídeo do canal carnage panda (CARNA
 **Regras de Negócio**
 
 - Em caso de derrota, o item apostado é **permanentemente perdido** (não retorna ao inventário) e nenhuma recompensa é concedida, caracterizando uma mecânica de risco: o jogador aposta um item na expectativa de ganhar outro, podendo perder o que apostou.
+
+
+#### Sistema de Magicite em Final Fantasy VI
+
+O sistema de **Magicite** de *Final Fantasy VI* está diretamente relacionado aos **Espers**, permitindo que os personagens aprendam magias, recebam bônus permanentes de atributos e invoquem os respectivos Espers durante as batalhas.
+
+**O que é Magicite?**
+
+A **Magicite** representa a essência de um Esper e pode ser equipada pelos personagens. Ao equipá-la, o personagem passa a ter acesso à invocação daquele Esper durante as batalhas, podendo causar dano aos inimigos, aplicar efeitos positivos ao grupo ou produzir outros efeitos especiais.
+
+Além da possibilidade de invocação, cada Magicite possui características próprias relacionadas ao **aprendizado de magias** e, em alguns casos, à **evolução dos atributos do personagem**.
+
+**Aprendizado de Magias e Taxa de Aquisição**
+
+Cada Esper associado a uma Magicite pode ensinar uma ou mais magias. Para cada magia existe uma **taxa de aquisição**, que determina a quantidade de **Magic AP** necessária para aprendê-la.
+
+Ao final de cada batalha, o personagem equipado com uma Magicite recebe Magic AP. Esse valor é utilizado para aumentar o percentual de aprendizado das magias ensinadas pela Magicite.
+
+A taxa funciona da seguinte maneira:
+
+- **Taxa 10:** cada Magic AP representa 10% de aprendizado, sendo necessários 10 Magic AP para aprender a magia completamente.
+- **Taxa 5:** cada Magic AP representa 5% de aprendizado, sendo necessários 20 Magic AP.
+- **Taxa 2:** cada Magic AP representa 2% de aprendizado, sendo necessários 50 Magic AP.
+
+Por exemplo:
+
+| Magia | Taxa de aquisição | Magic AP necessários |
+|:---|:---:|:---:|
+| Thunder | 10% | 10 |
+| Poison | 5% | 20 |
+| Thundara | 2% | 50 |
+
+A Magicite deve permanecer equipada enquanto o personagem estiver adquirindo Magic AP. Quando a magia atingir **100% de aprendizado**, ela é permanentemente adicionada ao repertório do personagem e continua disponível mesmo após a remoção da Magicite.
+
+**Múltiplos Espers ensinando a mesma magia**
+
+Uma mesma magia pode ser ensinada por diferentes Espers, sendo que cada um pode apresentar uma **taxa de aquisição diferente**.
+
+Isso permite que o jogador escolha estrategicamente qual Magicite equipar de acordo com as magias que deseja aprender mais rapidamente.
+
+Alguns exemplos são:
+
+- **Ramuh:** ensina Thunder com uma taxa específica de aquisição.
+- **Maduin:** ensina as magias elementais de segundo nível, como Thundara, Fira e Blizzara, com taxa 3.
+- **Bismarck:** ensina as magias elementais de primeiro nível, como Thunder, Blizzard e Fire, com taxa 20, exigindo apenas 5 Magic AP para o aprendizado completo.
+
+Dessa forma, o jogador pode otimizar a distribuição das Magicites de acordo com as necessidades de cada personagem.
+
+**Bônus de Atributos ao Subir de Nível**
+
+Além do aprendizado de magias, algumas Magicites concedem **bônus permanentes de atributos** quando o personagem sobe de nível enquanto está equipado com elas.
+
+Entre os exemplos estão:
+
+- **Ramuh:** +1 de Stamina por nível adquirido.
+- **Sylph/Siren:** +10% de HP ganho ao subir de nível.
+- **Kirin/Cactuar:** +1 de Magic por nível adquirido.
+
+Esse sistema possibilita uma estratégia mais avançada de desenvolvimento dos personagens. O jogador pode trocar as Magicites antes de determinados níveis para direcionar o crescimento dos atributos e, consequentemente, construir personagens com valores elevados de **HP, MP, Magic ou Stamina**.
+
+**Estratégia de Progressão e Grinding**
+
+Uma estratégia utilizada por jogadores que desejam otimizar os atributos dos personagens consiste em evitar ganhar níveis excessivamente cedo no jogo.
+
+Isso ocorre porque os bônus de atributos fornecidos pelas Magicites são aplicados **no momento em que o personagem sobe de nível**. Portanto, subir de nível antes de obter Magicites com bônus mais vantajosos pode resultar na perda de oportunidades de otimização dos atributos.
+
+Assim, alguns jogadores procuram avançar pelo jogo mantendo os personagens em níveis relativamente baixos até alcançar o **World of Ruin**, período em que uma quantidade maior de Magicites está disponível. A partir desse momento, torna-se possível planejar os níveis seguintes e utilizar diferentes Magicites para maximizar os atributos desejados.
+
+**Empilhamento de Taxas com Equipamentos**
+
+Alguns equipamentos também podem contribuir para o aprendizado de determinadas magias. Quando o equipamento e a Magicite ensinam a mesma magia, suas taxas podem ser **combinadas**, reduzindo o número de batalhas necessárias para completar o aprendizado.
+
+Um exemplo é a magia **Ultima**:
+
+- **Escudo Paladin:** taxa de 1%.
+- **Magicite Ragnarok:** taxa de 1%.
+- **Ambos equipados:** taxa combinada de 2%.
+
+Nesse caso, o personagem precisaria de aproximadamente **50 Magic AP**, em vez dos 100 necessários quando possui apenas uma fonte com taxa de 1%.
+
+**Objetivo e Resultado do Sistema**
+
+O sistema de Magicite cria uma relação entre **progressão, personalização e estratégia**. O jogador precisa decidir quais Magicites equipar, quais magias deseja priorizar e, em determinados momentos, quais atributos deseja desenvolver.
+
+Com tempo suficiente e um planejamento adequado, é possível fazer com que diferentes personagens aprendam uma grande variedade de magias e desenvolvam atributos elevados. Como consequência, os personagens tornam-se mais **flexíveis e intercambiáveis**, permitindo diferentes combinações e estratégias durante a progressão e, principalmente, no conteúdo de final de jogo.
 
 ### Modelagem BPMN
 
