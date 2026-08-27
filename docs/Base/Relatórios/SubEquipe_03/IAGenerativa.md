@@ -42,4 +42,4 @@ Registrar, com senso crítico, como cada membro utilizou IA Generativa no trabal
 
 <p align="center">Tabela 3: Histórico de versão. Fonte: Autores, 2026.</p>
 
-Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Rich Picture](RichPicture.md) · [NFR Framework](NFRFramework.md) · [BPMN](BPMN.md)
+Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Mapa Mental](MapaMental.md) · [NFR Framework](NFRFramework.md) · [BPMN](BPMN.md)

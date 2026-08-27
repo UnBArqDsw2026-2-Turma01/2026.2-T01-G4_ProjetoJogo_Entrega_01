@@ -44,4 +44,4 @@ Modelar em BPMN um fluxo identificado durante o processo de Engenharia Reversa, 
 
 <p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
 
-Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Rich Picture](RichPicture.md) · [NFR Framework](NFRFramework.md) · [IA Generativa](IAGenerativa.md)
+Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Mapa Mental](MapaMental.md) · [NFR Framework](NFRFramework.md) · [IA Generativa](IAGenerativa.md)
