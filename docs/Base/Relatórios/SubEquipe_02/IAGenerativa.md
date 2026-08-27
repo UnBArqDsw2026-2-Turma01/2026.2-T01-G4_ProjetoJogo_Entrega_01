@@ -16,6 +16,7 @@ Registrar, com senso crítico, como cada membro utilizou IA Generativa no trabal
 
 | Nome do Membro | Lições Aprendidas | Uso da IA Generativa (senso crítico) |
 |----------------|-------------------|--------------------------------------|
+| João Igor      | Aprofundei meus conhecimentos em **Engenharia Reversa**, recuperando fluxos da aplicação e representando-os em **BPMN**, além de modelar o **SIG de Segurança** utilizando a notação do **NFR Framework**.|A Inteligência Artificial (IA) mostrou-se uma ferramenta útil para **organizar e aprimorar ideias, revisar textos, identificar inconsistências e explorar alternativas** durante o desenvolvimento do projeto. Seu uso contribuiu para a análise e o refinamento das soluções, atuando como **apoio à equipe sem substituir a tomada de decisões**.|
 |                |                   |                                      |
 
 <p align="center">Tabela 1: Pontos de vista dos integrantes sobre o uso de IA Generativa. Fonte: Autores, 2026.</p>
@@ -30,7 +31,7 @@ Registrar, com senso crítico, como cada membro utilizou IA Generativa no trabal
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|      |                   |
+|   João Igor   |  25%     |
 
 <p align="center">Tabela 2: Contribuição dos integrantes. Fonte: Autores, 2026.</p>
 
@@ -39,6 +40,7 @@ Registrar, com senso crítico, como cada membro utilizou IA Generativa no trabal
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | |
+| 1.0 | 27/08/2026 | Adição da contribuição da IA, pela visão do João | João Igor | |
 
 <p align="center">Tabela 3: Histórico de versão. Fonte: Autores, 2026.</p>
 
