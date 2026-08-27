@@ -80,7 +80,7 @@ OPENAI. **ChatGPT** [software]. Disponível em: <https://chatgpt.com/overview/>.
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
-| 1.0 | 26/08/2026 | Criação da página e documentação do experimento de recriação dos Rich Pictures com IA | Yogi Nam de Souza Barbosa | |
+| 1.0 | 26/08/2026 | Criação da página e documentação do experimento de recriação dos Rich Pictures com IA | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 3: Histórico de versão.</p>
 
