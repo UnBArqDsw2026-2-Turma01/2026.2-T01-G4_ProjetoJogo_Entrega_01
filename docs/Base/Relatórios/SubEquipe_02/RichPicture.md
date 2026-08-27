@@ -25,7 +25,7 @@ Posteriormente, foi criado um questionário (ver [...](...)) para validar o cont
 ### Versão 1
 
 <p align="center">
-  <img src="Base/Relatórios/SubEquipe_02/assets/subgrupo02_rich_picture_v1.jpg" alt="Rich Picture do G4_ProjetoJogo - Versão 1" width="100%">
+  <img src="Base/Relatórios/SubEquipe_02/assets/subequipe02_rich_picture_v1.jpg" alt="Rich Picture do G4_ProjetoJogo - Versão 1" width="100%">
 </p>
 
 <p align="center">Figura 1: Versão 1 Rich Picture do G4_ProjetoJogo. Fonte: SILVA, Marcos; FARIAS, João; COSTA, João (2026).</p>
