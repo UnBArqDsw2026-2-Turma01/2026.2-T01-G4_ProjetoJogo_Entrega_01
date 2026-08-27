@@ -81,6 +81,10 @@ As capturas de tela a seguir, extraídas do vídeo do canal carnage panda (CARNA
 
 - A lista de itens apostáveis é composta exclusivamente pelos itens presentes no inventário atual do jogador, não há itens exclusivos do Coliseu na lista.
 
+**Base de Dados Inferida**
+
+- **Leitura (Read):** Para popular a lista da interface, o sistema realiza uma consulta de leitura na base de dados "Inventário do Jogador", filtrando os itens disponíveis para aposta e excluindo itens que já estão equipados.
+
 ![Modal de confirmação da aposta](assets/coliseu_3_aposta_confirmacao.png)
 
 <p align="center">Figura 4: Modal de confirmação do item apostado. Fonte: CARNAGE PANDA, 2022.</p>
@@ -116,6 +120,11 @@ As capturas de tela a seguir, extraídas do vídeo do canal carnage panda (CARNA
 
 - Apenas um personagem da party atual participa do combate por vez: o Coliseu isola o combatente selecionado, mesmo que a party tenha múltiplos membros disponíveis.
 
+**Base de Dados Inferida**
+
+- **Leitura (Read):** O sistema consulta a base de dados "'Party' do Jogador" para listar os personagens atualmente disponíveis e aptos para a arena.
+- **Atualização/Deleção (Update/Delete):** No exato momento em que o jogador confirma o personagem, o sistema executa a remoção definitiva do item apostado da base de dados "Inventário do Jogador".
+
 ![Tela de combate automático no Coliseu](assets/coliseu_5_combate.png)
 
 <p align="center">Figura 6: Combate automático entre o personagem escolhido e o adversário. Fonte: CARNAGE PANDA, 2022.</p>
@@ -143,6 +152,10 @@ As capturas de tela a seguir, extraídas do vídeo do canal carnage panda (CARNA
 **Regras de Negócio**
 
 - Em caso de vitória, os ganhos usuais de batalha são zerados (0 de Gil, 0 de EXP e 0 de Magic AP) e, em seu lugar, o jogador recebe o item prometido como recompensa: o Coliseu segue, portanto, uma lógica de recompensa própria, distinta do combate convencional.
+
+**Base de Dados Inferida**
+
+- **Escrita (Create/Insert):** O sistema insere o novo item (recompensa) na base de dados "Inventário do Jogador".
 
 ![Tela de derrota do Coliseu](assets/coliseu_6b_derrota.png)
 
