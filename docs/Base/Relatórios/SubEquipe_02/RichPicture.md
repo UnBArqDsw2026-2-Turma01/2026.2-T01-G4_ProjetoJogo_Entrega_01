@@ -30,6 +30,24 @@ Posteriormente, foi criado um questionário (ver [...](...)) para validar o cont
 
 <p align="center">Figura 1: Versão 1 Rich Picture do G4_ProjetoJogo. Fonte: SILVA, Marcos; FARIAS, João; COSTA, João (2026).</p>
 
+### Versão 2
+
+Na versão 2, o modelo foi reorganizado em torno do **Jogador** como ator central e passou a explicitar a mecânica que dá identidade ao jogo: as **contas matemáticas** acopladas ao sistema de **Combate**. Foram detalhados os elementos do mundo (Mapa, Vila, NPC, Ferreiro), as entidades de oposição (Monstro e Boss) e as recompensas geradas por elas (XP, Itens, Tesouros), além do **Livro do jogador** como recurso de tutorial.
+
+O artefato é apresentado como quadro ao vivo no Miro: é possível navegar (arrastar e dar zoom) sem sair desta página.
+
+<div style="position:relative;padding-bottom:62.5%;height:0;overflow:hidden;max-width:100%;margin:1rem 0;">
+  <iframe
+    src="https://miro.com/app/live-embed/uXjVHuYvEow=/?moveToViewport=-4584,-5904,1600,900&amp;embedId=richpicture-v2"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:1px solid rgba(128,128,128,.35);border-radius:6px;"
+    frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen>
+  </iframe>
+</div>
+
+<p align="center">Figura 2: Versão 2 Rich Picture do G4_ProjetoJogo, em quadro interativo. Fonte: Marcelo, 2026.</p>
+
+<p align="center">Abrir em nova aba: <a href="https://miro.com/app/board/uXjVHuYvEow=/?focusWidget=3458764681841538787" target="_blank" rel="noopener">Arquitetura Grupo 4 — Miro</a>.</p>
+
 ## Referências
 
 GOOGLE. Gemini [software]. Versão Flash 3.7 Estendido. Resposta à consulta sobre "Quais elementos principais um jogo RPG deve ter? Seja conciso e preciso". [S.l.]: Google LLC, 2026. Disponível em: https://gemini.google.com. Acesso em: 19 ago. 2026.
@@ -44,10 +62,10 @@ SERRANO, Milene. **Arquitetura e Desenho de Software: aula – Projeto e Desenho
 
 | Nome | % de Contribuição |
 |------|-------------------|
-| João Igor Pereira da Costa | 33,4 |
-| João Victor da Silva Batista de Farias | 33,3 |
-| Marcelo de Araújo Lopes | 0 |
-| Marcos Vinícius Gündel da Silva | 33,3 |
+| João Igor Pereira da Costa | 25,0 |
+| João Victor da Silva Batista de Farias | 25,0 |
+| Marcelo de Araújo Lopes | 25,0 |
+| Marcos Vinícius Gündel da Silva | 25,0 |
 
 <p align="center">Tabela 1: Contribuição dos integrantes. Fonte: Autores, 2026.</p>
 
@@ -56,7 +74,8 @@ SERRANO, Milene. **Arquitetura e Desenho de Software: aula – Projeto e Desenho
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | Marcos Vinícius Gündel da Silva |
-| 1.1 | 25/08/2026 | Preenchimento das seções a partir da versão 1 do Artefato Gerado | Marcos Vinícius Gündel da Silva | |
+| 1.1 | 25/08/2026 | Preenchimento das seções a partir da versão 1 do Artefato Gerado | Marcos Vinícius Gündel da Silva | Marcelo de Araújo Lopes |
+| 1.2 | 27/08/2026 | Adição da versão 2 do Rich Picture, com quadro interativo do Miro, e atualização da tabela de contribuição | Marcelo de Araújo Lopes | |
 
 
 <p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
