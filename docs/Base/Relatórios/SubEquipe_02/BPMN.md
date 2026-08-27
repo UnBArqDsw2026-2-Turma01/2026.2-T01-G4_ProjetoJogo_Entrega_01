@@ -256,9 +256,25 @@ Com tempo suficiente e um planejamento adequado, é possível fazer com que dife
 
 ### Modelagem BPMN
 
-*Inserir aqui o modelo BPMN do fluxo levantado, com legenda e fonte.*
+### Motor de Batalha (ATB)
 
-<p align="center">Figura 9: Modelo BPMN do fluxo de &lt;&lt;nome do fluxo&gt;&gt;. Fonte: Autores, 2026.</p>
+![BPMN do fluxo do Motor de Batalha (ATB)]()
+<p align="center">Figura 9: Modelo BPMN do fluxo do sistema do Motor de Batalha (ATB). Fonte: SOBRENOME, Nome (2026).</p>
+
+#### Coliseu
+
+![BPMN do fluxo do Coliseu](assets/coliseu_bpmn.jpg)
+<p align="center">Figura 10: Modelo BPMN do fluxo do sistema do Coliseu. Fonte: SILVA, Marcos (2026).</p>
+
+### Sistema de Magicites
+
+![BPMN do fluxo do Motor de Sistema de Magicites]()
+<p align="center">Figura 11: Modelo BPMN do fluxo do sistema do Motor de Batalha (ATB). Fonte: SOBRENOME, Nome (2026).</p>
+
+### Habilidades Exclusivas
+
+![BPMN do fluxo de Habilidades Exclusivas]()
+<p align="center">Figura 12: Modelo BPMN do fluxo do sistema do Motor de Batalha (ATB). Fonte: SOBRENOME, Nome (2026).</p>
 
 ## Referências
 
@@ -282,6 +298,7 @@ CARNAGE PANDA. **Final Fantasy 6 Pixel Remaster #41 - Coliseum**. YouTube, 5 abr
 | 1.1 | 25/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado ao Coliseu (FF6): metodologia e, para cada tela do fluxo, os elementos de interface, as transições de estado e as regras de negócio identificados | Marcos Vinícius Gündel da Silva | |
 | 1.2 | 26/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado ao Sistema de Magicites (FF6): metodologia e conteúdo gerado | João Igor Pereira da Costa | |
 | 1.3 | 26/08/2026 | Adição dos comandos do Banco de Dados Inferido por tela no processo de Engenharia Reversa do Coliseu | Marcos Vinícius Gündel da Silva | |
+| 1.4 | 26/08/2026 | Adição do BPMN do fluxo do Coliseu e *placeholders* para os outros sistemas | Marcos Vinícius Gündel da Silva | |
 
 <p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
 
