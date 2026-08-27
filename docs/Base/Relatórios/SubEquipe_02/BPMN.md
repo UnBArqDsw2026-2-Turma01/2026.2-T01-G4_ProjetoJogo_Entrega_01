@@ -275,23 +275,64 @@ Para o levantamento do fluxo do *Blitz*, foi observado o vídeo *"Final Fantasy 
 
 ### Motor de Batalha (ATB)
 
-![BPMN do fluxo do Motor de Batalha (ATB)]()
-<p align="center">Figura 9: Modelo BPMN do fluxo do sistema do Motor de Batalha (ATB). Fonte: SOBRENOME, Nome (2026).</p>
+O fluxo do Motor de Batalha foi modelado em três frames encadeados por eventos de link, além de um frame de legenda. A separação evita um diagrama único ilegível e isola o subprocesso de mistura de elementos químicos, que é a mecânica distintiva do projeto.
+
+**Legenda da notação**
+
+![Legenda da notação BPMN utilizada nos frames do Motor de Batalha](assets/motor_batalha_0_legenda.jpg)
+<p align="center">Figura 9: Legenda da notação BPMN utilizada nos frames do Motor de Batalha. Fonte: Marcelo, 2026.</p>
+
+**Frame 1 — Loop de batalha (ATB)**
+
+Diagrama com três raias: **Jogador**, **Motor de Batalha (ATB)** e **IA Inimiga**. Cobre a montagem da formação, o tipo de início (Normal, Preemptivo ou Emboscada), o preenchimento da barra de ATB por velocidade, a decisão de turno, o menu de comandos (Atacar, Magia, Item, Defender), o cálculo de dano com fórmula, elemento, fraqueza e variância, e a checagem de fim de batalha.
+
+![BPMN do loop de batalha do Motor de Batalha (ATB)](assets/motor_batalha_1_loop_atb.jpg)
+<p align="center">Figura 10: Modelo BPMN do frame 1 — loop de batalha (ATB). Fonte: Marcelo, 2026.</p>
+
+**Frame 2 — Subprocesso: Mistura de Elementos Químicos**
+
+Detalha o subprocesso acionado pelo comando *Misturar*: abertura da bancada portátil de dois slots, escolha dos reagentes, consulta à tabela de reações e os desfechos possíveis — composto estável com registro de receita nova no Livro do Aventureiro, tentativa malsucedida com reagentes gastos, ou *backfire* com dano no lançador.
+
+![BPMN do subprocesso de mistura de elementos químicos](assets/motor_batalha_2_mistura_quimica.jpg)
+<p align="center">Figura 11: Modelo BPMN do frame 2 — subprocesso de mistura de elementos químicos. Fonte: Marcelo, 2026.</p>
+
+**Frame 3 — Encerramento da batalha**
+
+Trata os três resultados possíveis: **vitória** (distribuição de EXP, GP e drops, atualização do bestiário e das receitas no Livro, oferta de gravação no próximo Savepoint), **fuga** (inimigo permanece vivo no mapa) e **derrota** (tela de derrota e recarga do último Savepoint).
+
+![BPMN do encerramento da batalha](assets/motor_batalha_3_encerramento.jpg)
+<p align="center">Figura 12: Modelo BPMN do frame 3 — encerramento da batalha. Fonte: Marcelo, 2026.</p>
+
+**Quadro interativo**
+
+O modelo completo, com os quatro frames lado a lado, pode ser navegado no quadro abaixo.
+
+<div style="position:relative;padding-bottom:62.5%;height:0;overflow:hidden;max-width:100%;margin:1rem 0;">
+  <iframe
+    src="https://miro.com/app/live-embed/uXjVHuom1xM=/?embedId=bpmn-motor-batalha"
+    style="position:absolute;top:0;left:0;width:100%;height:100%;border:1px solid rgba(128,128,128,.35);border-radius:6px;"
+    frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen>
+  </iframe>
+</div>
+
+<p align="center">Quadro 1: Modelo BPMN do Motor de Batalha (ATB) em quadro interativo. Fonte: Marcelo, 2026.</p>
+
+<p align="center">Abrir em nova aba: <a href="https://miro.com/app/board/uXjVHuom1xM=/" target="_blank" rel="noopener">BPMN — Motor de Batalha (Miro)</a>.</p>
 
 #### Coliseu
 
 ![BPMN do fluxo do Coliseu](assets/coliseu_bpmn.jpg)
-<p align="center">Figura 10: Modelo BPMN do fluxo do sistema do Coliseu. Fonte: SILVA, Marcos (2026).</p>
+<p align="center">Figura 13: Modelo BPMN do fluxo do sistema do Coliseu. Fonte: SILVA, Marcos (2026).</p>
 
 ### Sistema de Magicites
 
 ![BPMN do fluxo do Motor de Sistema de Magicites]()
-<p align="center">Figura 11: Modelo BPMN do fluxo do sistema do Motor de Batalha (ATB). Fonte: SOBRENOME, Nome (2026).</p>
+<p align="center">Figura 14: Modelo BPMN do fluxo do Sistema de Magicites. Fonte: SOBRENOME, Nome (2026).</p>
 
 ### Habilidades Exclusivas
 
 ![BPMN do fluxo de Habilidades Exclusivas (Blitz)](assets/blitz.png)
-<p align="center">Figura 12: Modelo BPMN do fluxo do sistema de Habilidades Exclusivas (Blitz). Fonte: FARIAS, João (2026).</p>
+<p align="center">Figura 15: Modelo BPMN do fluxo do sistema de Habilidades Exclusivas (Blitz). Fonte: FARIAS, João (2026).</p>
 
 ## Referências
 
@@ -309,7 +350,10 @@ WIKIPÉDIA. **Final Fantasy VI**. Disponível em: https://en.wikipedia.org/wiki/
 
 | Nome | % de Contribuição |
 |------|-------------------|
-| Marcos Vinícius Gündel da Silva | |
+| João Igor Pereira da Costa | 25,0 |
+| João Victor da Silva Batista de Farias | 25,0 |
+| Marcelo de Araújo Lopes | 25,0 |
+| Marcos Vinícius Gündel da Silva | 25,0 |
 
 <p align="center">Tabela 1: Contribuição dos integrantes. Fonte: Autores, 2026.</p>
 
@@ -324,6 +368,7 @@ WIKIPÉDIA. **Final Fantasy VI**. Disponível em: https://en.wikipedia.org/wiki/
 | 1.4 | 26/08/2026 | Adição do BPMN do fluxo do Coliseu e *placeholders* para os outros sistemas | Marcos Vinícius Gündel da Silva | |
 | 1.5 | 27/08/2026 | Adição do BPMN do fluxo de Habilidades Exclusivas (Blitz) e criação da seção de Engenharia Reversa do Blitz | João Victor da Silva Batista de Farias | |
 | 1.6 | 27/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado às Habilidades Exclusivas (Blitz): metodologia, fluxo e referências | João Victor da Silva Batista de Farias | |
+| 1.7 | 27/08/2026 | Adição do BPMN do Motor de Batalha (ATB) em três frames com legenda da notação, quadro interativo do Miro e renumeração das figuras subsequentes | Marcelo de Araújo Lopes | |
 
 <p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
 
