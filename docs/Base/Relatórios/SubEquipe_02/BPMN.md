@@ -291,7 +291,7 @@ Para o levantamento do fluxo do *Blitz*, foi observado o vídeo *"Final Fantasy 
 ### Habilidades Exclusivas
 
 ![BPMN do fluxo de Habilidades Exclusivas (Blitz)](assets/blitz.png)
-<p align="center">Figura 12: Modelo BPMN do fluxo do sistema de Habilidades Exclusivas (Blitz). Fonte: SOBRENOME, Nome (2026).</p>
+<p align="center">Figura 12: Modelo BPMN do fluxo do sistema de Habilidades Exclusivas (Blitz). Fonte: FARIAS, João (2026).</p>
 
 ## Referências
 
