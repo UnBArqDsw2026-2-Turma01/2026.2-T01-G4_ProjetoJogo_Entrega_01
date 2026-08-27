@@ -15,6 +15,7 @@
   - [Subgrupo 01](/Atas/SubEquipe_01.md)
     - [Ata 01 — 19/08/2026](/Atas/AtaSub01_01.md)
   - [Subgrupo 02](/Atas/SubEquipe_02.md)
+    - [Ata 01 — 19/08/2026](/Atas/AtaSub02_01.md)
   - [Subgrupo 03](/Atas/SubEquipe_03.md)
 
 - Base
@@ -31,6 +32,7 @@
       - Artefatos Generalistas
         - [Visão do Foco](/Base/Relatórios/SubEquipe_01/ArtefatoGeneralista.md)
         - [Rich Picture](/Base/Relatórios/SubEquipe_01/RichPicture.md)
+        - [Experimento com IA](/Base/Relatórios/SubEquipe_01/RichPictureIA.md)
       - [NFR Framework](/Base/Relatórios/SubEquipe_01/NFRFramework.md)
       - [BPMN](/Base/Relatórios/SubEquipe_01/BPMN.md)
       - [IA Generativa](/Base/Relatórios/SubEquipe_01/IAGenerativa.md)

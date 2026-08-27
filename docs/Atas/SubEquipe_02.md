@@ -29,7 +29,7 @@ Toda reunião é registrada em uma ata própria, seguindo o modelo definido em [
 
 | Ata | Data | Assunto | Redator | Link |
 |:---:|:----:|---------|---------|:----:|
-| — | — | *Nenhuma reunião registrada até o momento.* | — | — |
+| 01 | 19/08/2026 | Rich Picture do jogo e validação de hipóteses com usuários | Gemini (IA) | [AtaSub02_01](AtaSub02_01.md) |
 
 <p align="center">Tabela 2: Registro de reuniões. Fonte: Autores, 2026.</p>
 
@@ -50,6 +50,7 @@ Toda reunião é registrada em uma ata própria, seguindo o modelo definido em [
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página de atas | Marcelo de Araújo Lopes | |
+| 1.1 | 23/08/2026 | Registro da Ata 01 do subgrupo na tabela de reuniões | Marcos Vinícius Gündel da Silva | |
 
 <p align="center">Tabela 4: Histórico de versão. Fonte: Autores, 2026.</p>
 
