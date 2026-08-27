@@ -39,7 +39,7 @@ Para a obtenção dos recursos necessários, foi utilizado como fonte o [vídeo]
 
 ### Habilidades Exclusivas
 
-*A ser preenchido.*
+Para o levantamento do fluxo das Habilidades Exclusivas, foi realizada uma pesquisa sobre o *Blitz* na Wikipédia do jogo, bem como a observação do vídeo *"Final Fantasy 6- How to do Blitz"* (KITTYFRIESVG, [24 de abril de 2010]) e de um playthrough completo do jogo (TYKIROU, 2021), ambos no YouTube. A partir desses materiais, foi identificado o fluxo de uso da habilidade em combate, detalhado na próxima seção.
 
 ## Conteúdo
 
@@ -254,6 +254,23 @@ O sistema de Magicite cria uma relação entre **progressão, personalização e
 
 Com tempo suficiente e um planejamento adequado, é possível fazer com que diferentes personagens aprendam uma grande variedade de magias e desenvolvam atributos elevados. Como consequência, os personagens tornam-se mais **flexíveis e intercambiáveis**, permitindo diferentes combinações e estratégias durante a progressão e, principalmente, no conteúdo de final de jogo.
 
+#### Blitz
+
+Para o levantamento do fluxo do *Blitz*, foi observado o vídeo *"Final Fantasy 6- How to do Blitz"* (KITTYFRIESVG, [s. d.]), no qual a habilidade é selecionada em combate, e o playthrough completo do jogo (TYKIROU, 2021).
+
+**Elementos de Interface**
+
+- Menu de comandos do combate, com a opção *Blitz* selecionável para o personagem.
+
+**Transições de Estado**
+
+- Ao selecionar a opção *Blitz* durante o combate, o sistema revela que a habilidade é executada por meio de uma sequência de direções a ser inserida no direcional.
+- No exemplo observado, a sequência exigida para a execução foi **esquerda, direita, esquerda** (*left, right, left*).
+
+**Regras de Negócio**
+
+- O *Blitz* é uma habilidade exclusiva do personagem Sabin, executada pela entrada de uma sequência direcional correta, em vez da seleção convencional de alvo de um comando.
+
 ### Modelagem BPMN
 
 ### Motor de Batalha (ATB)
@@ -273,14 +290,20 @@ Com tempo suficiente e um planejamento adequado, é possível fazer com que dife
 
 ### Habilidades Exclusivas
 
-![BPMN do fluxo de Habilidades Exclusivas]()
-<p align="center">Figura 12: Modelo BPMN do fluxo do sistema do Motor de Batalha (ATB). Fonte: SOBRENOME, Nome (2026).</p>
+![BPMN do fluxo de Habilidades Exclusivas (Blitz)](assets/blitz.png)
+<p align="center">Figura 12: Modelo BPMN do fluxo do sistema de Habilidades Exclusivas (Blitz). Fonte: SOBRENOME, Nome (2026).</p>
 
 ## Referências
 
 BRAGA, Rosana T. Vaccare; PENTEADO, Rosângela. **Engenharia Reversa e Reengenharia**. Material da disciplina SCE 186 – Engenharia de Software. [S. l.: s. n.], [s. d.].
 
 CARNAGE PANDA. **Final Fantasy 6 Pixel Remaster #41 - Coliseum**. YouTube, 5 abr. 2022. Disponível em: https://www.youtube.com/watch?v=vAIxn-R0GFM. Acesso em: 25 ago. 2026.
+
+KITTYFRIESVG. **Final Fantasy 6- How to do Blitz**. YouTube, [10 de abril de 2010]. Disponível em: https://www.youtube.com/watch?v=AZbmj0W2gFw. Acesso em: 27 ago. 2026.
+
+TYKIROU. **Final Fantasy VI (1994 | 2021) | PC | Full Playthrough - Part 1**. YouTube, [18 de fevereiro de 2025]. Disponível em: https://www.youtube.com/watch?v=CXzormM9XHI. Acesso em: 27 ago. 2026.
+
+WIKIPÉDIA. **Final Fantasy VI**. Disponível em: https://en.wikipedia.org/wiki/Final_Fantasy_VI. Acesso em: 27 ago. 2026.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -299,6 +322,8 @@ CARNAGE PANDA. **Final Fantasy 6 Pixel Remaster #41 - Coliseum**. YouTube, 5 abr
 | 1.2 | 26/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado ao Sistema de Magicites (FF6): metodologia e conteúdo gerado | João Igor Pereira da Costa | |
 | 1.3 | 26/08/2026 | Adição dos comandos do Banco de Dados Inferido por tela no processo de Engenharia Reversa do Coliseu | Marcos Vinícius Gündel da Silva | |
 | 1.4 | 26/08/2026 | Adição do BPMN do fluxo do Coliseu e *placeholders* para os outros sistemas | Marcos Vinícius Gündel da Silva | |
+| 1.5 | 27/08/2026 | Adição do BPMN do fluxo de Habilidades Exclusivas (Blitz) e criação da seção de Engenharia Reversa do Blitz | João Victor da Silva Batista de Farias | |
+| 1.6 | 27/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado às Habilidades Exclusivas (Blitz): metodologia, fluxo e referências | João Victor da Silva Batista de Farias | |
 
 <p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
 
