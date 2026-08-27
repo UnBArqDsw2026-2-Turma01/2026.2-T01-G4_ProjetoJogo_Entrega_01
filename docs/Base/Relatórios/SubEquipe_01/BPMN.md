@@ -6,7 +6,7 @@ Este artefato documenta a engenharia reversa e a modelagem BPMN da SubEquipe_01 
 
 ## Objetivo
 
-Identificar atividades, decisões e regras dos fluxos observados para orientar seus modelos BPMN.
+Identificar atividades, decisões e regras dos fluxos observados para orientar os modelos BPMN e apoiar a definição de funcionalidades do projeto inspiradas em *Final Fantasy VI*.
 
 ## Metodologia
 
@@ -18,12 +18,12 @@ Os modelos BPMN dos fluxos de equipar e utilizar itens foram elaborados com base
 
 ### Escopo dos Fluxos
 
-| Fluxo | Responsável pela análise | Evidências disponíveis | Situação da modelagem BPMN |
-|-------|--------------------------|------------------------|----------------------------|
-| Equipar itens | Yogi Nam de Souza Barbosa | Vídeo, quatro capturas e BPMN | Concluído |
-| Utilizar itens | Yogi Nam de Souza Barbosa | Vídeo, sete capturas e BPMN | Concluído |
-| Batalha | Demais integrantes | Pendente | Pendente |
-| Lojas | Demais integrantes | Pendente | Pendente |
+| Fluxo | Responsável pela análise | Evidências disponíveis |
+|-------|--------------------------|------------------------|
+| Equipar itens | Yogi Nam de Souza Barbosa | Vídeo, quatro capturas e BPMN | 
+| Utilizar itens | Yogi Nam de Souza Barbosa | Vídeo, sete capturas e BPMN | 
+| Batalha | Demais integrantes | Pendente | 
+| Lojas | Demais integrantes | Pendente | 
 
 <p align="center">Tabela 1: Escopo dos fluxos de engenharia reversa da SubEquipe_01.</p>
 
