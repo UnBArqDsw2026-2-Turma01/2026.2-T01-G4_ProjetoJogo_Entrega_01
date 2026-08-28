@@ -2,7 +2,7 @@
 
 Repositório da **Entrega 01** do Grupo 04 da disciplina **FGA0208, Arquitetura e Desenho de Software**, Turma 01, ministrada pela professora Milene Serrano na Universidade de Brasília durante o semestre 2026.2.
 
-**[Acessar a documentação publicada](https://unbarqdsw2026-2-turma01.github.io/2026.2-T01-_G4_ProjetoJogo_Entrega_01/)** | [Visão do projeto](docs/Projeto/Projeto.md) | [Atas de reunião](docs/Atas/Gerais.md) | [Participações](docs/Base/1.2.ParticipacoesBase.md) | [Site da disciplina](https://sites.google.com/view/unb-fcte-arqdsw)
+**[Acessar a documentação publicada](https://unbarqdsw2026-2-turma01.github.io/2026.2-T01-G4_ProjetoJogo_Entrega_01/)** | [Visão do projeto](docs/Projeto/Projeto.md) | [Atas de reunião](docs/Atas/Gerais.md) | [Participações](docs/Base/1.2.ParticipacoesBase.md) | [Site da disciplina](https://sites.google.com/view/unb-fcte-arqdsw)
 
 ## Sobre o projeto
 
@@ -152,5 +152,6 @@ O conteúdo próprio deste projeto é disponibilizado sob a [Licença MIT](LICEN
 | 1.0 | 14/08/2026 | Criação do README a partir do modelo da disciplina | Marcos Vinícius Gündel da Silva | |
 | 1.1 | 17/08/2026 | Inclusão e organização dos integrantes do Grupo 04 | João Igor Pereira da Costa | |
 | 2.0 | 27/08/2026 | Reestruturação do README com visão do projeto, cronograma, navegação, execução local e governança | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
+| 2.1 | 28/08/2026 | Correção do endereço da documentação publicada, quebrado após a renomeação do repositório | Renan Pereira Reis | |
 
 <p align="center">Tabela 4: Histórico de versão.</p>

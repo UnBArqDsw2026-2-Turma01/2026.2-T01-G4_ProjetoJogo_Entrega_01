@@ -23,7 +23,7 @@ O **SIG** foi elaborado a partir do Mapa Mental já consolidado: as funcionalida
 | [Mapa Mental](MapaMental.md) | Artefato generalista da subequipe, eleito pela equipe. Organiza o escopo do G4_ProjetoJogo em quatro ramos: Estilo, Mecânicas de Jogo, Funcionalidades e Personagens. |
 | [NFR Framework](NFRFramework.md) | SIG do softgoal *Usabilidade & UX*, decomposto em cinco sub-NFRs com operacionalizações, *claims* e um trade-off explícito entre Flexibilidade e Estética Minimalista. |
 
-<p align="center">Tabela 1: Artefatos do FOCO_01 da SubEquipe_03. Fonte: Renan Pereira Reis, 2026.</p>
+<p align="center">Tabela 1: Artefatos do FOCO_01 da SubEquipe_03. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 ## Referências
 
@@ -41,15 +41,16 @@ O **SIG** foi elaborado a partir do Mapa Mental já consolidado: as funcionalida
 | Pedro Teixeira Moriel Sanchez | 33,3% |
 | Renan Pereira Reis | 33,3% |
 
-<p align="center">Tabela 2: Contribuição dos integrantes no FOCO_01. Fonte: Renan Pereira Reis, 2026.</p>
+<p align="center">Tabela 2: Contribuição dos integrantes no FOCO_01. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | |
-| 2.0 | 27/08/2026 | Preenchimento da visão geral do foco, metodologia e índice dos artefatos | Renan Pereira Reis | |
+| 2.0 | 27/08/2026 | Preenchimento da visão geral do foco, metodologia e índice dos artefatos | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 2.1 | 28/08/2026 | Registro da autoria conjunta da subequipe nas fontes das figuras e tabelas e no histórico de versão | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 
-<p align="center">Tabela 3: Histórico de versão. Fonte: Renan Pereira Reis, 2026.</p>
+<p align="center">Tabela 3: Histórico de versão. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 Ver também: [Mapa Mental](MapaMental.md) · [NFR Framework](NFRFramework.md) · [BPMN](BPMN.md) · [IA Generativa](IAGenerativa.md)

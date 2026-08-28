@@ -45,7 +45,7 @@ O processo corresponde às fases **Sketch** e **Decide** do [Design Sprint](/Bas
 | **Funcionalidades** | Inventário · Sidequests · Savepoint | Os recursos de apoio que sustentam a progressão do jogador |
 | **Personagens** | Personagem Jogável (com Personalização) · Inimigos · NPCs (Vendedores, Quest-Givers) | Os agentes do mundo e seus papéis |
 
-<p align="center">Tabela 1: Ramos do Mapa Mental. Fonte: Renan Pereira Reis, 2026.</p>
+<p align="center">Tabela 1: Ramos do Mapa Mental. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 ### Rastreabilidade e elos com outros artefatos
 
@@ -69,15 +69,16 @@ Por ter sido o artefato eleito, este Mapa Mental é a origem de outros artefatos
 | Pedro Teixeira Moriel Sanchez | 33,3% |
 | Renan Pereira Reis | 33,3% |
 
-<p align="center">Tabela 2: Contribuição dos integrantes. Fonte: Renan Pereira Reis, 2026.</p>
+<p align="center">Tabela 2: Contribuição dos integrantes. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | |
-| 2.0 | 27/08/2026 | Publicação do Mapa Mental (rascunho e versão consolidada), metodologia, ramos e rastreabilidade | Renan Pereira Reis | |
+| 2.0 | 27/08/2026 | Publicação do Mapa Mental (rascunho e versão consolidada), metodologia, ramos e rastreabilidade | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 2.1 | 28/08/2026 | Registro da autoria conjunta da subequipe nas fontes das figuras e tabelas e no histórico de versão | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 
-<p align="center">Tabela 3: Histórico de versão. Fonte: Renan Pereira Reis, 2026.</p>
+<p align="center">Tabela 3: Histórico de versão. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [NFR Framework](NFRFramework.md) · [BPMN](BPMN.md) · [IA Generativa](IAGenerativa.md)

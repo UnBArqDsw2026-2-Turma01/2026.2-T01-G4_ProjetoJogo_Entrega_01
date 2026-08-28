@@ -39,7 +39,7 @@ Três limitações devem ser consideradas na leitura dos resultados: a amostra �
 
 ![SIG de Usabilidade e UX na notação do NFR Framework](SIG.png ':size=100%')
 
-<p align="center">Figura 1: SIG de Usabilidade &amp; UX [RPG Didático] na notação do NFR Framework. Fonte: Renan Pereira Reis, 2026.</p>
+<p align="center">Figura 1: SIG de Usabilidade &amp; UX [RPG Didático] na notação do NFR Framework. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 ### Sub-NFRs e sustentação empírica
 
@@ -51,7 +51,7 @@ Três limitações devem ser consideradas na leitura dos resultados: a amostra �
 | Flexibilidade [Combate e Inventário] | Atalhos rápidos e personalização para tarefas repetitivas | **4,14** |
 | Recuperação de Erros [Combate/Mistura] | Explicações claras sobre o motivo de uma ação ter falhado | **4,07** |
 
-<p align="center">Tabela 1: Sub-NFRs do SIG e médias do questionário aplicado (n=14). Fonte: Renan Pereira Reis, 2026, com base no questionário aplicado pela equipe.</p>
+<p align="center">Tabela 1: Sub-NFRs do SIG e médias do questionário aplicado (n=14). Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026, com base no questionário aplicado pela equipe.</p>
 
 ### Operacionalizações
 
@@ -65,7 +65,7 @@ Cada sub-NFR é satisfeito por uma operacionalização extraída do Mapa Mental:
 | Flexibilidade | Atalhos/slots configuráveis | `++` |
 | Recuperação de Erros | Mensagens de erro explicativas | `++` |
 
-<p align="center">Tabela 2: Operacionalizações e contribuições. Fonte: Renan Pereira Reis, 2026.</p>
+<p align="center">Tabela 2: Operacionalizações e contribuições. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 ### Claims
 
@@ -102,16 +102,17 @@ O questionário permite resolver o conflito com base em evidência em vez de pre
 | Pedro Teixeira Moriel Sanchez | 33,3% |
 | Renan Pereira Reis | 33,3% |
 
-<p align="center">Tabela 3: Contribuição dos integrantes. Fonte: Renan Pereira Reis, 2026.</p>
+<p align="center">Tabela 3: Contribuição dos integrantes. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | |
-| 2.0 | 27/08/2026 | Publicação do SIG, metodologia, sustentação empírica, análise do trade-off e rastreabilidade | Renan Pereira Reis | |
-| 2.1 | 28/08/2026 | Preenchimento do nível de contribuição dos integrantes | Renan Pereira Reis | |
+| 2.0 | 27/08/2026 | Publicação do SIG, metodologia, sustentação empírica, análise do trade-off e rastreabilidade | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 2.1 | 28/08/2026 | Preenchimento do nível de contribuição dos integrantes | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 2.2 | 28/08/2026 | Registro da autoria conjunta da subequipe nas fontes das figuras e tabelas e no histórico de versão | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 
-<p align="center">Tabela 4: Histórico de versão. Fonte: Renan Pereira Reis, 2026.</p>
+<p align="center">Tabela 4: Histórico de versão. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Mapa Mental](MapaMental.md) · [BPMN](BPMN.md) · [IA Generativa](IAGenerativa.md)
