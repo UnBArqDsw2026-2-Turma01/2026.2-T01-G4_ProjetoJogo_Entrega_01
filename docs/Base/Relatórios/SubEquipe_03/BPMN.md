@@ -24,19 +24,23 @@ A partir dos registros audiovisuais analisados (vídeos em anexo), foi possível
 * **Transição de Estado:** A navegação pelo mapa-múndi pode ser interrompida por encontros aleatórios (ativando a tela de combate) ou pela transição para áreas seguras (como a entrada na cidade de Nikeah, visualizada no segundo vídeo).
 * **Interface e Regras de Negócio (Lojas):** Ao interagir com NPCs lojistas, abre-se a interface de Compra/Venda. O sistema lê o banco de dados do inventário (Gil disponível, itens em posse) e exibe as armas/itens disponíveis para aquisição. Ao confirmar uma compra, o valor em Gil é deduzido e o item é adicionado ao inventário.
 * **Comprovação em Vídeo:**
-  <video width="100%" controls><source src="assets/FINAL FANTASY VI 2026-08-27 16-00-54.mp4" type="video/mp4">Vídeo 1: Exploração e Save State.</video>
-  <video width="100%" controls><source src="assets/FINAL FANTASY VI 2026-08-27 16-10-17.mp4" type="video/mp4">Vídeo 2: Entrada em Nikeah e interação com Loja.</video>
+  <video width="100%" controls><source src="assets/FINAL%20FANTASY%20VI%202026-08-27%2016-00-54.mp4" type="video/mp4">Vídeo 1: Exploração e Save State.</video>
+  <br><i><a href="assets/FINAL%20FANTASY%20VI%202026-08-27%2016-00-54.mp4">[Link alternativo: Caso o vídeo não carregue, clique aqui para acessar]</a></i>
+  <video width="100%" controls><source src="assets/FINAL%20FANTASY%20VI%202026-08-27%2016-10-17.mp4" type="video/mp4">Vídeo 2: Entrada em Nikeah e interação com Loja.</video>
+  <br><i><a href="assets/FINAL%20FANTASY%20VI%202026-08-27%2016-10-17.mp4">[Link alternativo: Caso o vídeo não carregue, clique aqui para acessar]</a></i>
 
 #### 2. Transição e Combate em Turnos (Vídeo 3)
 * **Transição de Estado:** Durante a exploração de dungeons como a "Caverna em Veldt", ocorre um encontro aleatório. A interface de exploração sofre um efeito de transição de tela e é substituída instantaneamente pela arena de combate.
 * **Interface e Regras de Negócio (Combate):** O combate segue um sistema de turnos. A personagem seleciona um comando no menu de batalha inferior (ex: Ataque, Magia, Itens). O vídeo demonstra o uso da magia *Fogo++* contra o inimigo *Louva-morte*. O sistema calcula o dano (9999), subtrai os PVs do inimigo e, ao derrotá-lo, encerra a batalha exibindo a tela de vitória com as recompensas adquiridas (Gil, EXP e PH de Magia).
 * **Comprovação em Vídeo:**
-  <video width="100%" controls><source src="assets/FINAL FANTASY VI 2026-08-27 16-20-46.mp4" type="video/mp4">Vídeo 3: Encontro aleatório e sistema de Combate.</video>
+  <video width="100%" controls><source src="assets/FINAL%20FANTASY%20VI%202026-08-27%2016-20-46.mp4" type="video/mp4">Vídeo 3: Encontro aleatório e sistema de Combate.</video>
+  <br><i><a href="assets/FINAL%20FANTASY%20VI%202026-08-27%2016-20-46.mp4">[Link alternativo: Caso o vídeo não carregue, clique aqui para acessar]</a></i>
 
 #### 3. Menu de Status e Ponto de Salvamento (Vídeo 4)
 * **Transição de Estado e Interface:** Em áreas hostis como o "Continente Flutuante", o jogador pode acessar o Menu Principal para verificar as condições da equipe (PV, PM, Nível) e as invocações/Magicites equipadas (Maduin, Ramuh, Ifrit, Shiva). Ao entrar em uma área de salvamento específica (indicada por um feixe de luz), o jogador pode salvar o progresso, gravando os dados atuais e a localização no slot escolhido do banco de dados (Arquivo 19).
 * **Comprovação em Vídeo:**
-  <video width="100%" controls><source src="assets/FINAL FANTASY VI 2026-08-27 16-27-08.mp4" type="video/mp4">Vídeo 4: Exploração de masmorra, menu de status e ponto de salvamento.</video>
+  <video width="100%" controls><source src="assets/FINAL%20FANTASY%20VI%202026-08-27%2016-27-08.mp4" type="video/mp4">Vídeo 4: Exploração de masmorra, menu de status e ponto de salvamento.</video>
+  <br><i><a href="assets/FINAL%20FANTASY%20VI%202026-08-27%2016-27-08.mp4">[Link alternativo: Caso o vídeo não carregue, clique aqui para acessar]</a></i>
 
 ### Modelagem BPMN
 
@@ -89,6 +93,7 @@ SQUARE ENIX. **Final Fantasy VI Pixel Remaster**. [Vídeos de gameplay capturado
 | 1.0 | 27/08/2026 | Criação da página base, adaptação da metodologia e adição dos modelos BPMN (Exploração, Combate, Mundo e Livro) | Pedro Teixeira Moriel Sanchez | |
 | 1.1 | 27/08/2026 | Adição dos achados da engenharia reversa com as análises dos vídeos (Exploração, Combate, Menus) | Pedro Teixeira Moriel Sanchez | |
 | 1.2 | 27/08/2026 | Correção dos caminhos das imagens e vídeos para o diretório `assets/` | Pedro Teixeira Moriel Sanchez | |
+| 1.3 | 27/08/2026 | Alteração da forma de fazer o display dos vídeos | Pedro Teixeira Moriel Sanchez | |
 
 <p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
 
