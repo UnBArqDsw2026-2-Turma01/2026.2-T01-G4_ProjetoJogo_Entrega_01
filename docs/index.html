@@ -389,6 +389,7 @@
 
     .sidebar .sidebar-nav li.active > a,
     .sidebar .sidebar-nav a.active,
+    .sidebar .sidebar-nav a.route-active,
     .sidebar .sidebar-nav a[aria-current="page"] {
       color: #ffffff !important;
       background: var(--accent) !important;
@@ -554,6 +555,29 @@
   <div id="app"></div>
 
   <script>
+    function normalizeSidebarRoute(value) {
+      if (!value) return '/';
+      var route = value;
+      var hashPosition = route.indexOf('#');
+      if (hashPosition >= 0) route = route.slice(hashPosition + 1);
+      route = route.split('?')[0];
+      if (!route || route === '/') return '/';
+      if (route.charAt(0) !== '/') route = '/' + route;
+      try { route = decodeURIComponent(route); } catch (error) { /* mantém a rota original */ }
+      route = route.replace(/\.md$/i, '');
+      return route.replace(/\/+$/, '') || '/';
+    }
+
+    function highlightCurrentSidebarLink() {
+      var currentRoute = normalizeSidebarRoute(window.location.hash);
+      var links = document.querySelectorAll('.sidebar-nav a[href]');
+
+      Array.prototype.forEach.call(links, function (link) {
+        var targetRoute = normalizeSidebarRoute(link.getAttribute('href'));
+        link.classList.toggle('route-active', targetRoute === currentRoute);
+      });
+    }
+
     function getDirectSidebarLabel(item) {
       for (var i = 0; i < item.children.length; i += 1) {
         var child = item.children[i];
@@ -568,11 +592,14 @@
     }
 
     function renderBreadcrumbs(content) {
+      var routeActiveLink = document.querySelector('.sidebar-nav a.route-active');
       var activeItems = document.querySelectorAll('.sidebar-nav li.active');
       var trail = [];
 
-      if (activeItems.length) {
-        var item = activeItems[activeItems.length - 1];
+      if (routeActiveLink || activeItems.length) {
+        var item = routeActiveLink
+          ? routeActiveLink.closest('li')
+          : activeItems[activeItems.length - 1];
         while (item && item.closest('.sidebar-nav')) {
           var label = getDirectSidebarLabel(item);
           if (label && label.text) trail.push(label);
@@ -737,7 +764,10 @@
               document.body.classList.add('theme-subequipe-03');
             }
 
-            window.setTimeout(renderPageNavigation, 0);
+            window.setTimeout(function () {
+              highlightCurrentSidebarLink();
+              renderPageNavigation();
+            }, 0);
           });
         }
       ]
