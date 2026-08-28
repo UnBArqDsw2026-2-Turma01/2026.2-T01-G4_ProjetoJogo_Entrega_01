@@ -28,7 +28,11 @@ Toda reunião é registrada em uma ata própria, seguindo o modelo definido em [
 
 | Ata | Data | Assunto | Redator | Link |
 |:---:|:----:|---------|---------|:----:|
-| — | — | *Nenhuma reunião registrada até o momento.* | — | — |
+| 1 | A definir | A definir | Renan Pereira Reis | A definir |
+| 2 | 19/08 | Elaboração do mapa mental do RPG didático. | Pedro Teixeira Moriel Sanchez | [AtaSub03_02](https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G4_ProjetoJogo_Entrega_01/blob/docs/subgrupo03-mapa-mental/docs/Atas/AtaSub03_02.md) |
+| 3 | 24/08 | Concepção do BPMN e da Engenharia Reversa | Pedro Teixeira Moriel Sanchez | [AtaSub03_03](https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G4_ProjetoJogo_Entrega_01/blob/docs/subgrupo03-mapa-mental/docs/Atas/AtaSub03_03.md) |
+| 4 | 25/08 | Elaboração do BPMN | Pedro Teixeira Moriel Sanchez | [AtaSub03_04](https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G4_ProjetoJogo_Entrega_01/blob/docs/subgrupo03-mapa-mental/docs/Atas/AtaSub03_04.md) |
+| 5 | 27/08 | Finalização do BPMN | Pedro Teixeira Moriel Sanchez | [AtaSub03_05](https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G4_ProjetoJogo_Entrega_01/blob/docs/subgrupo03-mapa-mental/docs/Atas/AtaSub03_05.md) |
 
 <p align="center">Tabela 2: Registro de reuniões. Fonte: Autores, 2026.</p>
 
@@ -40,7 +44,9 @@ Toda reunião é registrada em uma ata própria, seguindo o modelo definido em [
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|      |                   |
+| Carlos Henrique Brasil de Souza | 33,3% |
+| Pedro Teixeira Moriel Sanchez | 33,3% |
+| Renan Pereira Reis | 33,3% |
 
 <p align="center">Tabela 3: Contribuição dos integrantes. Fonte: Autores, 2026.</p>
 
@@ -49,6 +55,9 @@ Toda reunião é registrada em uma ata própria, seguindo o modelo definido em [
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página de atas | Marcelo de Araújo Lopes | |
+| 1.1 | 24/08/2026 | Adição da Ata da reunião 2 | Pedro Teixeira Moriel Sanchez | |
+| 1.2 | 27/08/2026 | Adição das Atas das reuniões 3 e 4 | Pedro Teixeira Moriel Sanchez | |
+| 1.3 | 27/08/2026 | Adição da Ata da reunião 5 | Pedro Teixeira Moriel Sanchez | |
 
 <p align="center">Tabela 4: Histórico de versão. Fonte: Autores, 2026.</p>
 
