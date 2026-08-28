@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Registro do **FOCO_03 — IA Generativa** da SubEquipe_02. Reúne os pontos de vista de cada integrante sobre as lições aprendidas e o uso de IA Generativa na entrega.
+Registro do **FOCO_03 — IA Generativa** da SubEquipe_03. Reúne os pontos de vista de cada integrante sobre as lições aprendidas e o uso de IA Generativa na entrega.
 
 ## Objetivo
 
@@ -24,9 +24,15 @@ Um padrão recorrente nesse processo foi que a cada entrega de diagrama, a IA si
 
 <p align="center">
   <img src="Base/Relatórios/SubEquipe_03/assets/ia2.jpeg" alt="Estruturação do mapa mental pela IA" width="400">
-  <br>
+</p>
+
+<p align="center">Figura 1: Reorganização dos ramos do mapa mental proposta pela IA, com a criação do ramo <em>Sistema de magia</em>, ausente no esqueleto original. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026 (captura de tela da conversa da subequipe com o Claude, da Anthropic, em claude.ai).</p>
+
+<p align="center">
   <img src="Base/Relatórios/SubEquipe_03/assets/ia1.jpeg" alt="Modelagem BPMN pela IA" width="400">
 </p>
+
+<p align="center">Figura 2: Modelagem do fluxo de exploração do mundo em notação BPMN, gerada a partir do detalhamento das regras pela subequipe. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026 (captura de tela da conversa da subequipe com o Claude, da Anthropic, modelo Sonnet 5, em claude.ai).</p>
 
 <a href="Base/Relatórios/SubEquipe_03/assets/prompt.md" download>Registro de uso de IA</a>
 
@@ -66,6 +72,7 @@ BRAGA, Rosana T. Vaccare. *Engenharia Reversa e Reengenharia*. Material adaptado
 | 1.3 | 27/08/2026 | Adição da contribuição da IA, pela visão do Renan | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis |  |
 | 1.4 | 28/08/2026 | Correção do caminho das imagens e do link de download (raiz do site) para renderizarem no Docsify local e no GitHub Pages | Marcos Vinícius Gündel da Silva | |
 | 1.5 | 28/08/2026 | Registro da autoria conjunta da subequipe nas fontes das figuras e tabelas e no histórico de versão | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 1.6 | 28/08/2026 | Adição das legendas e fontes das figuras do registro de uso de IA e correção da subequipe citada na descrição | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 
 <p align="center">Tabela 3: Histórico de versão. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
