@@ -8,6 +8,37 @@
 
 - [Projeto](/Projeto/Projeto.md)
 
+- Base
+  - [Design Sprint](/Base/1.1.DesignSprint.md)
+    - [1. Understand](/Base/1.1.1.Understand.md)
+    - [2. Define](/Base/1.1.2.Define.md)
+    - [3. Sketch](/Base/1.1.3.Sketch.md)
+    - [4. Decide](/Base/1.1.4.Decide.md)
+
+  - [Metodologia de Trabalho no GitHub](/Base/1.3.MetodologiaGitHub.md)
+
+  - Relatórios
+    - H · SubEquipe 01
+      - [1. Rich Picture](/Base/Relatórios/SubEquipe_01/RichPicture.md)
+      - [2. Experimento com IA](/Base/Relatórios/SubEquipe_01/RichPictureIA.md)
+      - [3. NFR Framework](/Base/Relatórios/SubEquipe_01/NFRFramework.md)
+      - [4. BPMN](/Base/Relatórios/SubEquipe_01/BPMN.md)
+      - [5. IA Generativa](/Base/Relatórios/SubEquipe_01/IAGenerativa.md)
+    - C · SubEquipe 02
+      - [1. Rich Picture](/Base/Relatórios/SubEquipe_02/RichPicture.md)
+      - [2. Léxico](/Base/Relatórios/SubEquipe_02/Lexico.md)
+      - [3. NFR Framework](/Base/Relatórios/SubEquipe_02/NFRFramework.md)
+      - [4. BPMN](/Base/Relatórios/SubEquipe_02/BPMN.md)
+      - [5. IA Generativa](/Base/Relatórios/SubEquipe_02/IAGenerativa.md)
+      - [6. Questionário](/Base/Relatórios/SubEquipe_02/Questionario.md)
+    - O · SubEquipe 03
+      - [1. Mapa Mental](/Base/Relatórios/SubEquipe_03/MapaMental.md)
+      - [2. NFR Framework](/Base/Relatórios/SubEquipe_03/NFRFramework.md)
+      - [3. BPMN](/Base/Relatórios/SubEquipe_03/BPMN.md)
+      - [4. IA Generativa](/Base/Relatórios/SubEquipe_03/IAGenerativa.md)
+
+  - [Participações](/Base/1.2.ParticipacoesBase.md)
+
 - Atas de Reunião
   - [Reuniões Gerais](/Atas/Gerais.md)
     - [Ata 01: 14/08/2026](/Atas/AtaGeral01.md)
@@ -22,40 +53,3 @@
     - [Ata 03: 24/08/2026](/Atas/AtaSub03_03.md)
     - [Ata 04: 25/08/2026](/Atas/AtaSub03_04.md)
     - [Ata 05: 27/08/2026](/Atas/AtaSub03_05.md)
-
-- Base
-  - [Design Sprint](/Base/1.1.DesignSprint.md)
-    - [1. Understand](/Base/1.1.1.Understand.md)
-    - [2. Define](/Base/1.1.2.Define.md)
-    - [3. Sketch](/Base/1.1.3.Sketch.md)
-    - [4. Decide](/Base/1.1.4.Decide.md)
-  - [Metodologia de Trabalho no GitHub](/Base/1.3.MetodologiaGitHub.md)
-
-  - Relatórios
-    - SubEquipe 01
-      - Artefatos Generalistas
-        - [Visão do Foco](/Base/Relatórios/SubEquipe_01/ArtefatoGeneralista.md)
-        - [Rich Picture](/Base/Relatórios/SubEquipe_01/RichPicture.md)
-        - [Experimento com IA](/Base/Relatórios/SubEquipe_01/RichPictureIA.md)
-      - [NFR Framework](/Base/Relatórios/SubEquipe_01/NFRFramework.md)
-      - [BPMN](/Base/Relatórios/SubEquipe_01/BPMN.md)
-      - [IA Generativa](/Base/Relatórios/SubEquipe_01/IAGenerativa.md)
-    - SubEquipe 02
-      - Artefatos Generalistas
-        - [Visão do Foco](/Base/Relatórios/SubEquipe_02/ArtefatoGeneralista.md)
-        - [Rich Picture](/Base/Relatórios/SubEquipe_02/RichPicture.md)
-        - [Léxico](/Base/Relatórios/SubEquipe_02/Lexico.md)
-      - [NFR Framework](/Base/Relatórios/SubEquipe_02/NFRFramework.md)
-      - [BPMN](/Base/Relatórios/SubEquipe_02/BPMN.md)
-      - [IA Generativa](/Base/Relatórios/SubEquipe_02/IAGenerativa.md)
-      - Iniciativas Extras
-        - [Questionário](/Base/Relatórios/SubEquipe_02/Questionario.md)
-    - SubEquipe 03
-      - Artefatos Generalistas
-        - [Visão do Foco](/Base/Relatórios/SubEquipe_03/ArtefatoGeneralista.md)
-        - [Mapa Mental](/Base/Relatórios/SubEquipe_03/MapaMental.md)
-      - [NFR Framework](/Base/Relatórios/SubEquipe_03/NFRFramework.md)
-      - [BPMN](/Base/Relatórios/SubEquipe_03/BPMN.md)
-      - [IA Generativa](/Base/Relatórios/SubEquipe_03/IAGenerativa.md)
-
-  - [Participações](/Base/1.2.ParticipacoesBase.md)
