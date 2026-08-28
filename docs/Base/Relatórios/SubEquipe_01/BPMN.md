@@ -20,10 +20,10 @@ Os modelos BPMN dos fluxos de equipar e utilizar itens foram elaborados com base
 
 | Fluxo | Responsável pela análise | Evidências disponíveis |
 |-------|--------------------------|------------------------|
-| Equipar itens | Yogi Nam de Souza Barbosa | Vídeo, quatro capturas e BPMN | 
-| Utilizar itens | Yogi Nam de Souza Barbosa | Vídeo, sete capturas e BPMN | 
-| Batalha | Demais integrantes | Pendente | 
-| Lojas | Demais integrantes | Pendente | 
+| Equipar itens | Cibelly Lourenço Ferreira | Vídeo, quatro capturas e BPMN |
+| Utilizar itens | Yogi Nam de Souza Barbosa | Vídeo, sete capturas e BPMN |
+| Batalha | Demais integrantes | Pendente |
+| Lojas | Demais integrantes | Pendente |
 
 <p align="center">Tabela 1: Escopo dos fluxos de engenharia reversa da SubEquipe_01.</p>
 
@@ -40,7 +40,7 @@ O primeiro fluxo começa no menu principal, passa pela seleção de um personage
   </video>
 </div>
 
-<p align="center">Vídeo 1: Execução do fluxo de equipar itens em Final Fantasy VI. Fonte: gravação de tela produzida por Yogi Nam de Souza Barbosa, 2026.</p>
+<p align="center">Vídeo 1: Execução do fluxo de equipar itens em Final Fantasy VI. Fonte: gravação de tela produzida por Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa, 2026.</p>
 
 ##### Evidências observadas
 
@@ -51,7 +51,7 @@ O primeiro fluxo começa no menu principal, passa pela seleção de um personage
 | **03**<br>![Prévia de atributos com o Escudo de Mithril](assets/subgrupo01_equipar_03.jpg) | O jogador destaca `Escudo de Mithril`. Ataque diminui, enquanto Defesa, Evasão e Defesa Mágica aumentam, com diferenças indicadas por cores e setas. | A seleção produz uma simulação dos atributos resultantes antes da confirmação. A prévia não deve persistir a alteração enquanto o jogador apenas navega entre as opções. |
 | **04**<br>![Lança e escudo persistidos nos espaços de Mog](assets/subgrupo01_equipar_04.jpg) | `Lança de Mithril` e `Escudo de Mithril` aparecem ocupando espaços de Mog. Ao selecionar o espaço ocupado, a opção `Remover` é oferecida. | A confirmação persiste o equipamento no personagem e recalcula os atributos efetivos. Um espaço ocupado pode ser esvaziado ou receber outro item em operação posterior. |
 
-<p align="center">Tabela 2: Evidências do fluxo de equipar itens. Fonte: capturas da gravação de Final Fantasy VI produzida por Yogi Nam de Souza Barbosa, 2026.</p>
+<p align="center">Tabela 2: Evidências do fluxo de equipar itens. Fonte: capturas da gravação de Final Fantasy VI produzida por Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa, 2026.</p>
 
 ##### Processo reconstruído
 
@@ -73,7 +73,7 @@ O segundo fluxo parte do menu principal e percorre a consulta do inventário, a 
   </video>
 </div>
 
-<p align="center">Vídeo 2: Execução do fluxo de utilizar itens em Final Fantasy VI. Fonte: gravação de tela produzida por Yogi Nam de Souza Barbosa, 2026.</p>
+<p align="center">Vídeo 2: Execução do fluxo de utilizar itens em Final Fantasy VI. Fonte: gravação de tela produzida por Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa, 2026.</p>
 
 ##### Evidências observadas
 
@@ -87,7 +87,7 @@ O segundo fluxo parte do menu principal e percorre a consulta do inventário, a 
 | **06**<br>![Seleção de Molulu após o uso de uma Poção](assets/subgrupo01_itens_06.jpg) | A Poção está associada à seleção de alvo. Molulu aparece com 87/87 PV e a quantidade disponível é 2. Antes do uso, Molulu tinha 46/87 PV e havia 3 Poções. | A sequência indica que o sistema validou o alvo, aplicou a cura com limite no PV máximo, consumiu uma unidade e atualizou personagem, inventário e interface. |
 | **07**<br>![Consulta ao Pingente na aba Itens-chave](assets/subgrupo01_itens_07.jpg) | A aba `Itens-chave` apresenta o `Pingente` e sua descrição narrativa, sem o mesmo comando de confirmação exibido para consumíveis. | Itens-chave formam uma categoria de consulta e não seguem necessariamente o fluxo de consumo e seleção de alvo. |
 
-<p align="center">Tabela 3: Evidências do fluxo de utilizar itens. Fonte: capturas da gravação de Final Fantasy VI produzida por Yogi Nam de Souza Barbosa, 2026.</p>
+<p align="center">Tabela 3: Evidências do fluxo de utilizar itens. Fonte: capturas da gravação de Final Fantasy VI produzida por Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa, 2026.</p>
 
 ##### Processo reconstruído
 
@@ -108,7 +108,7 @@ O modelo separa os participantes **Jogador** e **Sistema do jogo** em dois *pool
 
 ![Modelo BPMN do fluxo de equipar item](assets/subgrupo_01_bpmn_equipar.svg)
 
-<p align="center">Figura 1: Modelo BPMN do fluxo de equipar item. Fonte: Yogi Nam de Souza Barbosa, 2026.</p>
+<p align="center">Figura 1: Modelo BPMN do fluxo de equipar item. Fonte: Cibelly Lourenço Ferreira, 2026.</p>
 
 #### Utilizar item
 
@@ -120,7 +120,7 @@ O modelo separa os participantes **Jogador** e **Sistema do jogo** em dois *pool
 
 ## Referências
 
-BARBOSA, Yogi Nam de Souza. **Execução dos fluxos de equipar e utilizar itens em Final Fantasy VI** [gravações de tela]. 2026. Arquivos: `assets/subgrupo01-video-equipamentos.mp4` e `assets/subgrupo01-video-itens.mp4`.
+BARBOSA, Yogi Nam de Souza; FERREIRA, Cibelly Lourenço. **Execução dos fluxos de equipar e utilizar itens em Final Fantasy VI** [gravações de tela]. 2026. Arquivos: `assets/subgrupo01-video-equipamentos.mp4` e `assets/subgrupo01-video-itens.mp4`.
 
 BPMN.IO. **BPMN Editor: bpmn-js modeler demo**. Disponível em: <https://demo.bpmn.io/new>. Acesso em: 26 ago. 2026.
 
@@ -140,13 +140,15 @@ SQUARE ENIX. **Final Fantasy VI Pixel Remaster** [jogo eletrônico]. 2022. Dispo
 
 <p align="center">Tabela 4: Contribuição dos integrantes.</p>
 
+Os percentuais deverão ser recalculados após a inclusão dos fluxos pendentes.
+
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | |
-| 1.1 | 26/08/2026 | Documentação da engenharia reversa dos fluxos de equipar e utilizar itens | Yogi Nam de Souza Barbosa | |
-| 1.2 | 26/08/2026 | Inserção dos modelos BPMN | Yogi Nam de Souza Barbosa | |
+| 1.1 | 26/08/2026 | Documentação da engenharia reversa dos fluxos de equipar e utilizar itens | Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa | |
+| 1.2 | 26/08/2026 | Inserção dos modelos BPMN | Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa | |
 
 <p align="center">Tabela 5: Histórico de versão.</p>
 
