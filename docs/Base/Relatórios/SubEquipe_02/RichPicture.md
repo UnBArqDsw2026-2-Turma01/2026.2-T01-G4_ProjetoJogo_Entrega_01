@@ -18,7 +18,7 @@ A versão 1 do artefato foi construída durante a primeira reunião do subgrupo 
 
 Durante a reunião, o modelo de IA generativa Gemini (GOOGLE, 2026) foi utilizado para responder a pergunta: *Quais elementos principais um jogo RPG deve ter? Seja conciso e preciso*. A resposta dele foi utilizada pelos membros presentes na reunião para o levantamento dos principais requisitos não-funcionais e o uso desses requisitos não-funcionais na confecção do artefato.
 
-Posteriormente, foi criado um questionário (ver [...](...)) para validar o conteúdo gerado pela IA em busca de garantirmos a veracidade dos elementos principais levantados. 
+Posteriormente, foi criado um questionário (ver [Questionário](Questionario.md)) para validar o conteúdo gerado pela IA em busca de garantirmos a veracidade dos elementos principais levantados.
 
 ## Conteúdo
 
@@ -57,8 +57,8 @@ SERRANO, Milene. **Arquitetura e Desenho de Software: aula – Projeto e Desenho
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | Marcos Vinícius Gündel da Silva |
 | 1.1 | 25/08/2026 | Preenchimento das seções a partir da versão 1 do Artefato Gerado | Marcos Vinícius Gündel da Silva | |
-
+| 1.2 | 27/08/2026 | Adiciona referência ao questionário | Marcos Vinícius Gündel da Silva | |
 
 <p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
 
-Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Léxico](Lexico.md) · [NFR Framework](NFRFramework.md) · [BPMN](BPMN.md) · [IA Generativa](IAGenerativa.md)
+Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Léxico](Lexico.md) · [NFR Framework](NFRFramework.md) · [BPMN](BPMN.md) · [IA Generativa](IAGenerativa.md) · [Questionário](Questionario.md)

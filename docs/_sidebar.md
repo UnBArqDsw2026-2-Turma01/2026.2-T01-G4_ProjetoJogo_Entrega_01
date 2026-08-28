@@ -44,6 +44,8 @@
       - [NFR Framework](/Base/Relatórios/SubEquipe_02/NFRFramework.md)
       - [BPMN](/Base/Relatórios/SubEquipe_02/BPMN.md)
       - [IA Generativa](/Base/Relatórios/SubEquipe_02/IAGenerativa.md)
+      - Iniciativas Extras
+        - [Questionário](/Base/Relatórios/SubEquipe_02/Questionario.md)
     - SubEquipe 03
       - Artefatos Generalistas
         - [Visão do Foco](/Base/Relatórios/SubEquipe_03/ArtefatoGeneralista.md)
