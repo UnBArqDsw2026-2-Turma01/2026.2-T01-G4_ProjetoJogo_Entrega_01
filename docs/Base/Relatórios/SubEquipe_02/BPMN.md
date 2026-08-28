@@ -31,6 +31,8 @@ Para o levantamento do fluxo do Motor de Batalha, optou-se por **gravar uma part
 
 A gravação foi então percorrida quadro a quadro e, de cada etapa do fluxo, extraiu-se uma captura de tela em resolução nativa, reunidas na pasta `assets` deste documento. O uso de material próprio permitiu **controlar quais situações seriam observadas** — no caso, um início de batalha por emboscada, que evidencia a existência de tipos distintos de início.
 
+Em termos das técnicas descritas na literatura, trata-se de **análise dinâmica**: sem acesso ao código-fonte, o comportamento é recuperado observando o programa **em execução**, e não pela leitura estática de seus artefatos. Não houve descompilação, desassemblagem nem qualquer acesso ao binário do jogo: a observação limitou-se à interface exibida ao jogador, para fins exclusivamente acadêmicos.
+
 Sobre essas capturas foram listados os elementos de interface, registradas as transições de estado e inferidas as regras de negócio e as operações de leitura e escrita em base de dados apresentadas na próxima seção. Sempre que possível, as inferências foram **confrontadas com valores numéricos visíveis na própria tela** — por exemplo, a queda de 979 para 928 pontos de magia após o uso de um feitiço de custo 51 confirma o débito de PM no instante da execução. O fluxo assim recuperado foi o insumo para a modelagem BPMN em três frames apresentada adiante.
 
 ### O Coliseu
@@ -238,6 +240,24 @@ As capturas de tela a seguir foram extraídas de uma gravação de partida reali
 **Regras de Negócio**
 
 - O inimigo derrotado **não permanece** no mapa após a vitória, confirmando que a instância de combate é descartada ao final da batalha.
+
+**Síntese: entidades e atributos recuperados**
+
+Conforme orienta a literatura, a engenharia reversa não se encerra no inventário de detalhes: o tratamento dos fatos consiste em abstrair, a partir deles, informações em nível mais alto. Consolidando o observado nas nove telas, o domínio do Motor de Batalha compõe-se das seguintes entidades:
+
+| Entidade | Atributos evidenciados em tela |
+|---|---|
+| Personagem | nome, PV atual/máximo, PM atual/máximo, progresso da barra de ATB, EXP acumulada, nível, comandos disponíveis |
+| Magia | nome, custo em PM, elemento, descrição textual, nível dentro da família elemental |
+| Inimigo | nome, PV, recompensas concedidas ao ser derrotado |
+| Recompensa | Gil, EXP e PH de Magia |
+| Encontro | área associada, formação de inimigos, tipo de início |
+
+<p align="center">Tabela 1: Entidades e atributos recuperados do Motor de Batalha. Fonte: Autores, 2026.</p>
+
+**Limitações da observação**
+
+O fluxo foi recuperado a partir de **uma única batalha**, com um personagem e um inimigo. Permanecem, portanto, **não observados**: a ordem de turnos entre múltiplos personagens do grupo, o comportamento com múltiplos inimigos em campo, o encerramento por **fuga** e o encerramento por **derrota**. Os dois últimos aparecem no modelo BPMN por serem saídas necessárias do processo, mas foram inferidos a partir do gênero e das convenções do sistema legado, e não registrados em captura, o que os torna candidatos naturais a uma próxima rodada de observação.
 
 #### Coliseu
 
@@ -471,6 +491,21 @@ Para o levantamento do fluxo do Blitz, foi observado o vídeo "Final Fantasy 6- 
 
 O fluxo do Motor de Batalha foi modelado em três frames encadeados por eventos de link, além de um frame de legenda. A separação evita um diagrama único ilegível e isola o subprocesso de mistura de elementos químicos, que é a mecânica distintiva do projeto.
 
+É preciso distinguir dois momentos no modelo. Os **frames 1 e 3** são produto direto da engenharia reversa: reproduzem, em nível de processo, o comportamento observado no sistema legado. Já o **frame 2 é produto de reengenharia**. Conforme a literatura, enquanto a engenharia reversa se limita a analisar o sistema e criar uma representação dele, a reengenharia parte dessa representação para montar uma nova estrutura que cumpre a mesma função **sem ser mera cópia**. Foi o que se fez aqui: a representação recuperada do comando de magia — acionado pelo menu, abre lista intermediária, consome um recurso do personagem, produz efeito com elemento e potência e só então segue para a seleção de alvo — foi preservada como **estrutura**, e seu mecanismo interno foi substituído pela mistura de elementos químicos do G4_ProjetoJogo. O quadro a seguir explicita a transposição:
+
+| Estrutura recuperada de Final Fantasy VI | Reengenharia no G4_ProjetoJogo |
+|---|---|
+| Comando de magia no menu do personagem | Comando Misturar no menu do personagem |
+| Lista de magias já aprendidas | Bancada portátil de dois slots com os reagentes coletados |
+| Custo fixo em PM por feitiço | Consumo dos reagentes selecionados |
+| Efeito com elemento e potência definidos na tabela de feitiços | Composto com elemento, potência e status definidos na tabela de reações |
+| Magias aprendidas acumuladas via PH de Magia | Receitas descobertas acumuladas no Livro do Aventureiro |
+| Feitiço sempre bem-sucedido | Desfecho incerto: composto estável, tentativa malsucedida ou backfire |
+
+<p align="center">Tabela 2: Transposição por reengenharia do comando de magia para a mistura de elementos químicos. Fonte: Autores, 2026.</p>
+
+A última linha é a decisão de projeto mais relevante da transposição: introduzir incerteza no resultado cria o ciclo de descoberta e registro de receitas que sustenta a ênfase em Jogabilidade do projeto, ausente no sistema de origem.
+
 **Legenda da notação**
 
 ![Legenda da notação BPMN utilizada nos frames do Motor de Batalha](assets/motor_batalha_0_legenda.jpg)
@@ -496,6 +531,23 @@ Trata os três resultados possíveis: **vitória** (distribuição de EXP, GP e 
 
 ![BPMN do encerramento da batalha](assets/motor_batalha_3_encerramento.jpg)
 <p align="center">Figura 21: Modelo BPMN do frame 3 — encerramento da batalha. Fonte: Marcelo, 2026.</p>
+
+**Rastreabilidade entre a observação e o modelo**
+
+Cada decisão estrutural do frame 1 tem origem em uma evidência registrada na seção de engenharia reversa:
+
+| Evidência observada | Elemento correspondente no BPMN |
+|---|---|
+| Mensagem "Ataque por trás!" na abertura (Figura 3) | Gateway Tipo de início? com as saídas Normal e Preemptivo/Emboscada |
+| Barra em preenchimento enquanto o PV do personagem cai (Figura 4) | Tarefa Tick do ATB em laço e raia independente da IA Inimiga |
+| Menu com Ataque, Transe, Magia Dupla e Itens (Figura 5) | Gateway Comando? e suas ramificações |
+| Lista de magias com custo em PM (Figura 6) | Tarefa de escolha do efeito, anterior à seleção de alvo |
+| Queda de 979 para 928 PM após um feitiço de custo 51 (Figura 7) | Tarefa Consumir custo (PM / reagentes / item) |
+| Número de dano exibido sobre o alvo (Figura 7) | Tarefas Calcular efeito e Aplicar dano |
+| Sprite do inimigo removido do campo (Figura 8) | Gateway Alvo derrotado? e tarefa de remoção do campo |
+| Tela com Gil, EXP e PH de Magia (Figura 9) | Tarefa Distribuir EXP, GP e drops, no frame 3 |
+
+<p align="center">Tabela 3: Rastreabilidade entre as telas observadas e os elementos do modelo BPMN. Fonte: Autores, 2026.</p>
 
 **Quadro interativo**
 
@@ -549,7 +601,7 @@ WIKIPÉDIA. **Final Fantasy VI**. Disponível em: https://en.wikipedia.org/wiki/
 | Marcelo de Araújo Lopes | 25,0% |
 | Marcos Vinícius Gündel da Silva | 25,0% |
 
-<p align="center">Tabela 1: Contribuição dos integrantes.</p>
+<p align="center">Tabela 4: Contribuição dos integrantes.</p>
 
 ## Histórico de Versão
 
@@ -563,8 +615,8 @@ WIKIPÉDIA. **Final Fantasy VI**. Disponível em: https://en.wikipedia.org/wiki/
 | 1.5 | 27/08/2026 | Adição do BPMN do fluxo de Habilidades Exclusivas (Blitz) e criação da seção de Engenharia Reversa do Blitz | João Victor da Silva Batista de Farias | |
 | 1.6 | 27/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado às Habilidades Exclusivas (Blitz): metodologia, fluxo e referências | João Victor da Silva Batista de Farias | |
 | 1.7 | 27/08/2026 | Adição do BPMN do Motor de Batalha (ATB) em três frames com legenda da notação, quadro interativo do Miro e renumeração das figuras subsequentes | Marcelo de Araújo Lopes | |
-| 1.8 | 28/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado ao Motor de Batalha (ATB), com nove telas extraídas de gravação da equipe, elementos de interface, transições de estado, regras de negócio e base de dados inferida | Marcelo de Araújo Lopes | |
+| 1.8 | 28/08/2026 | Preenchimento da Engenharia Reversa do Motor de Batalha (ATB), com o quadro de reengenharia do frame 2 e a rastreabilidade com o BPMN | Marcelo de Araújo Lopes | |
 
-<p align="center">Tabela 2: Histórico de versão.</p>
+<p align="center">Tabela 5: Histórico de versão.</p>
 
 Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Léxico](Lexico.md) · [Rich Picture](RichPicture.md) · [NFR Framework](NFRFramework.md) · [IA Generativa](IAGenerativa.md)
