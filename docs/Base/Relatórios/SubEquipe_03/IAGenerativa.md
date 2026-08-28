@@ -10,13 +10,17 @@ Registrar, com senso crítico, como cada membro utilizou IA Generativa no trabal
 
 ## Metodologia
 
-A coleta dos pontos de vista partiu de um artefato visual inicial: um **mapa mental esqueleto**, produzido previamente pela subequipe, contendo apenas os tópicos-chave do conceito de jogo organizados por categoria (estilo, mecânicas, personagens, funcionalidades). A subequipe consolidou o entendimento coletivo diretamente na estrutura do mapa e, a partir dele, conduziu um brainstorming, detalhando verbalmente as regras de jogo (sistema de magia baseado em química, combate por turnos, criação de itens, tipos de área, regras de save) à medida que cada lacuna do mapa era identificada. Os pontos de vista individuais foram registrados por meio de um formulário elaborado pela SubEquipe_02.
+A entrega mínima deste foco são os pontos de vista de cada integrante sobre as lições aprendidas e o uso de IA Generativa. Para produzi-la, a subequipe separou dois procedimentos que respondem a perguntas diferentes: **como cada integrante avalia** a ferramenta, e **onde a ferramenta de fato entrou** na elaboração dos artefatos. O primeiro depende de relato individual; o segundo, de evidência verificável.
+
+Os pontos de vista foram coletados por meio de um formulário elaborado pela SubEquipe_02 e respondido individualmente por cada integrante, preservando a avaliação de cada um em vez de convergir para um texto único da subequipe. As respostas estão transcritas na Tabela 1, e a inclusão de cada uma consta no histórico de versão desta página, o que mantém o elo entre o ponto de vista e seu autor.
+
+O levantamento dos usos foi retrospectivo, a partir da revisão das conversas mantidas com a ferramenta durante a entrega e dos artefatos produzidos em cada etapa. Cada uso foi classificado pelo papel que a IA desempenhou, separando os casos em que ela apoiou apenas a **forma** (legibilidade e redação) daqueles em que interferiu no **conteúdo** (proposta de estrutura e revisão crítica de artefato pronto). Essa separação é o que permite afirmar, artefato por artefato, o que foi decidido pela subequipe e o que veio da ferramenta.
 
 A ferramenta utilizada em todos os usos relatados a seguir foi o **Claude**, da Anthropic, tanto pela interface do claude.ai quanto pelo Claude Code no terminal. A IA Generativa foi empregada em cinco momentos distintos ao longo da entrega, apresentados em ordem cronológica:
 
 1. **Validação do planejamento contra os documentos da disciplina**: antes da abertura das issues, a subequipe submeteu o próprio planejamento de sprints e de organização do repositório junto com as Diretrizes de Entrega e o Plano de Ensino, pedindo uma avaliação de aderência. O objetivo era confrontar o que havia sido planejado com o que a disciplina de fato exigia, e não pedir que a IA elaborasse o planejamento.
 
-2. **Refinamento visual do mapa mental**: a IA foi utilizada para reproduzir o rascunho construído pela subequipe no Excalidraw em uma diagramação mais legível. A estrutura e os nós definidos na reunião foram preservados integralmente, sem acréscimo, remoção ou renomeação de conceitos, conforme registrado na metodologia do [Mapa Mental](MapaMental.md).
+2. **Refinamento visual do mapa mental**: a IA foi utilizada para reproduzir o rascunho construído pela subequipe no Excalidraw em uma diagramação mais legível. A estrutura e os nós definidos na reunião foram preservados integralmente, sem acréscimo, remoção ou renomeação de conceitos, conforme registrado na metodologia do [Mapa Mental](MapaMental.md). Nessa mesma interação a ferramenta propôs, por conta própria, uma reestruturação dos ramos, que não foi acatada e é analisada adiante.
 
 3. **Modelagem BPMN**: cada subprocesso do jogo (loop principal, combate, criação de itens, exploração, livros colecionáveis, savepoint) foi modelado separadamente, com a IA decompondo o mapa mental em fluxos com eventos, gateways e raias de responsabilidade, além de indicar se as notações propostas pelos integrantes eram ou não aceitas na especificação. A revisão da documentação foi sempre necessária, pois a IA errava com frequência sobre o que podia ser representado no diagrama.
 
@@ -26,7 +30,7 @@ A ferramenta utilizada em todos os usos relatados a seguir foi o **Claude**, da 
 
 Dois episódios do processo ilustram o julgamento que a subequipe precisou exercer sobre o que a ferramenta devolvia.
 
-**O reagrupamento conceitual que não foi acatado.** Em uma das conversas de apoio à modelagem, a IA devolveu um reagrupamento do conceito do jogo em seis blocos, criando agrupamentos como "Sistema de magia" e "Progressão" e propondo uma lógica própria de encadeamento entre eles (Figura 1). A subequipe avaliou a proposta e não a incorporou: o artefato generalista preservou os quatro ramos definidos coletivamente em reunião, como mostra a versão consolidada do [Mapa Mental](MapaMental.md). O episódio é ilustrativo de um risco recorrente da ferramenta, que é reorganizar um artefato já estabilizado quando o pedido era apenas de apoio visual.
+**A reestruturação do mapa mental que não foi acatada.** Solicitado apenas o refinamento visual do rascunho, a IA foi além do pedido e devolveu um reagrupamento do conceito do jogo em seis blocos, criando agrupamentos como "Sistema de magia" e "Progressão" e propondo uma lógica própria de encadeamento entre eles (Figura 1). A subequipe avaliou a proposta e não a incorporou: o artefato generalista preservou os quatro ramos definidos coletivamente em reunião, como registra a metodologia do [Mapa Mental](MapaMental.md) e mostra a versão ali publicada. O episódio expõe um risco concreto do uso da ferramenta em modelagem, que é reestruturar um artefato já estabilizado quando o pedido era apenas de apoio à forma.
 
 **Os dois achados sobre o SIG.** A revisão anterior à publicação apontou duas fragilidades no texto que acompanhava o SIG:
 
@@ -57,6 +61,16 @@ Um padrão recorrente em todo o processo foi que, a cada entrega de diagrama, a 
 
 <p align="center">Tabela 1: Pontos de vista dos integrantes sobre o uso de IA Generativa. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
+### Rastreabilidade e Elos com Outros Artefatos
+
+Cada uso relatado tem contrapartida verificável em um artefato desta entrega, o que permite aferir o alcance real da ferramenta:
+
+- **[Mapa Mental](MapaMental.md)** — a IA atuou no refinamento visual do rascunho do Excalidraw. A reestruturação que propôs por conta própria (Figura 1) não foi acatada, e o artefato publicado preserva os quatro ramos definidos em reunião.
+- **[NFR Framework](NFRFramework.md)** — a revisão anterior à publicação originou a distinção entre as heurísticas de Nielsen e a literatura de jogos na origem dos sub-NFRs, e a discussão textual do trade-off entre Flexibilidade e Estética Minimalista.
+- **[BPMN](BPMN.md)** — a decomposição em subprocessos e a verificação da notação apoiaram a modelagem dos fluxos, sempre com revisão da subequipe (Figura 2).
+
+As reuniões que precederam e orientaram esses usos estão registradas nas atas [01](/Atas/AtaSub03_01.md), [02](/Atas/AtaSub03_02.md), [03](/Atas/AtaSub03_03.md), [04](/Atas/AtaSub03_04.md) e [05](/Atas/AtaSub03_05.md) da subequipe.
+
 ## Referências
 
 BRAGA, Rosana T. Vaccare. *Engenharia Reversa e Reengenharia*. Material adaptado a partir do concedido pela Profa. Rosângela Penteado, disciplina SCE 186 – Engenharia de Software (DC - UFSCar).
@@ -64,6 +78,8 @@ BRAGA, Rosana T. Vaccare. *Engenharia Reversa e Reengenharia*. Material adaptado
 NIELSEN, Jakob. **10 Usability Heuristics for User Interface Design**. Nielsen Norman Group, 1994. Disponível em: https://www.nngroup.com/articles/ten-usability-heuristics/. Acesso em: 26 ago. 2026.
 
 OBJECT MANAGEMENT GROUP. *BPMN Specification - Business Process Model and Notation*. Disponível em: <https://www.bpmn.org/>. Acesso em: 27 ago. 2026.
+
+SERRANO, Milene. **Organização do Projeto & Diretrizes de Entrega**. Universidade de Brasília, FGA, 2026.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -88,6 +104,7 @@ OBJECT MANAGEMENT GROUP. *BPMN Specification - Business Process Model and Notati
 | 1.6 | 28/08/2026 | Adição das legendas e fontes das figuras do registro de uso de IA e correção da subequipe citada na descrição | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 | 1.7 | 28/08/2026 | Reescrita da metodologia com os cinco usos de IA Generativa, incluindo a revisão do SIG, e remoção do link do registro externo | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 | 1.8 | 28/08/2026 | Correção do relato sobre o mapa mental, que atribuía à IA uma reorganização de ramos não acatada pela subequipe, em contradição com a metodologia do Mapa Mental | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 1.9 | 28/08/2026 | Refinamento da metodologia conforme as diretrizes da disciplina e inclusão da seção de rastreabilidade e elos com outros artefatos | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 
 <p align="center">Tabela 3: Histórico de versão. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
