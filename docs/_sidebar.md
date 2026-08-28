@@ -17,6 +17,7 @@
   - [Subgrupo 02](/Atas/SubEquipe_02.md)
     - [Ata 01 — 19/08/2026](/Atas/AtaSub02_01.md)
   - [Subgrupo 03](/Atas/SubEquipe_03.md)
+    - [Ata 01 — 17/08/2026](/Atas/AtaSub03_01.md)
     - [Ata 02 — 19/08/2026](/Atas/AtaSub03_02.md)
     - [Ata 03 — 24/08/2026](/Atas/AtaSub03_03.md)
     - [Ata 04 — 25/08/2026](/Atas/AtaSub03_04.md)
