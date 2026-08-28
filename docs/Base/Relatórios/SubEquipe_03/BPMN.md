@@ -72,25 +72,25 @@ Abaixo estão apresentados os modelos BPMN dos fluxos levantados pela subequipe,
 O fluxo principal dita a navegação entre a exploração do mundo e as instâncias de salvamento ou combate.
 
 <img src="Base/Relatórios/SubEquipe_03/assets/Captura de tela 2026-08-27 211134.png" width="100%" alt="Modelo BPMN - Exploração">
-<p align="center">Figura 1: Modelo BPMN do fluxo principal de Exploração e transição para Combate. Fonte: Autores, 2026.</p>
+<p align="center">Figura 1: Modelo BPMN do fluxo principal de Exploração e transição para Combate. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 #### 2. Subprocesso: Exploração do Mundo
 Detalha as ações possíveis durante a exploração ativa, como a movimentação livre, detecção de encontros, interação com NPCs e o acesso aos registros (Livro).
 
 <img src="Base/Relatórios/SubEquipe_03/assets/Captura de tela 2026-08-27 211214.png" width="100%" alt="Modelo BPMN - Exploração do Mundo">
-<p align="center">Figura 2: Modelo BPMN detalhando as atividades na Exploração do Mundo. Fonte: Autores, 2026.</p>
+<p align="center">Figura 2: Modelo BPMN detalhando as atividades na Exploração do Mundo. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 #### 3. Subprocesso: Combate em Turnos
 Mapeamento do motor de batalha em turnos, com destaque para a mecânica de misturar elementos, gerar efeitos elementais, calcular fraquezas, imunidades e a recepção de dano ou estados.
 
 <img src="Base/Relatórios/SubEquipe_03/assets/Captura de tela 2026-08-27 211242.png" width="100%" alt="Modelo BPMN - Combate em Turnos">
-<p align="center">Figura 3: Modelo BPMN do fluxo de Combate em turnos e mecânica de efeitos. Fonte: Autores, 2026.</p>
+<p align="center">Figura 3: Modelo BPMN do fluxo de Combate em turnos e mecânica de efeitos. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 #### 4. Subprocesso: Livro (Registro)
 O processo de validação, registro de livros coletados no inventário/banco de dados e o aprendizado contínuo (combinações e histórias).
 
 <img src="Base/Relatórios/SubEquipe_03/assets/Captura de tela 2026-08-27 211256.png" width="100%" alt="Modelo BPMN - Livro">
-<p align="center">Figura 4: Modelo BPMN do fluxo de coleta e registro no Livro. Fonte: Autores, 2026.</p>
+<p align="center">Figura 4: Modelo BPMN do fluxo de coleta e registro no Livro. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 ## Referências
 
@@ -106,19 +106,20 @@ SQUARE ENIX. **Final Fantasy VI Pixel Remaster**. [Vídeos de gameplay capturado
 | Pedro Teixeira Moriel Sanchez | 33,3% |
 | Renan Pereira Reis | 33,3% |
 
-<p align="center">Tabela 1: Contribuição dos integrantes. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 1: Contribuição dos integrantes. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
-| 1.0 | 27/08/2026 | Criação da página base, adaptação da metodologia e adição dos modelos BPMN (Exploração, Combate, Mundo e Livro) | Pedro Teixeira Moriel Sanchez | |
-| 1.1 | 27/08/2026 | Adição dos achados da engenharia reversa com as análises dos vídeos (Exploração, Combate, Menus) | Pedro Teixeira Moriel Sanchez | |
-| 1.2 | 27/08/2026 | Correção dos caminhos das imagens e vídeos para o diretório `assets/` | Pedro Teixeira Moriel Sanchez | |
-| 1.3 | 27/08/2026 | Alteração da forma de fazer o display dos vídeos | Pedro Teixeira Moriel Sanchez | |
-| 1.4 | 27/08/2026 | Centralização e redimensionamento das miniaturas de vídeo | Pedro Teixeira Moriel Sanchez | |
+| 1.0 | 27/08/2026 | Criação da página base, adaptação da metodologia e adição dos modelos BPMN (Exploração, Combate, Mundo e Livro) | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 1.1 | 27/08/2026 | Adição dos achados da engenharia reversa com as análises dos vídeos (Exploração, Combate, Menus) | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 1.2 | 27/08/2026 | Correção dos caminhos das imagens e vídeos para o diretório `assets/` | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 1.3 | 27/08/2026 | Alteração da forma de fazer o display dos vídeos | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 1.4 | 27/08/2026 | Centralização e redimensionamento das miniaturas de vídeo | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 | 1.5 | 28/08/2026 | Correção do caminho das imagens nas tags `<img>` (raiz do site) para renderizarem no Docsify local e no GitHub Pages | Marcos Vinícius Gündel da Silva | |
+| 1.6 | 28/08/2026 | Registro da autoria conjunta da subequipe nas fontes das figuras e tabelas e no histórico de versão | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 
-<p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 2: Histórico de versão. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
 Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Mapa Mental](MapaMental.md) · [NFR Framework](NFRFramework.md) · [IA Generativa](IAGenerativa.md)
