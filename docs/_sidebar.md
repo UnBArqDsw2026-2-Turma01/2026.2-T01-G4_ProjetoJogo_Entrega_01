@@ -29,6 +29,7 @@
     - [2. Define](/Base/1.1.2.Define.md)
     - [3. Sketch](/Base/1.1.3.Sketch.md)
     - [4. Decide](/Base/1.1.4.Decide.md)
+  - [Metodologia de Trabalho no GitHub](/Base/1.3.MetodologiaGitHub.md)
 
   - Relatórios
     - SubEquipe 01
