@@ -29,9 +29,6 @@
     - [2. Define](/Base/1.1.2.Define.md)
     - [3. Sketch](/Base/1.1.3.Sketch.md)
     - [4. Decide](/Base/1.1.4.Decide.md)
-    - [5. Prototype](/Base/1.1.5.Prototype.md)
-    - [6. Validate](/Base/1.1.6.Validate.md)
-  - [Metodologia de Trabalho no GitHub](/Base/1.3.MetodologiaGitHub.md)
 
   - Relatórios
     - SubEquipe 01
