@@ -22,6 +22,14 @@ Modelar um requisito não funcional do projeto por meio de um SIG, decompondo o 
 
 <p align="center">Figura 1: Versão 1 SIG na notação NFR Framework. Fonte: LOPES, Marcelo (2026).</p>
 
+### Versão 2
+
+<p align="center">
+  <img src="Base/Relatórios/SubEquipe_02/assets/subequipe02_sig_nfr_v2.png" alt="SIG na notação NFR Framework do G4_ProjetoJogo - Versão 2" width="100%">
+</p>
+
+<p align="center">Figura 2: Versão 2 SIG na notação NFR Framework. Fonte: SILVA, Marcos; FARIAS, João; COSTA, João (2026).</p>
+
 ## Referências
 
 *Listar as referências utilizadas, em ordem alfabética.*
@@ -30,12 +38,12 @@ Modelar um requisito não funcional do projeto por meio de um SIG, decompondo o 
 
 | Nome | % de Contribuição |
 |------|-------------------|
-| João Igor Pereira da Costa | 0 |
-| João Victor da Silva Batista de Farias | 0 |
-| Marcelo de Araújo Lopes | 100 |
-| Marcos Vinícius Gündel da Silva | 0 |
+| João Igor Pereira da Costa | 25% |
+| João Victor da Silva Batista de Farias | 25% |
+| Marcelo de Araújo Lopes | 25% |
+| Marcos Vinícius Gündel da Silva | 25% |
 
-<p align="center">Tabela 1: Contribuição dos integrantes. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
 ## Histórico de Versão
 
@@ -43,7 +51,8 @@ Modelar um requisito não funcional do projeto por meio de um SIG, decompondo o 
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | Marcos Vinícius Gündel da Silva |
 | 1.1 | 23/08/2026 | Elaboração da versão 1 do SIG na notação do NFR Framework | Marcelo de Araújo Lopes | |
+| 1.2 | 28/08/2026 | Elaboração da versão 2 do SIG na notação do NFR Framework | Marcos Vinícius Gündel da Silva | |
 
-<p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 2: Histórico de versão.</p>
 
 Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Léxico](Lexico.md) · [Rich Picture](RichPicture.md) · [BPMN](BPMN.md) · [IA Generativa](IAGenerativa.md)
