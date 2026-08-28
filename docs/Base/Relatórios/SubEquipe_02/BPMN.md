@@ -45,6 +45,10 @@ Para o levantamento do fluxo das Habilidades Exclusivas, foi realizada uma pesqu
 
 ### Processo de Engenharia Reversa Aplicado
 
+#### Motor de Batalha (ATB)
+
+*A ser preenchido.*
+
 #### Coliseu
 
 As capturas de tela a seguir, extraídas do vídeo do canal carnage panda (CARNAGE PANDA, 2022), documentam a sequência completa do fluxo de aposta do Coliseu. Para cada uma, são listados os elementos de interface, as transições de estado e as regras de negócio identificados naquela etapa específica.
@@ -350,12 +354,12 @@ WIKIPÉDIA. **Final Fantasy VI**. Disponível em: https://en.wikipedia.org/wiki/
 
 | Nome | % de Contribuição |
 |------|-------------------|
-| João Igor Pereira da Costa | 25,0 |
-| João Victor da Silva Batista de Farias | 25,0 |
-| Marcelo de Araújo Lopes | 25,0 |
-| Marcos Vinícius Gündel da Silva | 25,0 |
+| João Igor Pereira da Costa | 25,0% |
+| João Victor da Silva Batista de Farias | 25,0% |
+| Marcelo de Araújo Lopes | 25,0% |
+| Marcos Vinícius Gündel da Silva | 25,0% |
 
-<p align="center">Tabela 1: Contribuição dos integrantes. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
 ## Histórico de Versão
 
@@ -370,6 +374,6 @@ WIKIPÉDIA. **Final Fantasy VI**. Disponível em: https://en.wikipedia.org/wiki/
 | 1.6 | 27/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado às Habilidades Exclusivas (Blitz): metodologia, fluxo e referências | João Victor da Silva Batista de Farias | |
 | 1.7 | 27/08/2026 | Adição do BPMN do Motor de Batalha (ATB) em três frames com legenda da notação, quadro interativo do Miro e renumeração das figuras subsequentes | Marcelo de Araújo Lopes | |
 
-<p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 2: Histórico de versão.</p>
 
 Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Léxico](Lexico.md) · [Rich Picture](RichPicture.md) · [NFR Framework](NFRFramework.md) · [IA Generativa](IAGenerativa.md)

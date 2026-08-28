@@ -316,13 +316,24 @@ Cada termo inclui **Noção**, **Impacto** e, quando aplicável, **Sinônimos**.
 
 SERRANO, Milene; SERRANO, Maurício. Requisitos – Aula 10.
 
+## Nível de Contribuição dos Integrantes
+
+| Nome | % de Contribuição |
+|------|-------------------|
+| João Igor Pereira da Costa | 0,0% |
+| João Victor da Silva Batista de Farias | 0,0% |
+| Marcelo de Araújo Lopes | 100,0% |
+| Marcos Vinícius Gündel da Silva | 0,0% |
+
+<p align="center">Tabela 1: Contribuição dos integrantes.</p>
+
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação do Léxico do domínio (LAL) | Marcelo de Araújo Lopes | |
-| 2.0 | 22/08/2026 | Remoção da mecânica de desafio matemático e inclusão dos termos de química e exploração, conforme o Mapa Mental | Marcelo de Araújo Lopes | |
+| 1.1 | 22/08/2026 | Remoção da mecânica de desafio matemático e inclusão dos termos de química e exploração, conforme o Mapa Mental | Marcelo de Araújo Lopes | |
 
-<p align="center">Tabela 1: Histórico de versão. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 2: Histórico de versão.</p>
 
 Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Rich Picture](RichPicture.md) · [NFR Framework](NFRFramework.md) · [BPMN](BPMN.md) · [IA Generativa](IAGenerativa.md)

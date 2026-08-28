@@ -28,11 +28,17 @@ Posteriormente, foi criado um questionário (ver [Questionário](Questionario.md
   <img src="Base/Relatórios/SubEquipe_02/assets/subequipe02_rich_picture_v1.jpg" alt="Rich Picture do G4_ProjetoJogo - Versão 1" width="100%">
 </p>
 
-<p align="center">Figura 1: Versão 1 Rich Picture do G4_ProjetoJogo. Fonte: SILVA, Marcos; FARIAS, João; COSTA, João (2026).</p>
+<p align="center">Figura 1: Versão 1 Rich Picture do G4_ProjetoJogo. Fonte: COSTA, João; FARIAS, João; SILVA, Marcos (2026).</p>
 
 ### Versão 2
 
 Na versão 2, o modelo foi reorganizado em torno do **Jogador** como ator central e passou a explicitar a mecânica que dá identidade ao jogo: as **contas matemáticas** acopladas ao sistema de **Combate**. Foram detalhados os elementos do mundo (Mapa, Vila, NPC, Ferreiro), as entidades de oposição (Monstro e Boss) e as recompensas geradas por elas (XP, Itens, Tesouros), além do **Livro do jogador** como recurso de tutorial.
+
+<p align="center">
+  <img src="Base/Relatórios/SubEquipe_02/assets/subequipe02_rich_picture_v2.jpg" alt="Rich Picture do G4_ProjetoJogo - Versão 1" width="100%">
+</p>
+
+<p align="center">Figura 2: Versão 2 do Rich Picture do G4_ProjetoJogo. Fonte: LOPES, Marcelo (2026).</p>
 
 O artefato é apresentado como quadro ao vivo no Miro: é possível navegar (arrastar e dar zoom) sem sair desta página.
 
@@ -43,8 +49,6 @@ O artefato é apresentado como quadro ao vivo no Miro: é possível navegar (arr
     frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen>
   </iframe>
 </div>
-
-<p align="center">Figura 2: Versão 2 Rich Picture do G4_ProjetoJogo, em quadro interativo. Fonte: Marcelo, 2026.</p>
 
 <p align="center">Abrir em nova aba: <a href="https://miro.com/app/board/uXjVHuYvEow=/?focusWidget=3458764681841538787" target="_blank" rel="noopener">Arquitetura Grupo 4 — Miro</a>.</p>
 
@@ -62,22 +66,22 @@ SERRANO, Milene. **Arquitetura e Desenho de Software: aula – Projeto e Desenho
 
 | Nome | % de Contribuição |
 |------|-------------------|
-| João Igor Pereira da Costa | 25,0 |
-| João Victor da Silva Batista de Farias | 25,0 |
-| Marcelo de Araújo Lopes | 25,0 |
-| Marcos Vinícius Gündel da Silva | 25,0 |
+| João Igor Pereira da Costa | 25,0% |
+| João Victor da Silva Batista de Farias | 25,0% |
+| Marcelo de Araújo Lopes | 25,0% |
+| Marcos Vinícius Gündel da Silva | 25,0% |
 
-<p align="center">Tabela 1: Contribuição dos integrantes. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
-| 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | Marcos Vinícius Gündel da Silva |
-| 1.1 | 25/08/2026 | Preenchimento das seções a partir da versão 1 do Artefato Gerado | Marcos Vinícius Gündel da Silva | Marcelo de Araújo Lopes |
-| 1.2 | 27/08/2026 | Adição da versão 2 do Rich Picture, com quadro interativo do Miro, e atualização da tabela de contribuição | Marcelo de Araújo Lopes | |
-| 1.3 | 27/08/2026 | Adiciona referência ao questionário | Marcos Vinícius Gündel da Silva | |
+| 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes |  |
+| 1.1 | 25/08/2026 | Elaboração do Rich Picture e preenchimento das seções de Metodologia e Referências | João Igor Pereira da Costa<br><br>João Victor da Silva Batista de Farias<br><br> Marcos Vinícius Gündel da Silva |  |
+| 1.2 | 27/08/2026 | Elaboração da versão 2 do Rich Picture | Marcelo de Araújo Lopes |  |
+| 1.3 | 27/08/2026 | Adição de referência ao questionário (elo entre artefatos) | João Igor Pereira da Costa<br><br>João Victor da Silva Batista de Farias<br><br> Marcos Vinícius Gündel da Silva |  |
 
-<p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 2: Histórico de versão.</p>
 
 Ver também: [Artefato Generalista](ArtefatoGeneralista.md) · [Léxico](Lexico.md) · [NFR Framework](NFRFramework.md) · [BPMN](BPMN.md) · [IA Generativa](IAGenerativa.md) · [Questionário](Questionario.md)
