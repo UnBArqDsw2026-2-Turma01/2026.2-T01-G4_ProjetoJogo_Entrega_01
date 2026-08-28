@@ -69,7 +69,7 @@ Artefatos: [Artefato Generalista](/Base/Relatórios/SubEquipe_02/ArtefatoGeneral
 
 <p align="center">Tabela 4: Integrantes do Subgrupo 03. Fonte: Autores, 2026.</p>
 
-Artefatos: [Artefato Generalista](/Base/Relatórios/SubEquipe_03/ArtefatoGeneralista.md) · [Rich Picture](/Base/Relatórios/SubEquipe_03/RichPicture.md) · [NFR Framework](/Base/Relatórios/SubEquipe_03/NFRFramework.md) · [BPMN](/Base/Relatórios/SubEquipe_03/BPMN.md) · [IA Generativa](/Base/Relatórios/SubEquipe_03/IAGenerativa.md)
+Artefatos: [Artefato Generalista](/Base/Relatórios/SubEquipe_03/ArtefatoGeneralista.md) · [Mapa Mental](/Base/Relatórios/SubEquipe_03/MapaMental.md) · [NFR Framework](/Base/Relatórios/SubEquipe_03/NFRFramework.md) · [BPMN](/Base/Relatórios/SubEquipe_03/BPMN.md) · [IA Generativa](/Base/Relatórios/SubEquipe_03/IAGenerativa.md)
 
 ## Navegação
 

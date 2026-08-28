@@ -47,7 +47,7 @@
     - SubEquipe 03
       - Artefatos Generalistas
         - [Visão do Foco](/Base/Relatórios/SubEquipe_03/ArtefatoGeneralista.md)
-        - [Rich Picture](/Base/Relatórios/SubEquipe_03/RichPicture.md)
+        - [Mapa Mental](/Base/Relatórios/SubEquipe_03/MapaMental.md)
       - [NFR Framework](/Base/Relatórios/SubEquipe_03/NFRFramework.md)
       - [BPMN](/Base/Relatórios/SubEquipe_03/BPMN.md)
       - [IA Generativa](/Base/Relatórios/SubEquipe_03/IAGenerativa.md)
