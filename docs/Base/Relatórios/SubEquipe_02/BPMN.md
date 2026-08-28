@@ -10,7 +10,7 @@ Modelar em BPMN um fluxo identificado durante o processo de Engenharia Reversa, 
 
 ## Metodologia
 
-A Engenharia Reversa foi conduzida com base na literatura *(BRAGA; PENTEADO, [s. d.])*, que a define como o "processo de exame e compreensão do software existente, para recapturar ou recriar o projeto e decifrar os requisitos atualmente implementados pelo sistema, apresentando-os em um nível ou grau mais alto de abstração". Como a subequipe não possui acesso ao código-fonte do jogo, foi adotada uma abordagem de Engenharia Reversa por observação da caixa-preta (*black-box*): assistir ao software em execução, catalogar sistematicamente os elementos de interface e as transições de tela, e inferir as regras de negócio a partir do comportamento observado, etapas detalhadas na seção [Processo de Engenharia Reversa Aplicado](#processo-de-engenharia-reversa-aplicado).
+A Engenharia Reversa foi conduzida com base na literatura (BRAGA; PENTEADO, [s. d.]), que a define como o "processo de exame e compreensão do software existente, para recapturar ou recriar o projeto e decifrar os requisitos atualmente implementados pelo sistema, apresentando-os em um nível ou grau mais alto de abstração". Como a subequipe não possui acesso ao código-fonte do jogo, foi adotada uma abordagem de Engenharia Reversa por observação da caixa-preta (black-box): assistir ao software em execução, catalogar sistematicamente os elementos de interface e as transições de tela, e inferir as regras de negócio a partir do comportamento observado, etapas detalhadas na seção [Processo de Engenharia Reversa Aplicado](#processo-de-engenharia-reversa-aplicado).
 
 O jogo escolhido pela subequipe foi **Final Fantasy VI**. Os sistemas do jogo a serem modelados em BPMN foram divididos entre os quatro integrantes conforme definido em conversa da equipe (Figura 1):
 
@@ -27,7 +27,7 @@ Cada integrante aplica individualmente o processo de Engenharia Reversa descrito
 
 ### Motor de Batalha (ATB)
 
-Para o levantamento do fluxo do Motor de Batalha, optou-se por **gravar uma partida do próprio jogo** em vez de recorrer a vídeos de terceiros. Foi utilizada uma gravação produzida pela equipe, na qual se registra um ciclo completo de batalha na versão *Pixel Remaster* em português: o encontro no mapa, o preenchimento da barra de ATB, a escolha de comando, a execução de uma magia, a derrota do inimigo, a tela de recompensa e o retorno à exploração.
+Para o levantamento do fluxo do Motor de Batalha, optou-se por **gravar uma partida do próprio jogo** em vez de recorrer a vídeos de terceiros. Foi utilizada uma gravação produzida pela equipe, na qual se registra um ciclo completo de batalha na versão Pixel Remaster em português: o encontro no mapa, o preenchimento da barra de ATB, a escolha de comando, a execução de uma magia, a derrota do inimigo, a tela de recompensa e o retorno à exploração.
 
 A gravação foi então percorrida quadro a quadro e, de cada etapa do fluxo, extraiu-se uma captura de tela em resolução nativa, reunidas na pasta `assets` deste documento. O uso de material próprio permitiu **controlar quais situações seriam observadas** — no caso, um início de batalha por emboscada, que evidencia a existência de tipos distintos de início.
 
@@ -35,7 +35,7 @@ Sobre essas capturas foram listados os elementos de interface, registradas as tr
 
 ### O Coliseu
 
-Para o levantamento do fluxo do Coliseu, foi assistido o vídeo *"Final Fantasy 6 Pixel Remaster #41 - Coliseum"* (CARNAGE PANDA, 2022), do canal **carnage panda**, no YouTube. A partir do vídeo, foram extraídas capturas de tela de cada decisão e transição do fluxo de aposta do Coliseu, reunidas na pasta `assets` deste documento e utilizadas como evidência para a listagem dos elementos de interface, o registro das transições de estado e a inferência das regras de negócio apresentadas na próxima seção.
+Para o levantamento do fluxo do Coliseu, foi assistido o vídeo "Final Fantasy 6 Pixel Remaster #41 - Coliseum" (CARNAGE PANDA, 2022), do canal **carnage panda**, no YouTube. A partir do vídeo, foram extraídas capturas de tela de cada decisão e transição do fluxo de aposta do Coliseu, reunidas na pasta `assets` deste documento e utilizadas como evidência para a listagem dos elementos de interface, o registro das transições de estado e a inferência das regras de negócio apresentadas na próxima seção.
 
 ### Sistema de Magicites
 
@@ -43,7 +43,7 @@ Para a obtenção dos recursos necessários, foi utilizado como fonte o [vídeo]
 
 ### Habilidades Exclusivas
 
-Para o levantamento do fluxo das Habilidades Exclusivas, foi realizada uma pesquisa sobre o *Blitz* na Wikipédia do jogo, bem como a observação do vídeo *"Final Fantasy 6- How to do Blitz"* (KITTYFRIESVG, [24 de abril de 2010]) e de um playthrough completo do jogo (TYKIROU, 2021), ambos no YouTube. A partir desses materiais, foi identificado o fluxo de uso da habilidade em combate, detalhado na próxima seção.
+Para o levantamento do fluxo das Habilidades Exclusivas, foi realizada uma pesquisa sobre o Blitz na Wikipédia do jogo, bem como a observação do vídeo "Final Fantasy 6- How to do Blitz" (KITTYFRIESVG, [24 de abril de 2010]) e de um playthrough completo do jogo (TYKIROU, 2021), ambos no YouTube. A partir desses materiais, foi identificado o fluxo de uso da habilidade em combate, detalhado na próxima seção.
 
 ## Conteúdo
 
@@ -254,8 +254,8 @@ As capturas de tela a seguir, extraídas do vídeo do canal carnage panda (CARNA
 
 **Transições de Estado**
 
-- A caixa de pergunta do guarda **não é ocultada** quando o menu de respostas surge: as duas caixas ficam visíveis simultaneamente, caracterizando uma sobreposição (*overlay*) e não uma substituição de tela.
-- Ao clicar em "Could you explain?", o software exibe uma explicação textual das mecânicas do Coliseu e, em seguida, **retorna** à mesma pergunta inicial do guarda, configurando um laço (*loop*) no fluxo.
+- A caixa de pergunta do guarda **não é ocultada** quando o menu de respostas surge: as duas caixas ficam visíveis simultaneamente, caracterizando uma sobreposição (overlay) e não uma substituição de tela.
+- Ao clicar em "Could you explain?", o software exibe uma explicação textual das mecânicas do Coliseu e, em seguida, **retorna** à mesma pergunta inicial do guarda, configurando um laço (loop) no fluxo.
 - Ao clicar em "No thanks.", o fluxo é encerrado e a tela retorna ao jogo normal, fora do Coliseu.
 - Ao clicar em "With pleasure!", a tela do guarda é substituída integralmente pela tela de seleção de item para aposta (Figura 3).
 
@@ -366,7 +366,7 @@ As capturas de tela a seguir, extraídas do vídeo do canal carnage panda (CARNA
 
 #### Sistema de Magicite em Final Fantasy VI
 
-O sistema de **Magicite** de *Final Fantasy VI* está diretamente relacionado aos **Espers**, permitindo que os personagens aprendam magias, recebam bônus permanentes de atributos e invoquem os respectivos Espers durante as batalhas.
+O sistema de **Magicite** de Final Fantasy VI está diretamente relacionado aos **Espers**, permitindo que os personagens aprendam magias, recebam bônus permanentes de atributos e invoquem os respectivos Espers durante as batalhas.
 
 **O que é Magicite?**
 
@@ -450,20 +450,20 @@ Com tempo suficiente e um planejamento adequado, é possível fazer com que dife
 
 #### Blitz
 
-Para o levantamento do fluxo do *Blitz*, foi observado o vídeo *"Final Fantasy 6- How to do Blitz"* (KITTYFRIESVG, [s. d.]), no qual a habilidade é selecionada em combate, e o playthrough completo do jogo (TYKIROU, 2021).
+Para o levantamento do fluxo do Blitz, foi observado o vídeo "Final Fantasy 6- How to do Blitz" (KITTYFRIESVG, [s. d.]), no qual a habilidade é selecionada em combate, e o playthrough completo do jogo (TYKIROU, 2021).
 
 **Elementos de Interface**
 
-- Menu de comandos do combate, com a opção *Blitz* selecionável para o personagem.
+- Menu de comandos do combate, com a opção Blitz selecionável para o personagem.
 
 **Transições de Estado**
 
-- Ao selecionar a opção *Blitz* durante o combate, o sistema revela que a habilidade é executada por meio de uma sequência de direções a ser inserida no direcional.
-- No exemplo observado, a sequência exigida para a execução foi **esquerda, direita, esquerda** (*left, right, left*).
+- Ao selecionar a opção Blitz durante o combate, o sistema revela que a habilidade é executada por meio de uma sequência de direções a ser inserida no direcional.
+- No exemplo observado, a sequência exigida para a execução foi **esquerda, direita, esquerda** (left, right, left).
 
 **Regras de Negócio**
 
-- O *Blitz* é uma habilidade exclusiva do personagem Sabin, executada pela entrada de uma sequência direcional correta, em vez da seleção convencional de alvo de um comando.
+- O Blitz é uma habilidade exclusiva do personagem Sabin, executada pela entrada de uma sequência direcional correta, em vez da seleção convencional de alvo de um comando.
 
 ### Modelagem BPMN
 
@@ -485,7 +485,7 @@ Diagrama com três raias: **Jogador**, **Motor de Batalha (ATB)** e **IA Inimiga
 
 **Frame 2 — Subprocesso: Mistura de Elementos Químicos**
 
-Detalha o subprocesso acionado pelo comando *Misturar*: abertura da bancada portátil de dois slots, escolha dos reagentes, consulta à tabela de reações e os desfechos possíveis — composto estável com registro de receita nova no Livro do Aventureiro, tentativa malsucedida com reagentes gastos, ou *backfire* com dano no lançador.
+Detalha o subprocesso acionado pelo comando Misturar: abertura da bancada portátil de dois slots, escolha dos reagentes, consulta à tabela de reações e os desfechos possíveis — composto estável com registro de receita nova no Livro do Aventureiro, tentativa malsucedida com reagentes gastos, ou backfire com dano no lançador.
 
 ![BPMN do subprocesso de mistura de elementos químicos](assets/motor_batalha_2_mistura_quimica.jpg)
 <p align="center">Figura 20: Modelo BPMN do frame 2 — subprocesso de mistura de elementos químicos. Fonte: Marcelo, 2026.</p>
@@ -559,7 +559,7 @@ WIKIPÉDIA. **Final Fantasy VI**. Disponível em: https://en.wikipedia.org/wiki/
 | 1.1 | 25/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado ao Coliseu (FF6): metodologia e, para cada tela do fluxo, os elementos de interface, as transições de estado e as regras de negócio identificados | Marcos Vinícius Gündel da Silva | |
 | 1.2 | 26/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado ao Sistema de Magicites (FF6): metodologia e conteúdo gerado | João Igor Pereira da Costa | |
 | 1.3 | 26/08/2026 | Adição dos comandos do Banco de Dados Inferido por tela no processo de Engenharia Reversa do Coliseu | Marcos Vinícius Gündel da Silva | |
-| 1.4 | 26/08/2026 | Adição do BPMN do fluxo do Coliseu e *placeholders* para os outros sistemas | Marcos Vinícius Gündel da Silva | |
+| 1.4 | 26/08/2026 | Adição do BPMN do fluxo do Coliseu e placeholders para os outros sistemas | Marcos Vinícius Gündel da Silva | |
 | 1.5 | 27/08/2026 | Adição do BPMN do fluxo de Habilidades Exclusivas (Blitz) e criação da seção de Engenharia Reversa do Blitz | João Victor da Silva Batista de Farias | |
 | 1.6 | 27/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado às Habilidades Exclusivas (Blitz): metodologia, fluxo e referências | João Victor da Silva Batista de Farias | |
 | 1.7 | 27/08/2026 | Adição do BPMN do Motor de Batalha (ATB) em três frames com legenda da notação, quadro interativo do Miro e renumeração das figuras subsequentes | Marcelo de Araújo Lopes | |
