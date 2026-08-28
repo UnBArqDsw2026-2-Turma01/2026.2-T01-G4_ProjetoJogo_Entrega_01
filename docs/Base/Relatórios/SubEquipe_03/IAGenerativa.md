@@ -14,7 +14,7 @@ A entrega mínima deste foco são os pontos de vista de cada integrante sobre as
 
 Os pontos de vista da Tabela 1 foram redigidos individualmente, cada integrante respondendo apenas pela própria experiência, sem convergir para um texto único da subequipe. A inclusão de cada um está registrada no histórico de versão desta página, o que preserva o elo entre o ponto de vista e seu autor.
 
-O relato dos usos segue um critério único: separar aquilo em que a ferramenta apoiou apenas a **forma** de um artefato, como legibilidade e redação, daquilo em que ela tocou o **conteúdo**, propondo estrutura ou revisando criticamente um artefato pronto. Só a segunda categoria interfere no que a subequipe afirma nos artefatos, e é sobre ela que a análise se concentra. A ferramenta utilizada em todos os casos foi o **Claude**, da Anthropic, pela interface do claude.ai e pelo Claude Code no terminal.
+O relato dos usos segue um critério único: separar aquilo em que a ferramenta apoiou apenas a **forma** de um artefato, como legibilidade e redação, daquilo em que ela tocou o **conteúdo**, propondo estrutura ou revisando criticamente um artefato pronto. Só a segunda categoria interfere no que a subequipe afirma nos artefatos, e é sobre ela que a análise se concentra. Duas ferramentas foram utilizadas: o **Claude**, da Anthropic, pela interface do claude.ai e pelo Claude Code no terminal, em todos os usos relatados a seguir, e o **Gemini**, do Google, empregado uma única vez, na geração da imagem do mapa mental a partir do rascunho da subequipe.
 
 ### Uso no Mapa Mental
 
@@ -26,7 +26,7 @@ Antes de construir o artefato, a subequipe pediu à ferramenta uma organização
 
 <p align="center">Figura 1: Organização inicial para o conceito do jogo proposta pela IA, em seis blocos e ancorada em um ramo próprio de <em>Sistema de magia</em>. A proposta antecedeu a construção do mapa mental e não foi seguida pela subequipe. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026 (captura de tela de conversa da subequipe com o Claude, da Anthropic, em claude.ai).</p>
 
-A ferramenta foi usada uma segunda vez nesse artefato, já com o rascunho pronto, apenas para reproduzi-lo em uma diagramação mais legível. Nessa etapa nenhum conceito foi acrescentado, removido ou renomeado, conforme registra a metodologia do [Mapa Mental](MapaMental.md). O alcance da IA no artefato generalista, portanto, ficou restrito à forma: a estrutura que ela propôs foi recusada, e a que ela reproduziu já era da subequipe.
+Uma segunda ferramenta, o **Gemini**, entrou depois nesse artefato, já com o rascunho pronto, apenas para gerar a imagem em uma diagramação mais legível. Nessa etapa nenhum conceito foi acrescentado, removido ou renomeado, conforme registra a metodologia do [Mapa Mental](MapaMental.md). O alcance da IA no artefato generalista, portanto, ficou restrito à forma: a estrutura proposta pelo Claude foi recusada, e a diagramação gerada pelo Gemini apenas reproduziu o que já era da subequipe.
 
 ### Uso no SIG
 
@@ -73,7 +73,11 @@ As reuniões que precederam e orientaram esses usos estão registradas nas atas 
 
 ## Referências
 
+ANTHROPIC. **Claude** [software]. [S. l.]: Anthropic PBC, 2026. Disponível em: https://claude.ai. Acesso em: 28 ago. 2026.
+
 BRAGA, Rosana T. Vaccare. *Engenharia Reversa e Reengenharia*. Material adaptado a partir do concedido pela Profa. Rosângela Penteado, disciplina SCE 186 – Engenharia de Software (DC - UFSCar).
+
+GOOGLE. **Gemini** [software]. [S. l.]: Google LLC, 2026. Disponível em: https://gemini.google.com. Acesso em: 28 ago. 2026.
 
 NIELSEN, Jakob. **10 Usability Heuristics for User Interface Design**. Nielsen Norman Group, 1994. Disponível em: https://www.nngroup.com/articles/ten-usability-heuristics/. Acesso em: 26 ago. 2026.
 
@@ -100,7 +104,7 @@ SERRANO, Milene. **Organização do Projeto & Diretrizes de Entrega**. Universid
 | 1.2 | 27/08/2026 | Adição da contribuição da IA, pela visão do Pedro | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 | 1.3 | 27/08/2026 | Adição da contribuição da IA, pela visão do Renan | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis |  |
 | 1.4 | 28/08/2026 | Correção do caminho das imagens e do link de download (raiz do site) para renderizarem no Docsify local e no GitHub Pages | Marcos Vinícius Gündel da Silva | |
-| 2.0 | 28/08/2026 | Reescrita da seção: metodologia reorganizada por artefato, com o critério de forma e conteúdo, balanço crítico dos usos, legendas e fontes das figuras, rastreabilidade e elos com outros artefatos, e registro da autoria conjunta da subequipe nas fontes e no histórico | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 2.0 | 28/08/2026 | Reescrita da seção: metodologia reorganizada por artefato, com o critério de forma e conteúdo, balanço crítico dos usos, legendas e fontes das figuras, rastreabilidade e elos com outros artefatos, identificação das ferramentas utilizadas em cada uso, e registro da autoria conjunta da subequipe nas fontes e no histórico | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 
 <p align="center">Tabela 3: Histórico de versão. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
