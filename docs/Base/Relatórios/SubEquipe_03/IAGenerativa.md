@@ -10,50 +10,50 @@ Registrar, com senso crítico, como cada membro utilizou IA Generativa no trabal
 
 ## Metodologia
 
-A entrega mínima deste foco são os pontos de vista de cada integrante sobre as lições aprendidas e o uso de IA Generativa. Para produzi-la, a subequipe separou dois procedimentos que respondem a perguntas diferentes: **como cada integrante avalia** a ferramenta, e **onde a ferramenta de fato entrou** na elaboração dos artefatos. O primeiro depende de relato individual; o segundo, de evidência verificável.
+A entrega mínima deste foco são os pontos de vista de cada integrante sobre as lições aprendidas e o uso de IA Generativa. A seção reúne duas coisas distintas: o que cada um pensa sobre a ferramenta, na Tabela 1, e onde a ferramenta efetivamente entrou na produção dos artefatos, relatado a seguir com as evidências correspondentes.
 
-Os pontos de vista foram coletados por meio de um formulário elaborado pela SubEquipe_02 e respondido individualmente por cada integrante, preservando a avaliação de cada um em vez de convergir para um texto único da subequipe. As respostas estão transcritas na Tabela 1, e a inclusão de cada uma consta no histórico de versão desta página, o que mantém o elo entre o ponto de vista e seu autor.
+Os pontos de vista da Tabela 1 foram redigidos individualmente, cada integrante respondendo apenas pela própria experiência, sem convergir para um texto único da subequipe. A inclusão de cada um está registrada no histórico de versão desta página, o que preserva o elo entre o ponto de vista e seu autor.
 
-O levantamento dos usos foi retrospectivo, a partir da revisão das conversas mantidas com a ferramenta durante a entrega e dos artefatos produzidos em cada etapa. Cada uso foi classificado pelo papel que a IA desempenhou, separando os casos em que ela apoiou apenas a **forma** (legibilidade e redação) daqueles em que interferiu no **conteúdo** (proposta de estrutura e revisão crítica de artefato pronto). Essa separação é o que permite afirmar, artefato por artefato, o que foi decidido pela subequipe e o que veio da ferramenta.
+O relato dos usos segue um critério único: separar aquilo em que a ferramenta apoiou apenas a **forma** de um artefato, como legibilidade e redação, daquilo em que ela tocou o **conteúdo**, propondo estrutura ou revisando criticamente um artefato pronto. Só a segunda categoria interfere no que a subequipe afirma nos artefatos, e é sobre ela que a análise se concentra. A ferramenta utilizada em todos os casos foi o **Claude**, da Anthropic, pela interface do claude.ai e pelo Claude Code no terminal.
 
-A ferramenta utilizada em todos os usos relatados a seguir foi o **Claude**, da Anthropic, tanto pela interface do claude.ai quanto pelo Claude Code no terminal. A IA Generativa foi empregada em seis momentos distintos ao longo da entrega:
+### Uso no Mapa Mental
 
-1. **Validação do planejamento contra os documentos da disciplina**: antes da abertura das issues, a subequipe submeteu o próprio planejamento de sprints e de organização do repositório junto com as Diretrizes de Entrega e o Plano de Ensino, pedindo uma avaliação de aderência. O objetivo era confrontar o que havia sido planejado com o que a disciplina de fato exigia, e não pedir que a IA elaborasse o planejamento.
-
-2. **Ponto de partida para o mapa mental**: antes de construir o artefato, a subequipe consultou a ferramenta em busca de uma organização inicial para o conceito do jogo. A proposta devolvida não foi seguida, e é analisada adiante.
-
-3. **Refinamento visual do mapa mental**: já com o rascunho construído pela subequipe no Excalidraw, a IA foi utilizada para reproduzi-lo em uma diagramação mais legível. A estrutura e os nós definidos na reunião foram preservados integralmente, sem acréscimo, remoção ou renomeação de conceitos, conforme registrado na metodologia do [Mapa Mental](MapaMental.md).
-
-4. **Modelagem BPMN**: cada subprocesso do jogo (loop principal, combate, criação de itens, exploração, livros colecionáveis, savepoint) foi modelado separadamente, com a IA decompondo o mapa mental em fluxos com eventos, gateways e raias de responsabilidade, além de indicar se as notações propostas pelos integrantes eram ou não aceitas na especificação. A revisão da documentação foi sempre necessária, pois a IA errava com frequência sobre o que podia ser representado no diagrama.
-
-5. **Refinamento orientado por regras de negócio**: à medida que a equipe fornecia regras mais específicas e novas (ex.: diferenciação entre área segura/não segura, mundo aberto/não aberto, regras de save state), a IA revisou os diagramas já existentes em vez de recomeçá-los do zero, mantendo rastreabilidade entre versões. A cada entrega de diagrama a ferramenta sinalizava pontos em aberto ou ambiguidades de modelagem (ex.: frequência do combate aleatório, se "sair do jogo" preserva progresso fora de savepoints), que serviam de gatilho para a rodada seguinte de refinamento pela subequipe, em vez de uma geração única e definitiva.
-
-6. **Revisão do SIG antes da publicação**: com o SIG na notação do NFR Framework e o Mapa Mental já finalizados como imagem, fora do repositório, a subequipe submeteu os dois artefatos junto com o rascunho feito no Excalidraw durante a reunião e o texto que descrevia o SIG, pedindo uma avaliação crítica antes da publicação no GitPages. O uso foi de revisão do conteúdo já produzido, não de geração do artefato.
-
-<p align="center">
-  <img src="Base/Relatórios/SubEquipe_03/assets/ia1.jpeg" alt="Modelagem BPMN pela IA" width="400">
-</p>
-
-<p align="center">Figura 1: Modelagem do fluxo de exploração do mundo em notação BPMN, gerada a partir do detalhamento das regras pela subequipe. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026 (captura de tela da conversa da subequipe com o Claude, da Anthropic, modelo Sonnet 5, em claude.ai).</p>
-
-Dois episódios do processo ilustram o julgamento que a subequipe precisou exercer sobre o que a ferramenta devolvia.
-
-**A proposta inicial que não foi seguida.** Antes de construir o mapa mental, a subequipe pediu à ferramenta uma organização de partida para o conceito do jogo. A IA devolveu uma estrutura em seis blocos, ancorada em um ramo próprio de *Sistema de magia* (Figura 2). A subequipe descartou essa organização: em vez de destacar o tema como um sistema à parte, consolidou a mistura de elementos químicos entre as Mecânicas de Jogo e construiu o mapa em reunião, chegando aos quatro ramos publicados no [Mapa Mental](MapaMental.md). O uso posterior da ferramenta nesse artefato limitou-se ao refinamento visual do rascunho já pronto.
+Antes de construir o artefato, a subequipe pediu à ferramenta uma organização de partida para o conceito do jogo. A IA devolveu uma estrutura em seis blocos, ancorada em um ramo próprio de *Sistema de magia* (Figura 1). A proposta não foi seguida: a subequipe construiu o mapa em reunião, no Excalidraw, consolidando a mistura de elementos químicos entre as Mecânicas de Jogo, e chegou aos quatro ramos publicados no [Mapa Mental](MapaMental.md).
 
 <p align="center">
   <img src="Base/Relatórios/SubEquipe_03/assets/ia2.jpeg" alt="Organização inicial proposta pela IA e não seguida pela subequipe" width="400">
 </p>
 
-<p align="center">Figura 2: Organização inicial para o conceito do jogo proposta pela IA, em seis blocos e ancorada em um ramo próprio de <em>Sistema de magia</em>. A proposta antecedeu a construção do mapa mental e não foi seguida pela subequipe. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026 (captura de tela de conversa da subequipe com o Claude, da Anthropic, em claude.ai).</p>
+<p align="center">Figura 1: Organização inicial para o conceito do jogo proposta pela IA, em seis blocos e ancorada em um ramo próprio de <em>Sistema de magia</em>. A proposta antecedeu a construção do mapa mental e não foi seguida pela subequipe. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026 (captura de tela de conversa da subequipe com o Claude, da Anthropic, em claude.ai).</p>
 
-O episódio delimita o que a IA de fato ofereceu ao artefato generalista: um ponto de partida para reagir, e não a estrutura adotada. A organização final do mapa, com seus quatro ramos, resultou da discussão da subequipe em reunião.
+A ferramenta foi usada uma segunda vez nesse artefato, já com o rascunho pronto, apenas para reproduzi-lo em uma diagramação mais legível. Nessa etapa nenhum conceito foi acrescentado, removido ou renomeado, conforme registra a metodologia do [Mapa Mental](MapaMental.md). O alcance da IA no artefato generalista, portanto, ficou restrito à forma: a estrutura que ela propôs foi recusada, e a que ela reproduziu já era da subequipe.
 
-**Os dois achados sobre o SIG.** A revisão anterior à publicação apontou duas fragilidades no texto que acompanhava o SIG:
+### Uso no SIG
+
+Com o SIG na notação do NFR Framework e o Mapa Mental já finalizados como imagem, fora do repositório, a subequipe submeteu os dois artefatos junto com o rascunho do Excalidraw e o texto que descrevia o SIG, pedindo uma avaliação crítica antes da publicação. O uso foi de revisão do conteúdo já produzido, não de geração do artefato, e apontou duas fragilidades:
 
 - A descrição afirmava que os cinco sub-NFRs derivavam das heurísticas de Nielsen, mas **Imersão** não é uma delas: vem da literatura específica de jogos. A subequipe reescreveu o trecho distinguindo as duas origens, o que transformou uma imprecisão conceitual em uma decisão justificada e rastreável.
-- O trade-off entre **Flexibilidade** e **Estética Minimalista** estava desenhado no SIG, mas não era discutido em texto, que é justamente onde a diretriz da disciplina espera encontrar o senso crítico. A discussão foi então escrita e incorporada ao artefato.
+- O trade-off entre **Flexibilidade** e **Estética Minimalista** estava desenhado no SIG, mas não era discutido em texto, que é justamente onde a diretriz da disciplina espera encontrar o senso crítico. A discussão foi então escrita e incorporada ao [artefato](NFRFramework.md).
 
-Os dois episódios apontam na mesma direção, e é o que a subequipe leva como lição deste foco: em nenhum dos seis momentos o resultado da IA foi incorporado sem revisão humana, e o valor da ferramenta esteve mais em expor lacunas e provocar decisões explícitas do que em produzir os artefatos finais.
+### Uso na Modelagem BPMN
+
+Cada subprocesso do jogo (loop principal, combate, criação de itens, exploração, livros colecionáveis, savepoint) foi modelado separadamente, com a IA decompondo o mapa mental em fluxos com eventos, gateways e raias de responsabilidade, além de indicar se as notações propostas pelos integrantes eram ou não aceitas na especificação. A revisão da documentação foi sempre necessária, pois a IA errava com frequência sobre o que podia ser representado no diagrama.
+
+<p align="center">
+  <img src="Base/Relatórios/SubEquipe_03/assets/ia1.jpeg" alt="Modelagem BPMN pela IA" width="400">
+</p>
+
+<p align="center">Figura 2: Modelagem do fluxo de exploração do mundo em notação BPMN, gerada a partir do detalhamento das regras pela subequipe. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026 (captura de tela de conversa da subequipe com o Claude, da Anthropic, modelo Sonnet 5, em claude.ai).</p>
+
+À medida que a subequipe fornecia regras mais específicas e novas (ex.: diferenciação entre área segura e não segura, mundo aberto e não aberto, regras de save state), a IA revisou os diagramas já existentes em vez de recomeçá-los do zero, mantendo rastreabilidade entre versões. A cada entrega de diagrama a ferramenta sinalizava pontos em aberto ou ambiguidades de modelagem (ex.: frequência do combate aleatório, se "sair do jogo" preserva progresso fora de savepoints), que serviam de gatilho para a rodada seguinte de refinamento, em vez de uma geração única e definitiva.
+
+### Uso no planejamento da entrega
+
+Antes da abertura das issues, a subequipe submeteu o próprio planejamento de sprints e de organização do repositório junto com as Diretrizes de Entrega e o Plano de Ensino, pedindo uma avaliação de aderência. O objetivo era confrontar o que havia sido planejado com o que a disciplina exigia, e não delegar o planejamento à ferramenta.
+
+### Balanço
+
+Nos quatro usos o resultado passou por revisão da subequipe antes de entrar em qualquer artefato, e em dois deles foi recusado no todo ou em parte. O que a ferramenta ofereceu com mais consistência não foi conteúdo pronto, mas a exposição de lacunas: notações inválidas na modelagem, pontos em aberto nos fluxos, uma imprecisão conceitual no SIG e uma estrutura que a subequipe precisou decidir não usar. O ganho esteve em ter algo concreto contra o que reagir, e o custo foi a revisão obrigatória de tudo o que ela devolveu.
 
 ## Conteúdo
 
@@ -67,11 +67,7 @@ Os dois episódios apontam na mesma direção, e é o que a subequipe leva como 
 
 ### Rastreabilidade e Elos com Outros Artefatos
 
-Cada uso relatado tem contrapartida verificável em um artefato desta entrega, o que permite aferir o alcance real da ferramenta:
-
-- **[Mapa Mental](MapaMental.md)** — a organização que a IA propôs como ponto de partida (Figura 2) não foi seguida. Seu uso efetivo no artefato limitou-se ao refinamento visual do rascunho, e o mapa publicado preserva os quatro ramos definidos em reunião.
-- **[NFR Framework](NFRFramework.md)** — a revisão anterior à publicação originou a distinção entre as heurísticas de Nielsen e a literatura de jogos na origem dos sub-NFRs, e a discussão textual do trade-off entre Flexibilidade e Estética Minimalista.
-- **[BPMN](BPMN.md)** — a decomposição em subprocessos e a verificação da notação apoiaram a modelagem dos fluxos, sempre com revisão da subequipe (Figura 1).
+Os usos relatados na Metodologia estão ancorados nos três artefatos da subequipe, cada um verificável na página correspondente: o [Mapa Mental](MapaMental.md), cuja estrutura foi definida em reunião e não pela proposta da Figura 1; o [NFR Framework](NFRFramework.md), que incorporou os dois achados da revisão; e o [BPMN](BPMN.md), cujos fluxos foram modelados com o apoio descrito e revisados pela subequipe.
 
 As reuniões que precederam e orientaram esses usos estão registradas nas atas [01](/Atas/AtaSub03_01.md), [02](/Atas/AtaSub03_02.md), [03](/Atas/AtaSub03_03.md), [04](/Atas/AtaSub03_04.md) e [05](/Atas/AtaSub03_05.md) da subequipe.
 
@@ -104,7 +100,7 @@ SERRANO, Milene. **Organização do Projeto & Diretrizes de Entrega**. Universid
 | 1.2 | 27/08/2026 | Adição da contribuição da IA, pela visão do Pedro | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 | 1.3 | 27/08/2026 | Adição da contribuição da IA, pela visão do Renan | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis |  |
 | 1.4 | 28/08/2026 | Correção do caminho das imagens e do link de download (raiz do site) para renderizarem no Docsify local e no GitHub Pages | Marcos Vinícius Gündel da Silva | |
-| 2.0 | 28/08/2026 | Registro da autoria conjunta da subequipe nas fontes e no histórico; legendas e fontes das figuras; reescrita da metodologia com os seis usos de IA Generativa, incluindo a revisão do SIG e a proposta descartada sobre o mapa mental; inclusão da rastreabilidade e elos com outros artefatos; remoção do registro externo de prompts | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
+| 2.0 | 28/08/2026 | Reescrita da seção: metodologia reorganizada por artefato, com o critério de forma e conteúdo, balanço crítico dos usos, legendas e fontes das figuras, rastreabilidade e elos com outros artefatos, e registro da autoria conjunta da subequipe nas fontes e no histórico | Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis | |
 
 <p align="center">Tabela 3: Histórico de versão. Fonte: Carlos Henrique Brasil de Souza, Pedro Teixeira Moriel Sanchez e Renan Pereira Reis, 2026.</p>
 
