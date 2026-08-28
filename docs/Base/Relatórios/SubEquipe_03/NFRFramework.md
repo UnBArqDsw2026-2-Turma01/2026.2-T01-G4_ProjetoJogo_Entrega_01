@@ -98,7 +98,9 @@ O questionário permite resolver o conflito com base em evidência em vez de pre
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|  |  |
+| Carlos Henrique Brasil de Souza | 33,3% |
+| Pedro Teixeira Moriel Sanchez | 33,3% |
+| Renan Pereira Reis | 33,3% |
 
 <p align="center">Tabela 3: Contribuição dos integrantes. Fonte: Renan Pereira Reis, 2026.</p>
 
@@ -108,6 +110,7 @@ O questionário permite resolver o conflito com base em evidência em vez de pre
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | |
 | 2.0 | 27/08/2026 | Publicação do SIG, metodologia, sustentação empírica, análise do trade-off e rastreabilidade | Renan Pereira Reis | |
+| 2.1 | 28/08/2026 | Preenchimento do nível de contribuição dos integrantes | Renan Pereira Reis | |
 
 <p align="center">Tabela 4: Histórico de versão. Fonte: Renan Pereira Reis, 2026.</p>
 
