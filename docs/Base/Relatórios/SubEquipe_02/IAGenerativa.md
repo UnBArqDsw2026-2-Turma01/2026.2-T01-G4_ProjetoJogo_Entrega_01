@@ -34,6 +34,7 @@ Registrar, com senso crítico, como cada membro utilizou IA Generativa no trabal
 | Nome | % de Contribuição |
 |------|-------------------|
 | João Igor Pereira da Costa | 25% |
+| João Victor da Silva Batista de Farias | 25% |
 | Marcelo de Araújo Lopes | 25% |
 | Marcos Vinícius Gündel da Silva | 25% |
 
@@ -47,6 +48,7 @@ Registrar, com senso crítico, como cada membro utilizou IA Generativa no trabal
 | 1.1 | 27/08/2026 | Adição da contribuição da IA, pela visão do João Igor | João Igor Pereira da Costa | Marcos Vinícius Gündel da Silva |
 | 1.2 | 27/08/2026 | Adição da contribuição da IA, pela visão do Marcos Vinícius | Marcos Vinícius Gündel da Silva |  |
 | 1.3 | 27/08/2026 | Adição da contribuição da IA, pela visão do Marcelo de Araújo Lopes | Marcelo de Araújo Lopes | |
+| 1.4 | 28/08/2026 | Adição da contribuição da IA, pela visão do João Victor | João Victor da Silva Batista de Farias | |
 
 <p align="center">Tabela 3: Histórico de versão. Fonte: Autores, 2026.</p>
 
