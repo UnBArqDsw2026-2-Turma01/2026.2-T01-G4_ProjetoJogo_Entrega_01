@@ -57,7 +57,7 @@ As capturas de tela a seguir foram extraídas de uma gravação de partida reali
 
 ![Exploração do mapa antes do encontro](assets/atb_1_exploracao.jpg)
 
-<p align="center">Figura 2: Exploração do mapa, momento anterior ao encontro. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 2: Exploração do mapa, momento anterior ao encontro. Fonte: Marcelo, 2026.</p>
 
 **Elementos de Interface**
 
@@ -78,7 +78,7 @@ As capturas de tela a seguir foram extraídas de uma gravação de partida reali
 
 ![Início da batalha com ataque por trás](assets/atb_2_inicio_ataque_por_tras.jpg)
 
-<p align="center">Figura 3: Tela inicial da batalha, com o aviso "Ataque por trás!". Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 3: Tela inicial da batalha, com o aviso "Ataque por trás!". Fonte: Marcelo, 2026.</p>
 
 **Elementos de Interface**
 
@@ -98,7 +98,7 @@ As capturas de tela a seguir foram extraídas de uma gravação de partida reali
 
 ![Barra de ATB em preenchimento](assets/atb_3_barra_atb.jpg)
 
-<p align="center">Figura 4: Barra de ATB em preenchimento, ainda sem menu disponível. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 4: Barra de ATB em preenchimento, ainda sem menu disponível. Fonte: Marcelo, 2026.</p>
 
 **Elementos de Interface**
 
@@ -117,7 +117,7 @@ As capturas de tela a seguir foram extraídas de uma gravação de partida reali
 
 ![Menu de comandos aberto](assets/atb_4_menu_comandos.jpg)
 
-<p align="center">Figura 5: Menu de comandos aberto com a barra de ATB cheia. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 5: Menu de comandos aberto com a barra de ATB cheia. Fonte: Marcelo, 2026.</p>
 
 **Elementos de Interface**
 
@@ -138,7 +138,7 @@ As capturas de tela a seguir foram extraídas de uma gravação de partida reali
 
 ![Lista de magias com custo de PM](assets/atb_5_lista_magias.jpg)
 
-<p align="center">Figura 6: Lista de magias, com custo em PM e descrição contextual do feitiço selecionado. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 6: Lista de magias, com custo em PM e descrição contextual do feitiço selecionado. Fonte: Marcelo, 2026.</p>
 
 **Elementos de Interface**
 
@@ -163,7 +163,7 @@ As capturas de tela a seguir foram extraídas de uma gravação de partida reali
 
 ![Execução do ataque com número de dano](assets/atb_6_execucao_dano.jpg)
 
-<p align="center">Figura 7: Execução do feitiço, com faixa de nome e número de dano sobre o inimigo. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 7: Execução do feitiço, com faixa de nome e número de dano sobre o inimigo. Fonte: Marcelo, 2026.</p>
 
 **Elementos de Interface**
 
@@ -186,7 +186,7 @@ As capturas de tela a seguir foram extraídas de uma gravação de partida reali
 
 ![Inimigo derrotado e removido do campo](assets/atb_7_inimigo_derrotado.jpg)
 
-<p align="center">Figura 8: Campo de batalha após a derrota do inimigo, antes da tela de recompensa. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 8: Campo de batalha após a derrota do inimigo, antes da tela de recompensa. Fonte: Marcelo, 2026.</p>
 
 **Elementos de Interface**
 
@@ -203,7 +203,7 @@ As capturas de tela a seguir foram extraídas de uma gravação de partida reali
 
 ![Tela de recompensa da batalha](assets/atb_8_recompensa.jpg)
 
-<p align="center">Figura 9: Tela de recompensa, com Gil, EXP e PH de Magia distribuídos. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 9: Tela de recompensa, com Gil, EXP e PH de Magia distribuídos. Fonte: Marcelo, 2026.</p>
 
 **Elementos de Interface**
 
@@ -227,7 +227,7 @@ As capturas de tela a seguir foram extraídas de uma gravação de partida reali
 
 ![Retorno ao mapa após a batalha](assets/atb_9_retorno_mapa.jpg)
 
-<p align="center">Figura 10: Retorno à tela de exploração após o encerramento da batalha. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 10: Retorno à tela de exploração após o encerramento da batalha. Fonte: Marcelo, 2026.</p>
 
 **Elementos de Interface**
 
@@ -253,7 +253,7 @@ Conforme orienta a literatura, a engenharia reversa não se encerra no inventár
 | Recompensa | Gil, EXP e PH de Magia |
 | Encontro | área associada, formação de inimigos, tipo de início |
 
-<p align="center">Tabela 1: Entidades e atributos recuperados do Motor de Batalha. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 1: Entidades e atributos recuperados do Motor de Batalha. Fonte: Marcelo, 2026.</p>
 
 **Limitações da observação**
 
@@ -502,35 +502,35 @@ O fluxo do Motor de Batalha foi modelado em três frames encadeados por eventos 
 | Magias aprendidas acumuladas via PH de Magia | Receitas descobertas acumuladas no Livro do Aventureiro |
 | Feitiço sempre bem-sucedido | Desfecho incerto: composto estável, tentativa malsucedida ou backfire |
 
-<p align="center">Tabela 2: Transposição por reengenharia do comando de magia para a mistura de elementos químicos. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 2: Transposição por reengenharia do comando de magia para a mistura de elementos químicos. Fonte: Marcelo, 2026.</p>
 
 A última linha é a decisão de projeto mais relevante da transposição: introduzir incerteza no resultado cria o ciclo de descoberta e registro de receitas que sustenta a ênfase em Jogabilidade do projeto, ausente no sistema de origem.
 
 **Legenda da notação**
 
 ![Legenda da notação BPMN utilizada nos frames do Motor de Batalha](assets/motor_batalha_0_legenda.jpg)
-<p align="center">Figura 18: Legenda da notação BPMN utilizada nos frames do Motor de Batalha. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 18: Legenda da notação BPMN utilizada nos frames do Motor de Batalha. Fonte: Marcelo, 2026.</p>
 
 **Frame 1 — Loop de batalha (ATB)**
 
 Diagrama com três raias: **Jogador**, **Motor de Batalha (ATB)** e **IA Inimiga**. Cobre a montagem da formação, o tipo de início (Normal, Preemptivo ou Emboscada), o preenchimento da barra de ATB por velocidade, a decisão de turno, o menu de comandos (Atacar, Magia, Item, Defender), o cálculo de dano com fórmula, elemento, fraqueza e variância, e a checagem de fim de batalha.
 
 ![BPMN do loop de batalha do Motor de Batalha (ATB)](assets/motor_batalha_1_loop_atb.jpg)
-<p align="center">Figura 19: Modelo BPMN do frame 1 — loop de batalha (ATB). Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 19: Modelo BPMN do frame 1 — loop de batalha (ATB). Fonte: Marcelo, 2026.</p>
 
 **Frame 2 — Subprocesso: Mistura de Elementos Químicos**
 
 Detalha o subprocesso acionado pelo comando Misturar: abertura da bancada portátil de dois slots, escolha dos reagentes, consulta à tabela de reações e os desfechos possíveis — composto estável com registro de receita nova no Livro do Aventureiro, tentativa malsucedida com reagentes gastos, ou backfire com dano no lançador.
 
 ![BPMN do subprocesso de mistura de elementos químicos](assets/motor_batalha_2_mistura_quimica.jpg)
-<p align="center">Figura 20: Modelo BPMN do frame 2 — subprocesso de mistura de elementos químicos. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 20: Modelo BPMN do frame 2 — subprocesso de mistura de elementos químicos. Fonte: Marcelo, 2026.</p>
 
 **Frame 3 — Encerramento da batalha**
 
 Trata os três resultados possíveis: **vitória** (distribuição de EXP, GP e drops, atualização do bestiário e das receitas no Livro, oferta de gravação no próximo Savepoint), **fuga** (inimigo permanece vivo no mapa) e **derrota** (tela de derrota e recarga do último Savepoint).
 
 ![BPMN do encerramento da batalha](assets/motor_batalha_3_encerramento.jpg)
-<p align="center">Figura 21: Modelo BPMN do frame 3 — encerramento da batalha. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Figura 21: Modelo BPMN do frame 3 — encerramento da batalha. Fonte: Marcelo, 2026.</p>
 
 **Rastreabilidade entre a observação e o modelo**
 
@@ -547,7 +547,7 @@ Cada decisão estrutural do frame 1 tem origem em uma evidência registrada na s
 | Sprite do inimigo removido do campo (Figura 8) | Gateway Alvo derrotado? e tarefa de remoção do campo |
 | Tela com Gil, EXP e PH de Magia (Figura 9) | Tarefa Distribuir EXP, GP e drops, no frame 3 |
 
-<p align="center">Tabela 3: Rastreabilidade entre as telas observadas e os elementos do modelo BPMN. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 3: Rastreabilidade entre as telas observadas e os elementos do modelo BPMN. Fonte: Marcelo, 2026.</p>
 
 **Quadro interativo**
 
@@ -561,7 +561,7 @@ O modelo completo, com os quatro frames lado a lado, pode ser navegado no quadro
   </iframe>
 </div>
 
-<p align="center">Quadro 1: Modelo BPMN do Motor de Batalha (ATB) em quadro interativo. Fonte: LOPES, Marcelo (2026).</p>
+<p align="center">Quadro 1: Modelo BPMN do Motor de Batalha (ATB) em quadro interativo. Fonte: Marcelo, 2026.</p>
 
 <p align="center">Abrir em nova aba: <a href="https://miro.com/app/board/uXjVHuom1xM=/" target="_blank" rel="noopener">BPMN — Motor de Batalha (Miro)</a>.</p>
 
