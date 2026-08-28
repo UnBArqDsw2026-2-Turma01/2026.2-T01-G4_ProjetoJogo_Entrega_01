@@ -18,7 +18,25 @@ Foi adotada uma abordagem de Engenharia Reversa por observação da caixa-preta 
 
 ### Processo de Engenharia Reversa Aplicado
 
-*(Os vídeos de comprovação, as capturas de tela das interfaces, transições de estado e as regras de negócio identificadas serão documentados aqui nas próximas etapas).*
+A partir dos registros audiovisuais analisados (vídeos em anexo), foi possível inferir as seguintes regras e transições de estado para compor a modelagem:
+
+#### 1. Exploração, Interação e Lojas (Vídeos 1 e 2)
+* **Transição de Estado:** A navegação pelo mapa-múndi pode ser interrompida por encontros aleatórios (ativando a tela de combate) ou pela transição para áreas seguras (como a entrada na cidade de Nikeah, visualizada no segundo vídeo).
+* **Interface e Regras de Negócio (Lojas):** Ao interagir com NPCs lojistas, abre-se a interface de Compra/Venda. O sistema lê o banco de dados do inventário (Gil disponível, itens em posse) e exibe as armas/itens disponíveis para aquisição. Ao confirmar uma compra, o valor em Gil é deduzido e o item é adicionado ao inventário.
+* **Comprovação em Vídeo:**
+  <video width="100%" controls><source src="assets/FINAL FANTASY VI 2026-08-27 16-00-54.mp4" type="video/mp4">Vídeo 1: Exploração e Save State.</video>
+  <video width="100%" controls><source src="assets/FINAL FANTASY VI 2026-08-27 16-10-17.mp4" type="video/mp4">Vídeo 2: Entrada em Nikeah e interação com Loja.</video>
+
+#### 2. Transição e Combate em Turnos (Vídeo 3)
+* **Transição de Estado:** Durante a exploração de dungeons como a "Caverna em Veldt", ocorre um encontro aleatório. A interface de exploração sofre um efeito de transição de tela e é substituída instantaneamente pela arena de combate.
+* **Interface e Regras de Negócio (Combate):** O combate segue um sistema de turnos. A personagem seleciona um comando no menu de batalha inferior (ex: Ataque, Magia, Itens). O vídeo demonstra o uso da magia *Fogo++* contra o inimigo *Louva-morte*. O sistema calcula o dano (9999), subtrai os PVs do inimigo e, ao derrotá-lo, encerra a batalha exibindo a tela de vitória com as recompensas adquiridas (Gil, EXP e PH de Magia).
+* **Comprovação em Vídeo:**
+  <video width="100%" controls><source src="assets/FINAL FANTASY VI 2026-08-27 16-20-46.mp4" type="video/mp4">Vídeo 3: Encontro aleatório e sistema de Combate.</video>
+
+#### 3. Menu de Status e Ponto de Salvamento (Vídeo 4)
+* **Transição de Estado e Interface:** Em áreas hostis como o "Continente Flutuante", o jogador pode acessar o Menu Principal para verificar as condições da equipe (PV, PM, Nível) e as invocações/Magicites equipadas (Maduin, Ramuh, Ifrit, Shiva). Ao entrar em uma área de salvamento específica (indicada por um feixe de luz), o jogador pode salvar o progresso, gravando os dados atuais e a localização no slot escolhido do banco de dados (Arquivo 19).
+* **Comprovação em Vídeo:**
+  <video width="100%" controls><source src="assets/FINAL FANTASY VI 2026-08-27 16-27-08.mp4" type="video/mp4">Vídeo 4: Exploração de masmorra, menu de status e ponto de salvamento.</video>
 
 ### Modelagem BPMN
 
@@ -27,28 +45,32 @@ Abaixo estão apresentados os modelos BPMN dos fluxos levantados pela subequipe,
 #### 1. Visão Geral: Exploração e Combate
 O fluxo principal dita a navegação entre a exploração do mundo e as instâncias de salvamento ou combate.
 
+<img src="assets/Captura de tela 2026-08-27 211134.png" width="100%" alt="Modelo BPMN - Exploração">
 <p align="center">Figura 1: Modelo BPMN do fluxo principal de Exploração e transição para Combate. Fonte: Autores, 2026.</p>
 
 #### 2. Subprocesso: Exploração do Mundo
 Detalha as ações possíveis durante a exploração ativa, como a movimentação livre, detecção de encontros, interação com NPCs e o acesso aos registros (Livro).
 
+<img src="assets/Captura de tela 2026-08-27 211214.png" width="100%" alt="Modelo BPMN - Exploração do Mundo">
 <p align="center">Figura 2: Modelo BPMN detalhando as atividades na Exploração do Mundo. Fonte: Autores, 2026.</p>
 
 #### 3. Subprocesso: Combate em Turnos
 Mapeamento do motor de batalha em turnos, com destaque para a mecânica de misturar elementos, gerar efeitos elementais, calcular fraquezas, imunidades e a recepção de dano ou estados.
 
+<img src="assets/Captura de tela 2026-08-27 211242.png" width="100%" alt="Modelo BPMN - Combate em Turnos">
 <p align="center">Figura 3: Modelo BPMN do fluxo de Combate em turnos e mecânica de efeitos. Fonte: Autores, 2026.</p>
 
 #### 4. Subprocesso: Livro (Registro)
 O processo de validação, registro de livros coletados no inventário/banco de dados e o aprendizado contínuo (combinações e histórias).
 
+<img src="assets/Captura de tela 2026-08-27 211256.png" width="100%" alt="Modelo BPMN - Livro">
 <p align="center">Figura 4: Modelo BPMN do fluxo de coleta e registro no Livro. Fonte: Autores, 2026.</p>
 
 ## Referências
 
 BRAGA, Rosana T. Vaccare; PENTEADO, Rosângela. **Engenharia Reversa e Reengenharia**. Material da disciplina SCE 186 – Engenharia de Software. [S. l.: s. n.], [s. d.].
 
-*(As referências audiovisuais para as comprovações de engenharia reversa serão inseridas aqui).*
+SQUARE ENIX. **Final Fantasy VI Pixel Remaster**. [Vídeos de gameplay capturados pelos autores]. 2026.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -65,6 +87,8 @@ BRAGA, Rosana T. Vaccare; PENTEADO, Rosângela. **Engenharia Reversa e Reengenha
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 27/08/2026 | Criação da página base, adaptação da metodologia e adição dos modelos BPMN (Exploração, Combate, Mundo e Livro) | Pedro Teixeira Moriel Sanchez | |
+| 1.1 | 27/08/2026 | Adição dos achados da engenharia reversa com as análises dos vídeos (Exploração, Combate, Menus) | Pedro Teixeira Moriel Sanchez | |
+| 1.2 | 27/08/2026 | Correção dos caminhos das imagens e vídeos para o diretório `assets/` | Pedro Teixeira Moriel Sanchez | |
 
 <p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
 
