@@ -10,18 +10,18 @@
 
 - Atas de Reunião
   - [Reuniões Gerais](/Atas/Gerais.md)
-    - [Ata 01 — 14/08/2026](/Atas/AtaGeral01.md)
-    - [Ata 02 — 21/08/2026](/Atas/AtaGeral02.md)
+    - [Ata 01: 14/08/2026](/Atas/AtaGeral01.md)
+    - [Ata 02: 21/08/2026](/Atas/AtaGeral02.md)
   - [Subgrupo 01](/Atas/SubEquipe_01.md)
-    - [Ata 01 — 19/08/2026](/Atas/AtaSub01_01.md)
+    - [Ata 01: 19/08/2026](/Atas/AtaSub01_01.md)
   - [Subgrupo 02](/Atas/SubEquipe_02.md)
-    - [Ata 01 — 19/08/2026](/Atas/AtaSub02_01.md)
+    - [Ata 01: 19/08/2026](/Atas/AtaSub02_01.md)
   - [Subgrupo 03](/Atas/SubEquipe_03.md)
-    - [Ata 01 — 17/08/2026](/Atas/AtaSub03_01.md)
-    - [Ata 02 — 19/08/2026](/Atas/AtaSub03_02.md)
-    - [Ata 03 — 24/08/2026](/Atas/AtaSub03_03.md)
-    - [Ata 04 — 25/08/2026](/Atas/AtaSub03_04.md)
-    - [Ata 05 — 27/08/2026](/Atas/AtaSub03_05.md)
+    - [Ata 01: 17/08/2026](/Atas/AtaSub03_01.md)
+    - [Ata 02: 19/08/2026](/Atas/AtaSub03_02.md)
+    - [Ata 03: 24/08/2026](/Atas/AtaSub03_03.md)
+    - [Ata 04: 25/08/2026](/Atas/AtaSub03_04.md)
+    - [Ata 05: 27/08/2026](/Atas/AtaSub03_05.md)
 
 - Base
   - [Design Sprint](/Base/1.1.DesignSprint.md)
@@ -31,6 +31,7 @@
     - [4. Decide](/Base/1.1.4.Decide.md)
     - [5. Prototype](/Base/1.1.5.Prototype.md)
     - [6. Validate](/Base/1.1.6.Validate.md)
+  - [Metodologia de Trabalho no GitHub](/Base/1.3.MetodologiaGitHub.md)
 
   - Relatórios
     - SubEquipe 01
