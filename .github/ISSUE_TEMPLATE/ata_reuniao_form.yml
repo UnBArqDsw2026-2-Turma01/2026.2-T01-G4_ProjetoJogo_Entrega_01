@@ -1,0 +1,191 @@
+name: Ata de reunião
+description: Registrar uma reunião geral ou de subequipe e relacioná-la aos artefatos produzidos
+title: "[SubEquipe_XX] Registrar Ata XX: "
+labels: ["entrega-01", "documentacao"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use uma issue por reunião. A ata deve seguir `docs/Guias/AtaPadrao.md` e manter a rastreabilidade entre reunião, decisões, compromissos e artefatos.
+        Issues retrospectivas são permitidas quando a reunião já ocorreu, mas devem identificar claramente as evidências disponíveis.
+        Para uma reunião geral, substitua `SubEquipe_XX` por `Geral` no título.
+
+  - type: dropdown
+    id: escopo
+    attributes:
+      label: Escopo da reunião
+      options:
+        - Reunião Geral
+        - SubEquipe_01
+        - SubEquipe_02
+        - SubEquipe_03
+    validations:
+      required: true
+
+  - type: dropdown
+    id: momento
+    attributes:
+      label: Situação do registro
+      options:
+        - Reunião planejada
+        - Reunião já realizada
+    validations:
+      required: true
+
+  - type: input
+    id: numero-ata
+    attributes:
+      label: Número da ata
+      placeholder: "Exemplo: 02"
+    validations:
+      required: true
+
+  - type: input
+    id: data-reuniao
+    attributes:
+      label: Data e horário da reunião
+      description: Use o formato DD/MM/AAAA e informe os horários conhecidos.
+      placeholder: "27/08/2026, das 19:00 às 20:00"
+    validations:
+      required: true
+
+  - type: input
+    id: local
+    attributes:
+      label: Local ou plataforma
+      placeholder: "Google Meet, Discord ou sala presencial"
+    validations:
+      required: true
+
+  - type: input
+    id: responsaveis
+    attributes:
+      label: Responsáveis
+      description: Informe o redator e os demais responsáveis usando usuários do GitHub quando possível.
+      placeholder: "Redator: @usuario; apoio: @usuario2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: convocados
+    attributes:
+      label: Convocados e participantes conhecidos
+      description: Liste somente as pessoas relacionadas ao escopo da reunião e diferencie presença quando já conhecida.
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto e objetivo
+      description: Explique por que a reunião ocorreu ou ocorrerá e quais decisões ou artefatos estão envolvidos.
+    validations:
+      required: true
+
+  - type: textarea
+    id: pauta
+    attributes:
+      label: Pauta ou assuntos principais
+      placeholder: |
+        1. Primeiro assunto
+        2. Segundo assunto
+        3. Decisões ou pendências esperadas
+    validations:
+      required: true
+
+  - type: dropdown
+    id: evidencias
+    attributes:
+      label: Evidências disponíveis
+      options:
+        - Gravação e transcrição
+        - Somente gravação
+        - Somente transcrição
+        - Anotações manuais
+        - Sem evidência disponível
+    validations:
+      required: true
+
+  - type: textarea
+    id: localizacao-evidencias
+    attributes:
+      label: Localização das evidências
+      description: Informe links acessíveis ou caminhos versionados. Explique explicitamente qualquer ausência.
+      placeholder: |
+        - Gravação:
+        - Transcrição:
+        - Anotações:
+    validations:
+      required: true
+
+  - type: textarea
+    id: artefatos-relacionados
+    attributes:
+      label: Artefatos, decisões e issues relacionados
+      placeholder: |
+        - Artefatos produzidos ou alterados:
+        - Ata anterior ou reunião geral relacionada:
+        - Issues relacionadas:
+    validations:
+      required: true
+
+  - type: textarea
+    id: informacoes-a-confirmar
+    attributes:
+      label: Informações ausentes ou pendentes de confirmação
+      description: Não invente informações. Registre aqui o que ainda precisa ser confirmado.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: tarefas
+    attributes:
+      label: Tarefas da ata
+      options:
+        - label: Preservar a gravação, transcrição ou anotações disponíveis
+        - label: Criar a ata conforme docs/Guias/AtaPadrao.md
+        - label: Registrar identificação, convocados, presentes, pauta, assuntos e compromissos
+        - label: Classificar os assuntos pelos tipos 1 a 5 do padrão de atas
+        - label: Diferenciar propostas, decisões e pendências
+        - label: Identificar responsáveis e prazos somente quando definidos
+        - label: Relacionar decisões aos artefatos e issues correspondentes
+        - label: Atualizar o índice de reuniões e docs/_sidebar.md
+        - label: Atualizar os históricos de versão dos documentos alterados
+        - label: Registrar as contribuições em docs/Base/1.2.ParticipacoesBase.md
+
+  - type: checkboxes
+    id: criterios
+    attributes:
+      label: Critérios de aceitação
+      options:
+        - label: Ata sem campos vazios ou textos de exemplo
+        - label: Tabela de participantes limitada às pessoas convocadas para o escopo
+        - label: Informações ausentes identificadas explicitamente
+        - label: Alegações sem referência registradas como hipóteses ou pendências de validação
+        - label: Evidências acessíveis ou com localização documentada
+        - label: Decisões relacionadas aos artefatos produzidos
+        - label: Links internos e navegação funcionando no site publicado
+        - label: Histórico de versão preenchido somente com responsáveis humanos
+
+  - type: textarea
+    id: rastreabilidade-final
+    attributes:
+      label: Rastreabilidade final
+      description: Ao concluir, relacione a ata, evidências, commits, pull request e issues correlatas.
+      placeholder: |
+        - Ata publicada:
+        - Evidência bruta:
+        - Commits:
+        - Pull request:
+        - Issues relacionadas:
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: conduta
+    attributes:
+      label: Código de Conduta
+      options:
+        - label: Li e concordo em seguir o [Código de Conduta](https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G4_ProjetoJogo_Entrega_01/blob/main/CODE_OF_CONDUCT.md)
+          required: true

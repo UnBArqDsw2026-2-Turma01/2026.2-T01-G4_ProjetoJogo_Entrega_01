@@ -1,49 +1,95 @@
-name: Feature Request
-description: Suggest an idea for this project
-labels: ["feature-request"]
+name: Proposta de melhoria ou iniciativa extra
+description: Propor melhoria para a documentação, o processo, a arquitetura ou o produto
+title: "[Melhoria] "
+labels: ["enhancement"]
+assignees: []
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this feature request!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details (optional)
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: summary
-    attributes:
-      label: Summary
-      description: Describe the requested feature.
-    validations:
-      required: true
-  - type: textarea
-    id: motivation
-    attributes:
-      label: Motivation
-      description: Describe the motivation behind this feature request.
-    validations:
-      required: true
-  - type: textarea
-    id: alternatives
-    attributes:
-      label: Alternatives
-      description: Describe the alternatives you've considered.
-    validations:
-      required: false
-  - type: textarea
-    id: additional-information
-    attributes:
-      label: Additional Context
   - type: checkboxes
-    id: terms
+    id: verificacao
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](../blob/master/CODE_OF_CONDUCT.md)
+      label: Verificação inicial
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: Pesquisei as issues existentes e não encontrei uma proposta equivalente
+          required: true
+
+  - type: dropdown
+    id: escopo
+    attributes:
+      label: Escopo principal
+      options:
+        - Documentação e navegação
+        - Artefato de arquitetura
+        - Rastreabilidade e processo de trabalho
+        - Configuração do repositório
+        - Funcionalidade do produto
+        - Iniciativa extra da disciplina
+        - Outro
+    validations:
+      required: true
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema ou oportunidade
+      description: Explique a necessidade sem partir diretamente para uma solução.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Solução proposta
+      description: Descreva a melhoria e o resultado esperado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: beneficio
+    attributes:
+      label: Benefício para o projeto ou para a disciplina
+      description: Relacione a proposta à qualidade, avaliação, arquitetura, experiência de uso ou colaboração.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternativas
+    attributes:
+      label: Alternativas consideradas
+      description: Registre outras soluções avaliadas e por que não foram priorizadas.
+    validations:
+      required: false
+
+  - type: textarea
+    id: impactos
+    attributes:
+      label: Impactos, riscos e dependências
+      description: Considere prazo, esforço, arquivos afetados, outras subequipes e decisões pendentes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rastreabilidade
+    attributes:
+      label: Artefatos, atas e referências relacionadas
+      description: Informe a origem da proposta e os elementos do projeto que ela altera ou complementa.
+    validations:
+      required: false
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de aceitação
+      placeholder: |
+        - [ ] Resultado verificável 1
+        - [ ] Resultado verificável 2
+        - [ ] Documentação e rastreabilidade atualizadas
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: conduta
+    attributes:
+      label: Código de Conduta
+      options:
+        - label: Li e concordo em seguir o [Código de Conduta](https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G4_ProjetoJogo_Entrega_01/blob/main/CODE_OF_CONDUCT.md)
           required: true

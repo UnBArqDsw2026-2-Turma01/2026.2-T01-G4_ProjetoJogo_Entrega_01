@@ -1,5 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Organização ARQDSW
-    url: https://github.com/UnBArqDsw2022-1
-    about: Organização referente ao semestre de 2022-1.
+  - name: Guia de contribuição
+    url: https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G4_ProjetoJogo_Entrega_01/blob/main/CONTRIBUTING.md
+    about: Consulte o fluxo de issues, branches, commits e pull requests antes de contribuir.
+  - name: Organização da turma
+    url: https://github.com/UnBArqDsw2026-2-Turma01
+    about: Repositórios da disciplina FGA0208 no semestre 2026.2.
