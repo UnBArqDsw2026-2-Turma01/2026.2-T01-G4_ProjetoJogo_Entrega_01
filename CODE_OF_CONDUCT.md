@@ -77,6 +77,6 @@ Este Código de Conduta foi adaptado do [Contributor Covenant, versão 2.1](http
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|:----:|-----------|------------|---------|
-| 1.0 | 27/08/2026 | Criação do Código de Conduta adaptado ao contexto acadêmico do projeto | Yogi Nam de Souza Barbosa | |
+| 1.0 | 27/08/2026 | Criação do Código de Conduta adaptado ao contexto acadêmico do projeto | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 1: Histórico de versão.</p>

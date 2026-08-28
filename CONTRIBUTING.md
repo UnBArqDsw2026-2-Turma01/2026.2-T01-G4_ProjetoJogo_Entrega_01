@@ -181,6 +181,6 @@ A licença aplica-se somente ao conteúdo sobre o qual os integrantes do projeto
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|:----:|-----------|------------|---------|
-| 1.0 | 27/08/2026 | Criação do guia de contribuição com formulários, ruleset, branches, commits e pull requests | Yogi Nam de Souza Barbosa | |
+| 1.0 | 27/08/2026 | Criação do guia de contribuição com formulários, ruleset, branches, commits e pull requests | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 1: Histórico de versão.</p>

@@ -151,6 +151,6 @@ O conteúdo próprio deste projeto é disponibilizado sob a [Licença MIT](LICEN
 |:------:|:----:|-----------|------------|---------|
 | 1.0 | 14/08/2026 | Criação do README a partir do modelo da disciplina | Marcos Vinícius Gündel da Silva | |
 | 1.1 | 17/08/2026 | Inclusão e organização dos integrantes do Grupo 04 | João Igor Pereira da Costa | |
-| 2.0 | 27/08/2026 | Reestruturação do README com visão do projeto, cronograma, navegação, execução local e governança | Yogi Nam de Souza Barbosa | |
+| 2.0 | 27/08/2026 | Reestruturação do README com visão do projeto, cronograma, navegação, execução local e governança | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 4: Histórico de versão.</p>
