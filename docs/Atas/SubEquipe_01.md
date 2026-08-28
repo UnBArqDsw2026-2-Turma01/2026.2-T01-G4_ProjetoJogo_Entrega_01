@@ -22,15 +22,15 @@ Toda reunião é registrada em uma ata própria, seguindo o modelo definido em [
 | Gabriel Andrade Magioli |
 | Yogi Nam de Souza Barbosa |
 
-<p align="center">Tabela 1: Integrantes convocados para estas reuniões. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 1: Integrantes convocados para estas reuniões.</p>
 
 ## Registro de Reuniões
 
 | Ata | Data | Assunto | Redator | Link |
 |:---:|:----:|---------|---------|:----:|
-| — | — | *Nenhuma reunião registrada até o momento.* | — | — |
+| 01 | 19/08/2026 | Planejamento do Rich Picture do Subgrupo 01 | Yogi Nam de Souza Barbosa | [Ata 01](AtaSub01_01.md) |
 
-<p align="center">Tabela 2: Registro de reuniões. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 2: Registro de reuniões.</p>
 
 ## Referências
 
@@ -40,16 +40,19 @@ Toda reunião é registrada em uma ata própria, seguindo o modelo definido em [
 
 | Nome | % de Contribuição |
 |------|-------------------|
-|      |                   |
+| Cibelly Lourenço Ferreira | A definir |
+| Gabriel Andrade Magioli | A definir |
+| Yogi Nam de Souza Barbosa | A definir |
 
-<p align="center">Tabela 3: Contribuição dos integrantes. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 3: Contribuição dos integrantes.</p>
 
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página de atas | Marcelo de Araújo Lopes | |
+| 1.1 | 24/08/2026 | Registro da Ata 01 e adequação das legendas das tabelas organizacionais | Yogi Nam de Souza Barbosa | |
 
-<p align="center">Tabela 4: Histórico de versão. Fonte: Autores, 2026.</p>
+<p align="center">Tabela 4: Histórico de versão.</p>
 
 Ver também: [Reuniões Gerais](Gerais.md) · [Subgrupo 02](SubEquipe_02.md) · [Subgrupo 03](SubEquipe_03.md) · [Ata Padrão](/Guias/AtaPadrao.md) · [Artefatos do Subgrupo 01](/Base/Relatórios/SubEquipe_01/ArtefatoGeneralista.md)

@@ -1,0 +1,172 @@
+Crie uma **segunda versão de um Rich Picture feito à mão** sobre a concepção de um jogo educativo de RPG para crianças do ensino fundamental.
+
+A imagem deve parecer uma evolução de um brainstorming visual já existente: mais organizada, legível e coerente, mas ainda com aparência de **quadro branco desenhado à mão**, com textos manuscritos, pequenos desenhos, setas, caixas coloridas, interrogações e relações entre ideias. Não transforme em fluxograma corporativo ou infográfico perfeitamente geométrico.
+
+### Ideia central
+
+No centro da imagem, coloque um **jogo RPG educativo de matemática**, representado por uma pequena cena de jogo em pixel art ou desenho simplificado.
+
+O objetivo principal do jogo é fazer com que uma criança aprenda e pratique matemática enquanto joga um RPG.
+
+### Contexto do jogador
+
+Na região superior da imagem, represente:
+
+* uma **criança no ensino fundamental**;
+* a **escola**, com professor, quadro e contas matemáticas;
+* a ideia de que a criança gosta de **jogos**, como Roblox, RPGs, cartas, videogames e fantasia;
+* uma tensão visual entre:
+
+  * **“Gosta”** → jogos, diversão, personagens, exploração;
+  * **“Não gosta”** → exercícios tradicionais, repetição e matemática apresentada de forma pouco interessante.
+
+Use setas mostrando que essa situação leva à pergunta:
+
+**“Como transformar matemática em uma experiência divertida?”**
+
+Depois, uma seta grande conduz à solução:
+
+**“RPG + Matemática”**
+
+### Estrutura principal do jogo
+
+A partir do jogo central, distribua visualmente os principais sistemas.
+
+#### Salas e desafios
+
+Mostre uma dungeon composta por **salas**.
+
+Algumas salas possuem:
+
+* inimigos;
+* desafios matemáticos;
+* tesouros;
+* lojas;
+* eventos;
+* possíveis chefes.
+
+Representar visualmente uma sequência como:
+
+**Sala → desafio → resposta → consequência → próxima sala**
+
+Mas sem fazer um fluxograma rígido.
+
+### Combate baseado em perguntas
+
+Mostre um personagem enfrentando um inimigo.
+
+Durante o combate, aparece uma pergunta matemática, por exemplo:
+
+**“3 × 4 = ?”**
+
+A resposta influencia diretamente a ação:
+
+* **Acertou → personagem ataca**
+* **Errou → inimigo ataca ou jogador perde uma oportunidade**
+
+Inclua visualmente:
+
+* coração/vida;
+* espada;
+* magia;
+* dano;
+* atributos.
+
+### Progressão do jogador
+
+Crie uma região chamada:
+
+**“Progressão”**
+
+Relacionada a:
+
+* experiência;
+* habilidades;
+* força;
+* velocidade;
+* defesa;
+* outros atributos;
+* equipamentos;
+* novos poderes.
+
+Mostre que responder questões e vencer inimigos permite evoluir.
+
+### Dificuldade adaptativa
+
+Inclua uma ideia importante:
+
+**“O jogo aprende com o jogador?”**
+
+Mostre uma cabeça/cérebro ou engrenagens recebendo informações sobre respostas anteriores.
+
+Exemplos:
+
+* se o jogador erra muito um tipo de questão → aparecem questões mais simples ou explicações;
+* se acerta repetidamente → dificuldade aumenta;
+* conteúdos dominados aparecem com menor frequência;
+* conteúdos com dificuldade aparecem mais.
+
+Use as frases:
+
+**“Acertou respondendo”**
+
+e
+
+**“Errou respondendo”**
+
+como entradas para esse sistema adaptativo.
+
+### Tesouros e lojas
+
+Inclua:
+
+**Tesouros**
+
+* moedas;
+* itens;
+* equipamentos;
+* recompensas.
+
+**Lojas / Upgrades**
+
+* comprar armas;
+* melhorar atributos;
+* desbloquear habilidades;
+* personalizar o personagem.
+
+Relacione essas recompensas ao desempenho no jogo, mas evite fazer com que aprender matemática pareça apenas uma punição ou obrigação.
+
+### Elementos ainda em discussão
+
+Como Rich Picture deve mostrar incertezas, coloque algumas ideias acompanhadas de “?”:
+
+* **Bosses?**
+* **História?**
+* **Mundo infinito?**
+* **Salas aleatórias?**
+* **Dificuldade adaptativa?**
+* **Ranking?**
+
+Essas dúvidas devem aparecer nas bordas da composição, indicando decisões ainda abertas.
+
+### Direção visual
+
+Estética geral:
+
+* fundo branco ou levemente acinzentado;
+* desenho manual de quadro branco;
+* cores diferentes para categorias;
+* azul para progressão/aprendizado;
+* verde para respostas corretas e evolução;
+* vermelho para erros, inimigos e dificuldades;
+* laranja para recompensas, tesouros e dúvidas;
+* roxo para elementos diretamente relacionados ao jogo;
+* setas desenhadas à mão;
+* personagens simples e expressivos;
+* pequenos ícones de espada, coração, moedas, cérebro, escola e controles.
+
+A composição deve ser visualmente rica, mas deixar claro o caminho conceitual principal:
+
+**Criança + escola + gosto por jogos → RPG educativo → desafios matemáticos → combate e exploração → respostas do jogador → progressão e adaptação → aprendizado de matemática.**
+
+Formato horizontal amplo, semelhante a um quadro de brainstorming acadêmico.

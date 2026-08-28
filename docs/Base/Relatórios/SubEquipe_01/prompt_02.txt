@@ -1,0 +1,265 @@
+Crie uma **segunda versão de um Rich Picture acadêmico sobre um aplicativo de jogos cognitivos para idosos**, relacionado à prevenção ou estímulo cognitivo associado ao envelhecimento e à demência.
+
+A imagem deve continuar parecendo um **Rich Picture**, e não um fluxograma formal: use desenhos, fotografias ou ilustrações simples, textos curtos, setas, relações, perguntas e grupos de ideias. Entretanto, organize melhor os elementos para que a narrativa seja compreendida rapidamente.
+
+### Estrutura narrativa geral
+
+Organize visualmente a imagem da esquerda para a direita:
+
+**Problema → pessoas envolvidas → pesquisa e necessidades → solução → jogos → experiência do usuário → impacto**
+
+Não coloque tudo em uma linha rígida; mantenha relações cruzadas típicas de um Rich Picture.
+
+### 1. Problema
+
+Na esquerda, crie uma área chamada:
+
+**“Problema”**
+
+Represente um hospital e um médico atendendo um idoso.
+
+Contexto:
+
+Um idoso recebe a recomendação de praticar atividades e jogos capazes de estimular diferentes capacidades cognitivas.
+
+Mostre os problemas atuais:
+
+* muitos aplicativos separados;
+* necessidade de instalar vários jogos;
+* interfaces diferentes;
+* dificuldade de uso para idosos;
+* pouco espaço de armazenamento;
+* falta de integração entre atividades;
+* dificuldade de acompanhar evolução.
+
+Use ícones de vários aplicativos espalhados para reforçar a fragmentação.
+
+### 2. Persona
+
+Ao lado, coloque:
+
+**“Persona”**
+
+Personagem principal:
+
+**Juvenal Rola, 75 anos**
+
+Represente um senhor idoso simpático.
+
+Associe a ele características e necessidades, como:
+
+* pouca familiaridade com tecnologia;
+* precisa de interface simples;
+* textos grandes;
+* poucos passos;
+* feedback claro;
+* acessibilidade;
+* motivação para continuar utilizando o aplicativo.
+
+Mostre Juvenal conectado tanto ao problema quanto à solução.
+
+### 3. Stakeholders
+
+Inclua outros atores relacionados:
+
+* médico/profissional de saúde;
+* idosos;
+* familiares;
+* estudantes/desenvolvedores da UnB;
+* pesquisadores;
+* especialistas em IHC.
+
+Mostre pequenas conexões entre eles.
+
+Os alunos da UnB aparecem como responsáveis por desenvolver a aplicação.
+
+### 4. Fundamentação
+
+Na parte superior central, represente:
+
+**“Pesquisa”**
+
+Inclua:
+
+* cérebro;
+* artigo científico;
+* lupa;
+* estudos neurológicos;
+* exercícios cognitivos.
+
+Use uma anotação do tipo:
+
+**“Jogos e exercícios cognitivos como inspiração para estimular diferentes capacidades mentais.”**
+
+Evite afirmar visualmente que o aplicativo “cura” ou “previne definitivamente Alzheimer”. Prefira linguagem como:
+
+**“estimulação cognitiva”**
+
+e
+
+**“apoio ao envelhecimento ativo”**.
+
+### 5. IHC
+
+Crie uma área:
+
+**“IHC — Interação Humano-Computador”**
+
+Relacionada diretamente à solução.
+
+Destacar:
+
+* usabilidade;
+* acessibilidade;
+* legibilidade;
+* simplicidade;
+* feedback imediato;
+* consistência entre os jogos;
+* redução da carga cognitiva;
+* poucos passos para iniciar uma atividade.
+
+Inclua uma lupa ou pessoa analisando uma interface.
+
+### 6. Solução central
+
+No centro da imagem, coloque:
+
+**“Solução: uma única plataforma de jogos cognitivos”**
+
+Represente um aplicativo com ícone de controle ou cérebro.
+
+A ideia central é reunir diferentes minijogos em um único aplicativo, evitando que o usuário precise instalar vários programas separados.
+
+Conecte diretamente:
+
+**Problema → Solução**
+
+e
+
+**Persona → Solução**
+
+### 7. Jogos cognitivos
+
+À direita da solução, espalhe diferentes minijogos como ramificações:
+
+* Damas;
+* Termo / jogo de palavras;
+* Sudoku;
+* Campo Minado;
+* Caça-palavras;
+* Jogo da Memória.
+
+Associe pequenos rótulos às capacidades trabalhadas:
+
+* memória;
+* atenção;
+* raciocínio;
+* linguagem;
+* percepção;
+* resolução de problemas.
+
+Não apresente essas relações como afirmações médicas absolutas, mas como objetivos de estímulo cognitivo.
+
+### 8. Inspirações
+
+Na parte inferior esquerda ou inferior central, crie uma área:
+
+**“Inspirações”**
+
+Mostrar referências como:
+
+* livros de jogos para idosos;
+* Brain Training;
+* jogos cognitivos digitais;
+* aplicativos de exercícios mentais;
+* interfaces simples para dispositivos móveis.
+
+As imagens devem parecer referências de projeto e não componentes da aplicação.
+
+### 9. Gamificação
+
+Crie uma região chamada:
+
+**“Motivação e continuidade”**
+
+Inclua ideias como:
+
+* conquistas;
+* medalhas;
+* progresso;
+* sequência de dias;
+* ranking opcional;
+* amigos;
+* metas pessoais.
+
+Use como referências conceituais sistemas semelhantes a:
+
+* streak;
+* conquistas;
+* progressão diária.
+
+Inclua interrogações em alguns elementos:
+
+**“Ranking?”**
+
+**“Amigos?”**
+
+**“Streak?”**
+
+para indicar que ainda são decisões de projeto.
+
+### 10. Impacto social
+
+Na região superior direita, destaque:
+
+**“Impacto Social”**
+
+Mostre possíveis benefícios pretendidos:
+
+* acesso facilitado a atividades cognitivas;
+* inclusão digital;
+* estímulo à atividade mental;
+* maior autonomia;
+* experiência centralizada;
+* incentivo à continuidade das atividades.
+
+### 11. Engenharia de Software
+
+Inclua discretamente uma área ligada à equipe de desenvolvimento:
+
+**“Engenharia de Software”**
+
+com conceitos como:
+
+* engenharia reversa;
+* análise de aplicações existentes;
+* protótipos;
+* diagramas;
+* requisitos;
+* arquitetura simples;
+* desenvolvimento incremental.
+
+Não deixe essa área competir visualmente com o problema principal; ela deve representar como a equipe pretende construir a solução.
+
+### Direção visual
+
+Usar:
+
+* fundo claro;
+* estética de quadro branco;
+* títulos manuscritos;
+* setas pretas e coloridas;
+* pequenos desenhos;
+* algumas imagens ou ícones;
+* caixas verdes para benefícios e impacto;
+* azul para problema e pesquisa;
+* roxo para a solução;
+* laranja/amarelo para gamificação e dúvidas.
+
+Evitar excesso de linhas cruzando toda a imagem. Agrupar conceitos relacionados em regiões próximas e utilizar setas apenas quando representarem uma relação importante.
+
+A leitura principal deve ser facilmente percebida:
+
+**Idoso recebe recomendação → existem várias soluções fragmentadas → equipe pesquisa o problema e necessidades do usuário → cria uma plataforma única e acessível → reúne diversos jogos cognitivos → incorpora acompanhamento e motivação → busca gerar impacto social positivo.**
+
+Formato horizontal amplo, com aparência de Rich Picture universitário mais maduro, organizado e visualmente consistente.

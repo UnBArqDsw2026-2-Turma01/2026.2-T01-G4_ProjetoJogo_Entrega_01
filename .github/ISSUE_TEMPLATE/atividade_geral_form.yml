@@ -1,0 +1,124 @@
+name: Atividade geral do grupo
+description: Planejar uma tarefa transversal, de governança, apresentação ou consolidação
+title: "[Geral] "
+labels: ["entrega-01"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use este formulário para atividades que envolvem todo o grupo ou mais de uma subequipe, como consolidação das participações, preparação da apresentação, manutenção do repositório e páginas gerais.
+
+  - type: dropdown
+    id: categoria
+    attributes:
+      label: Categoria
+      options:
+        - Documentação geral
+        - Participações e rastreabilidade
+        - Apresentação ou entrega
+        - Governança e configuração do repositório
+        - Integração entre subequipes
+        - Implementação
+        - Outro
+    validations:
+      required: true
+
+  - type: input
+    id: responsaveis
+    attributes:
+      label: Responsáveis
+      description: Defina pessoas responsáveis, evitando deixar atividades gerais sem coordenação.
+      placeholder: "@usuario responsável; apoio de @usuario2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto
+      description: Explique o estado atual, o problema e sua relação com a disciplina ou entrega.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impacto
+    attributes:
+      label: Objetivo e impacto esperado
+      description: Indique o que será melhorado e quem depende do resultado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: arquivos
+    attributes:
+      label: Arquivos, páginas ou recursos envolvidos
+      placeholder: |
+        - docs/...
+        - .github/...
+        - Issue ou recurso externo relacionado
+    validations:
+      required: true
+
+  - type: textarea
+    id: tarefas
+    attributes:
+      label: Tarefas
+      placeholder: |
+        - [ ] Primeira etapa verificável
+        - [ ] Segunda etapa verificável
+        - [ ] Revisão e validação final
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencias
+    attributes:
+      label: Dependências, ordem e responsáveis externos
+      description: Informe o que precisa ocorrer antes, o que deve ocorrer depois e eventuais bloqueios.
+      placeholder: |
+        - Executar após:
+        - Bloqueada por:
+        - Issues relacionadas:
+    validations:
+      required: false
+
+  - type: textarea
+    id: rastreabilidade
+    attributes:
+      label: Rastreabilidade
+      description: Relacione decisões, atas, diretrizes da disciplina, artefatos e comprobatórios.
+    validations:
+      required: true
+
+  - type: textarea
+    id: criterios
+    attributes:
+      label: Critérios de aceitação
+      placeholder: |
+        - [ ] Resultado verificável 1
+        - [ ] Resultado verificável 2
+        - [ ] Nenhuma pendência crítica permanece
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: definicao-pronto
+    attributes:
+      label: Definição de pronto
+      options:
+        - label: Tarefas e critérios de aceitação concluídos
+        - label: Evidências e decisões relacionadas na issue
+        - label: Arquivos sem placeholders e com histórico de versão atualizado quando aplicável
+        - label: Navegação, links e mídias validados quando aplicável
+        - label: Contribuições das pessoas responsáveis comprovadas por commits
+        - label: Participações individuais atualizadas quando aplicável
+        - label: Pull request relacionado, revisado e aprovado
+
+  - type: checkboxes
+    id: conduta
+    attributes:
+      label: Código de Conduta
+      options:
+        - label: Li e concordo em seguir o [Código de Conduta](https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G4_ProjetoJogo_Entrega_01/blob/main/CODE_OF_CONDUCT.md)
+          required: true

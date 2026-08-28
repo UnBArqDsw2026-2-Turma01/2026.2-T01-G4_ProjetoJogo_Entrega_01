@@ -1,76 +1,99 @@
-name: Bug Report
-description: File a bug report
+name: Problema na documentação ou no projeto
+description: Relatar erro de conteúdo, navegação, renderização, configuração ou comportamento
+title: "[Bug] "
 labels: ["bug"]
+assignees: []
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details (optional)
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: Description. What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
-    validations:
-      required: true
-  - type: textarea
-    id: steps-to-reproduce
-    attributes:
-      label: Steps to reproduce
-      description: Describe the steps to reproduce
-      placeholder: 1. Step 1 ...
-                   2. Step 2 ...
-                   3. Step 3 ...
-    validations:
-      required: true
-  - type: textarea
-    id: expected-behavior
-    attributes:
-      label: Expected behavior
-      description: Describe the expected behavior.
-      placeholder: The expected behavior is ...
-    validations:
-      required: false
-  - type: textarea
-    id: actual-behavior
-    attributes:
-      label: Actual behavior
-      description: Describe the actual behavior.
-      placeholder: The actual behavior is ...
-    validations:
-      required: true
-  - type: dropdown
-    id: occurrence-frequency
-    attributes:
-      label: Occurrence
-      description: How often this bug occurs?
-      options:
-        - Frequently
-        - Sometimes
-        - Rarely
-    validations:
-      required: true
-  - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
   - type: checkboxes
-    id: terms
+    id: verificacao
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](../blob/master/CODE_OF_CONDUCT.md)
+      label: Verificação inicial
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: Pesquisei as issues existentes e não encontrei um relato equivalente
+          required: true
+
+  - type: dropdown
+    id: ambiente
+    attributes:
+      label: Onde o problema ocorre
+      options:
+        - Site publicado com Docsify
+        - Execução local do Docsify
+        - Arquivos no GitHub
+        - Configuração do repositório
+        - Código ou aplicação
+        - Outro
+    validations:
+      required: true
+
+  - type: input
+    id: localizacao
+    attributes:
+      label: Página, arquivo ou funcionalidade afetada
+      description: Informe o caminho, link ou nome da funcionalidade.
+      placeholder: "docs/Atas/AtaGeral01.md ou link da página"
+    validations:
+      required: true
+
+  - type: textarea
+    id: comportamento-atual
+    attributes:
+      label: Comportamento atual
+      description: Descreva objetivamente o que está incorreto.
+    validations:
+      required: true
+
+  - type: textarea
+    id: comportamento-esperado
+    attributes:
+      label: Comportamento esperado
+      description: Explique qual deveria ser o resultado correto.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproducao
+    attributes:
+      label: Passos para reproduzir
+      placeholder: |
+        1. Abrir...
+        2. Selecionar...
+        3. Observar...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: impacto
+    attributes:
+      label: Impacto
+      options:
+        - Bloqueia entrega ou avaliação
+        - Impede acesso a conteúdo importante
+        - Prejudica parcialmente o uso ou entendimento
+        - Problema visual ou textual de baixo impacto
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidencias
+    attributes:
+      label: Evidências e informações do ambiente
+      description: Anexe capturas e informe navegador, sistema, mensagens de erro ou commits relacionados quando relevante.
+    validations:
+      required: false
+
+  - type: textarea
+    id: criterio-correcao
+    attributes:
+      label: Como verificar a correção
+      description: Defina o resultado observável que permitirá encerrar a issue.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: conduta
+    attributes:
+      label: Código de Conduta
+      options:
+        - label: Li e concordo em seguir o [Código de Conduta](https://github.com/UnBArqDsw2026-2-Turma01/2026.2-T01-_G4_ProjetoJogo_Entrega_01/blob/main/CODE_OF_CONDUCT.md)
           required: true
