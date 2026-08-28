@@ -23,12 +23,12 @@ A IA Generativa foi empregada em três momentos distintos ao longo da entrega:
 Um padrão recorrente nesse processo foi que a cada entrega de diagrama, a IA sinalizava explicitamente pontos em aberto ou ambiguidades de modelagem (ex.: frequência do combate aleatório, se "sair do jogo" preserva progresso fora de savepoints), que serviam de gatilho para a próxima rodada de refinamento pela equipe, e não uma geração única e definitiva.
 
 <p align="center">
-  <img src="assets/ia2.jpeg" alt="Estruturação do mapa mental pela IA" width="400">
+  <img src="Base/Relatórios/SubEquipe_03/assets/ia2.jpeg" alt="Estruturação do mapa mental pela IA" width="400">
   <br>
-  <img src="assets/ia1.jpeg" alt="Modelagem BPMN pela IA" width="400">
+  <img src="Base/Relatórios/SubEquipe_03/assets/ia1.jpeg" alt="Modelagem BPMN pela IA" width="400">
 </p>
 
-<a href="assets/prompt.md" download>Registro de uso de IA</a>
+<a href="Base/Relatórios/SubEquipe_03/assets/prompt.md" download>Registro de uso de IA</a>
 
 ## Conteúdo
 
@@ -64,6 +64,7 @@ BRAGA, Rosana T. Vaccare. *Engenharia Reversa e Reengenharia*. Material adaptado
 | 1.1 | 27/08/2026 | Adição da contribuição da IA, pela visão do Carlos | Carlos Henrique Brasil de Souza |  |
 | 1.2 | 27/08/2026 | Adição da contribuição da IA, pela visão do Pedro | Carlos Henrique Brasil de Souza | |
 | 1.3 | 27/08/2026 | Adição da contribuição da IA, pela visão do Renan | Carlos Henrique Brasil de Souza |  |
+| 1.4 | 28/08/2026 | Correção do caminho das imagens e do link de download (raiz do site) para renderizarem no Docsify local e no GitHub Pages | Marcos Vinícius Gündel da Silva | |
 
 <p align="center">Tabela 3: Histórico de versão. Fonte: Autores, 2026.</p>
 

@@ -27,13 +27,13 @@ A partir dos registros audiovisuais analisados (vídeos em anexo), foi possível
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1S7D2vVTuFscxlDViPK-8rxpy7ZNnYfrF/view?usp=sharing" target="_blank">
-    <img src="assets/bpmn_thumb1.png" width="80%" alt="Vídeo 1: Exploração e Save State.">
+    <img src="Base/Relatórios/SubEquipe_03/assets/bpmn_thumb1.png" width="80%" alt="Vídeo 1: Exploração e Save State.">
   </a>
 </p>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1rGfz4kKYHT3Xq-1DLQrf7rYgwvI1inAv/view?usp=sharing" target="_blank">
-    <img src="assets/bpmn_thumb2.png" width="80%" alt="Vídeo 2: Entrada em Nikeah e interação com Loja.">
+    <img src="Base/Relatórios/SubEquipe_03/assets/bpmn_thumb2.png" width="80%" alt="Vídeo 2: Entrada em Nikeah e interação com Loja.">
   </a>
 </p>
 
@@ -44,13 +44,13 @@ A partir dos registros audiovisuais analisados (vídeos em anexo), foi possível
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1RB1NG5I8wCQHz4K2aglmyf6u9GBw-2ru/view?usp=sharing" target="_blank">
-    <img src="assets/bpmn_thumb3.png" width="80%" alt="Vídeo 3: Encontro aleatório.">
+    <img src="Base/Relatórios/SubEquipe_03/assets/bpmn_thumb3.png" width="80%" alt="Vídeo 3: Encontro aleatório.">
   </a>
 </p>
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1wlHRqZsNUE9HpkJSP2cN5xWH5dCBUvgQ/view?usp=sharing" target="_blank">
-    <img src="assets/bpmn_thumb4.png" width="80%" alt="Vídeo 4: Sistema de Combate.">
+    <img src="Base/Relatórios/SubEquipe_03/assets/bpmn_thumb4.png" width="80%" alt="Vídeo 4: Sistema de Combate.">
   </a>
 </p>
 
@@ -60,7 +60,7 @@ A partir dos registros audiovisuais analisados (vídeos em anexo), foi possível
 
 <p align="center">
   <a href="https://drive.google.com/file/d/1MYkOsRGcDop79fzm7XLOVNWIpDEQt5kO/view?usp=sharing" target="_blank">
-    <img src="assets/bpmn_thumb5.png" width="80%" alt="Vídeo 5: Exploração de masmorra, menu de status e ponto de salvamento.">
+    <img src="Base/Relatórios/SubEquipe_03/assets/bpmn_thumb5.png" width="80%" alt="Vídeo 5: Exploração de masmorra, menu de status e ponto de salvamento.">
   </a>
 </p>
 
@@ -71,25 +71,25 @@ Abaixo estão apresentados os modelos BPMN dos fluxos levantados pela subequipe,
 #### 1. Visão Geral: Exploração e Combate
 O fluxo principal dita a navegação entre a exploração do mundo e as instâncias de salvamento ou combate.
 
-<img src="assets/Captura de tela 2026-08-27 211134.png" width="100%" alt="Modelo BPMN - Exploração">
+<img src="Base/Relatórios/SubEquipe_03/assets/Captura de tela 2026-08-27 211134.png" width="100%" alt="Modelo BPMN - Exploração">
 <p align="center">Figura 1: Modelo BPMN do fluxo principal de Exploração e transição para Combate. Fonte: Autores, 2026.</p>
 
 #### 2. Subprocesso: Exploração do Mundo
 Detalha as ações possíveis durante a exploração ativa, como a movimentação livre, detecção de encontros, interação com NPCs e o acesso aos registros (Livro).
 
-<img src="assets/Captura de tela 2026-08-27 211214.png" width="100%" alt="Modelo BPMN - Exploração do Mundo">
+<img src="Base/Relatórios/SubEquipe_03/assets/Captura de tela 2026-08-27 211214.png" width="100%" alt="Modelo BPMN - Exploração do Mundo">
 <p align="center">Figura 2: Modelo BPMN detalhando as atividades na Exploração do Mundo. Fonte: Autores, 2026.</p>
 
 #### 3. Subprocesso: Combate em Turnos
 Mapeamento do motor de batalha em turnos, com destaque para a mecânica de misturar elementos, gerar efeitos elementais, calcular fraquezas, imunidades e a recepção de dano ou estados.
 
-<img src="assets/Captura de tela 2026-08-27 211242.png" width="100%" alt="Modelo BPMN - Combate em Turnos">
+<img src="Base/Relatórios/SubEquipe_03/assets/Captura de tela 2026-08-27 211242.png" width="100%" alt="Modelo BPMN - Combate em Turnos">
 <p align="center">Figura 3: Modelo BPMN do fluxo de Combate em turnos e mecânica de efeitos. Fonte: Autores, 2026.</p>
 
 #### 4. Subprocesso: Livro (Registro)
 O processo de validação, registro de livros coletados no inventário/banco de dados e o aprendizado contínuo (combinações e histórias).
 
-<img src="assets/Captura de tela 2026-08-27 211256.png" width="100%" alt="Modelo BPMN - Livro">
+<img src="Base/Relatórios/SubEquipe_03/assets/Captura de tela 2026-08-27 211256.png" width="100%" alt="Modelo BPMN - Livro">
 <p align="center">Figura 4: Modelo BPMN do fluxo de coleta e registro no Livro. Fonte: Autores, 2026.</p>
 
 ## Referências
@@ -117,6 +117,7 @@ SQUARE ENIX. **Final Fantasy VI Pixel Remaster**. [Vídeos de gameplay capturado
 | 1.2 | 27/08/2026 | Correção dos caminhos das imagens e vídeos para o diretório `assets/` | Pedro Teixeira Moriel Sanchez | |
 | 1.3 | 27/08/2026 | Alteração da forma de fazer o display dos vídeos | Pedro Teixeira Moriel Sanchez | |
 | 1.4 | 27/08/2026 | Centralização e redimensionamento das miniaturas de vídeo | Pedro Teixeira Moriel Sanchez | |
+| 1.5 | 28/08/2026 | Correção do caminho das imagens nas tags `<img>` (raiz do site) para renderizarem no Docsify local e no GitHub Pages | Marcos Vinícius Gündel da Silva | |
 
 <p align="center">Tabela 2: Histórico de versão. Fonte: Autores, 2026.</p>
 

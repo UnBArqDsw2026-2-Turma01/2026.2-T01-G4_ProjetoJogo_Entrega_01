@@ -17,6 +17,10 @@
   - [Subgrupo 02](/Atas/SubEquipe_02.md)
     - [Ata 01 — 19/08/2026](/Atas/AtaSub02_01.md)
   - [Subgrupo 03](/Atas/SubEquipe_03.md)
+    - [Ata 02 — 19/08/2026](/Atas/AtaSub03_02.md)
+    - [Ata 03 — 24/08/2026](/Atas/AtaSub03_03.md)
+    - [Ata 04 — 25/08/2026](/Atas/AtaSub03_04.md)
+    - [Ata 05 — 27/08/2026](/Atas/AtaSub03_05.md)
 
 - Base
   - [Design Sprint](/Base/1.1.DesignSprint.md)
@@ -44,6 +48,8 @@
       - [NFR Framework](/Base/Relatórios/SubEquipe_02/NFRFramework.md)
       - [BPMN](/Base/Relatórios/SubEquipe_02/BPMN.md)
       - [IA Generativa](/Base/Relatórios/SubEquipe_02/IAGenerativa.md)
+      - Iniciativas Extras
+        - [Questionário](/Base/Relatórios/SubEquipe_02/Questionario.md)
     - SubEquipe 03
       - Artefatos Generalistas
         - [Visão do Foco](/Base/Relatórios/SubEquipe_03/ArtefatoGeneralista.md)
