@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este artefato documenta a engenharia reversa e a modelagem BPMN da SubEquipe_01 no jogo *Final Fantasy VI*, escolhido como referência na [Ata Geral 02](/Atas/AtaGeral02.md). Foram analisados os fluxos de **equipar itens** e **utilizar itens**. Os fluxos de batalha e lojas permanecem pendentes.
+Este artefato documenta a engenharia reversa e a modelagem BPMN da SubEquipe_01 no jogo *Final Fantasy VI*, escolhido como referência na [Ata Geral 02](/Atas/AtaGeral02.md). Foram analisados os fluxos de **equipar itens**, **utilizar itens** e **batalha**. O fluxo de lojas permanece pendente.
 
 ## Objetivo
 
@@ -12,7 +12,7 @@ Identificar atividades, decisões e regras dos fluxos observados para orientar o
 
 A engenharia reversa analisa um sistema existente para recuperar seus componentes, relações e representações em maior nível de abstração (CHIKOFSKY; CROSS, 1990). Sem acesso ao código-fonte, os fluxos foram executados, gravados e divididos em capturas. As ações visíveis foram registradas como observações; regras internas não demonstradas diretamente foram marcadas como inferências.
 
-Os modelos BPMN dos fluxos de equipar e utilizar itens foram elaborados com base nos resultados obtidos na engenharia reversa e construídos no editor web [bpmn.io](https://demo.bpmn.io/new). A modelagem segue a BPMN 2.0.2, que admite a representação de processos existentes e organiza participantes e responsabilidades por elementos como *pools* e *lanes* (OBJECT MANAGEMENT GROUP, 2014).
+Os modelos BPMN foram elaborados com base nos resultados obtidos na engenharia reversa: os fluxos de equipar e utilizar itens foram construídos no editor web [bpmn.io](https://demo.bpmn.io/new) e o fluxo de batalha no [tldraw](https://tldraw.com). A modelagem segue a BPMN 2.0.2, que admite a representação de processos existentes e organiza participantes e responsabilidades por elementos como *pools* e *lanes* (OBJECT MANAGEMENT GROUP, 2014).
 
 ## Conteúdo
 
@@ -22,7 +22,7 @@ Os modelos BPMN dos fluxos de equipar e utilizar itens foram elaborados com base
 |-------|--------------------------|------------------------|
 | Equipar itens | Cibelly Lourenço Ferreira | Vídeo, quatro capturas e BPMN |
 | Utilizar itens | Yogi Nam de Souza Barbosa | Vídeo, sete capturas e BPMN |
-| Batalha | Demais integrantes | Pendente |
+| Batalha | Gabriel Andrade Magioli | Vídeo, quatro capturas e BPMN |
 | Lojas | Demais integrantes | Pendente |
 
 <p align="center">Tabela 1: Escopo dos fluxos de engenharia reversa da SubEquipe_01.</p>
@@ -100,6 +100,40 @@ Abrir menu → selecionar Itens → carregar inventário → selecionar item
     → atualizar inventário e interface
 ```
 
+#### Fluxo 3: Dinâmica de Batalhas
+
+O terceiro fluxo ocorre em um mapa dividido em etapas, e em cada etapa o jogador enfrenta uma batalha. Durante a batalha, o jogador seleciona golpes que podem causar dano a um ou múltiplos inimigos, além de também receber dano. O vídeo a seguir apresenta brevemente a dinâmica de batalha.
+
+<div align="center">
+  <video controls playsinline preload="metadata" poster="Base/Relatórios/SubEquipe_01/assets/subequipe_01_batalha_02.png" style="width: 100%; max-width: 960px;">
+    <source src="Base/Relatórios/SubEquipe_01/assets/subgrupo-01-batalha.mp4" type="video/mp4">
+    Seu navegador não oferece suporte à reprodução deste vídeo.
+  </video>
+</div>
+
+<p align="center">Vídeo 3: Execução do fluxo de batalha em Final Fantasy VI. Fonte: gravação de tela produzida por Gabriel Andrade Magioli, 2026.</p>
+
+##### Evidências observadas
+
+| Captura | Ação e estado observados | Comportamento ou regra recuperada |
+|---------|--------------------------|-----------------------------------|
+| **01**<br>![Personagem navegando no mapa para transitar para a próxima fase](assets/subequipe_01_batalha_02.png) | O usuário navega dentro do mapa buscando a porta para ingressar na fase seguinte. | Ao navegar para a fase seguinte, o jogo redireciona para a próxima fase, permitindo que novas batalhas e itens sejam desbloqueados. |
+| **02**<br>![Batalha na Magitek Research Facility](assets/subequipe_01_batalha_04.png) | O jogador ingressa em uma etapa do jogo e, por meio dessa fase, faz uma batalha selecionando os golpes desejados. | O fluxo começa pelo personagem navegando no mapa; após interagir com um Non-Playable Character (NPC), ele ingressa em uma nova fase para batalha. |
+| **03**<br>![Seleção de golpes](assets/subequipe_01_batalha_03.png) | Durante as batalhas, um painel com os golpes é exposto, e o jogador seleciona o golpe para atacar seu oponente. | Há uma listagem com os golpes disponíveis. Após a seleção, o golpe escolhido gera uma ação que segue para a etapa seguinte, na qual o dano é descontado da vida do inimigo. |
+| **04**<br>![Dano causado em inimigo](assets/subequipe_01_batalha_01.png) | Inimigo no momento em que sofre o dano, recebendo o golpe que o jogador selecionou. | Ao selecionar um golpe, o jogador causa dano ao inimigo, removendo pontos de vida. |
+
+<p align="center">Tabela 4: Evidências do fluxo de batalha. Fonte: capturas de Final Fantasy VI produzidas por Gabriel Andrade Magioli, 2026.</p>
+
+##### Processo reconstruído
+
+```text
+Navegar pelo mapa → interagir com NPC → ingressar em uma batalha
+→ consultar golpes disponíveis → selecionar golpe → definir alvo (um ou múltiplos inimigos)
+  → aplicar dano e reduzir os PV do alvo
+  → receber dano dos inimigos
+→ repetir até o fim da batalha → liberar a próxima fase
+```
+
 ### Modelagem BPMN
 
 #### Equipar item
@@ -118,6 +152,14 @@ O modelo separa os participantes **Jogador** e **Sistema do jogo** em dois *pool
 
 <p align="center">Figura 2: Modelo BPMN do fluxo de utilizar item. Fonte: Yogi Nam de Souza Barbosa, 2026.</p>
 
+#### Navegar entre fases do mapa
+
+O modelo organiza o **Sistema do jogo** em dois *pools*, **StepOrchestrator** e **ExecuteBattle**, e demonstra a interação entre esses dois mecanismos. O fluxo representa a validação e a atualização das fases conforme o jogador avança no jogo, bem como o subprocesso de batalha, no qual o dano é causado ao jogador e aos seus inimigos.
+
+![Modelo BPMN do fluxo de batalha](assets/subgrupo_01_bpmn_batalha.png)
+
+<p align="center">Figura 3: Modelo BPMN do fluxo de batalha. Fonte: Gabriel Andrade Magioli, 2026.</p>
+
 ## Referências
 
 BARBOSA, Yogi Nam de Souza; FERREIRA, Cibelly Lourenço. **Execução dos fluxos de equipar e utilizar itens em Final Fantasy VI** [gravações de tela]. 2026. Arquivos: `assets/subgrupo01-video-equipamentos.mp4` e `assets/subgrupo01-video-itens.mp4`.
@@ -126,9 +168,13 @@ BPMN.IO. **BPMN Editor: bpmn-js modeler demo**. Disponível em: <https://demo.bp
 
 CHIKOFSKY, Elliot J.; CROSS II, James H. **Reverse engineering and design recovery: a taxonomy**. *IEEE Software*, v. 7, n. 1, p. 13-17, 1990. DOI: [10.1109/52.43044](https://doi.org/10.1109/52.43044).
 
+MAGIOLI, Gabriel Andrade. **Execução do fluxo de batalha em Final Fantasy VI** [gravação de tela]. 2026. Arquivo: `assets/subgrupo-01-batalha.mp4`.
+
 OBJECT MANAGEMENT GROUP. **Business Process Model and Notation (BPMN), Version 2.0.2**. 2014. Disponível em: <https://www.omg.org/spec/BPMN/2.0.2/PDF/>. Acesso em: 26 ago. 2026.
 
 SQUARE ENIX. **Final Fantasy VI Pixel Remaster** [jogo eletrônico]. 2022. Disponível em: <https://www.square-enix-games.com/en_US/home/final-fantasy-vi-now-available-steam-mobile>. Acesso em: 26 ago. 2026.
+
+TLDRAW. **tldraw: a very good whiteboard**. Disponível em: <https://tldraw.com>. Acesso em: 28 ago. 2026.
 
 ## Nível de Contribuição dos Integrantes
 
@@ -138,9 +184,9 @@ SQUARE ENIX. **Final Fantasy VI Pixel Remaster** [jogo eletrônico]. 2022. Dispo
 | Gabriel Andrade Magioli | 33,3% |
 | Yogi Nam de Souza Barbosa | 33,3% |
 
-<p align="center">Tabela 4: Contribuição dos integrantes.</p>
+<p align="center">Tabela 5: Contribuição dos integrantes.</p>
 
-Os percentuais deverão ser recalculados após a inclusão dos fluxos pendentes.
+Os percentuais deverão ser recalculados após a inclusão do fluxo pendente de lojas.
 
 ## Histórico de Versão
 
@@ -149,7 +195,8 @@ Os percentuais deverão ser recalculados após a inclusão dos fluxos pendentes.
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | |
 | 1.1 | 26/08/2026 | Documentação da engenharia reversa dos fluxos de equipar e utilizar itens | Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa | |
 | 1.2 | 26/08/2026 | Inserção dos modelos BPMN | Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa | |
+| 1.3 | 28/08/2026 | Documentação da engenharia reversa e inserção do modelo BPMN do fluxo de batalha; renumeração de tabelas e figuras | Gabriel Andrade Magioli | |
 
-<p align="center">Tabela 5: Histórico de versão.</p>
+<p align="center">Tabela 6: Histórico de versão.</p>
 
 Ver também: [Ata Geral 02](/Atas/AtaGeral02.md) · [Artefato Generalista](ArtefatoGeneralista.md) · [Rich Picture](RichPicture.md) · [NFR Framework](NFRFramework.md) · [IA Generativa](IAGenerativa.md)
