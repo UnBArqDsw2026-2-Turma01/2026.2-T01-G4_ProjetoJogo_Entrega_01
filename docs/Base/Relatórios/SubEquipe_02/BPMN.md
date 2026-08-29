@@ -572,8 +572,8 @@ O modelo completo, com os quatro frames lado a lado, pode ser navegado no quadro
 
 ### Sistema de Magicites
 
-![BPMN do fluxo do Motor de Sistema de Magicites]()
-<p align="center">Figura 23: Modelo BPMN do fluxo do Sistema de Magicites. Fonte: SOBRENOME, Nome (2026).</p>
+![BPMN do fluxo do Motor de Sistema de Magicites](assets/magicites_bpmn.png)
+<p align="center">Figura 23: Modelo BPMN do fluxo do Sistema de Magicites. Fonte: Fonte: COSTA, João(2026) (2026).</p>
 
 ### Habilidades Exclusivas
 
@@ -616,6 +616,7 @@ WIKIPÉDIA. **Final Fantasy VI**. Disponível em: https://en.wikipedia.org/wiki/
 | 1.6 | 27/08/2026 | Preenchimento do processo de Engenharia Reversa aplicado às Habilidades Exclusivas (Blitz): metodologia, fluxo e referências | João Victor da Silva Batista de Farias | |
 | 1.7 | 27/08/2026 | Adição do BPMN do Motor de Batalha (ATB) em três frames com legenda da notação, quadro interativo do Miro e renumeração das figuras subsequentes | Marcelo de Araújo Lopes | |
 | 1.8 | 28/08/2026 | Preenchimento da Engenharia Reversa do Motor de Batalha (ATB), com o quadro de reengenharia do frame 2 e a rastreabilidade com o BPMN | Marcelo de Araújo Lopes | |
+| 1.9 | 28/08/2026 | Adição do BPMN de Magicites | João Igor | |
 
 <p align="center">Tabela 5: Histórico de versão.</p>
 
