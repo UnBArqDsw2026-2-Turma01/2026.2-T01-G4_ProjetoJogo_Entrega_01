@@ -110,6 +110,6 @@ O site fica disponível em `http://localhost:3000`.
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Organização da página inicial com equipe, subgrupos e navegação | Marcelo de Araújo Lopes | Yogi Nam de Souza Barbosa |
-| 1.1 | 28/08/2026 | Inclusão do banner horizontal, atualização dos links e das legendas e adaptação do site com pesquisa, tema pixelado em azul e identidade química das subequipes | Yogi Nam de Souza Barbosa | |
+| 1.1 | 28/08/2026 | Inclusão do banner horizontal, atualização dos links e das legendas e adaptação do site com pesquisa, tema pixelado em azul e identidade química das subequipes | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 6: Histórico de versão.</p>

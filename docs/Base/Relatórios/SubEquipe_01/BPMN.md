@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este artefato documenta a engenharia reversa e a modelagem BPMN da SubEquipe_01 no jogo *Final Fantasy VI*, escolhido como referência na [Ata Geral 02](/Atas/AtaGeral02.md). Foram analisados os fluxos de **equipar itens**, **utilizar itens** e **batalha**. O fluxo de lojas permanece pendente.
+Este artefato documenta a engenharia reversa e a modelagem BPMN da SubEquipe_01 no jogo *Final Fantasy VI*, escolhido como referência na [Ata Geral 02](/Atas/AtaGeral02.md). Foram analisados os fluxos de **equipar itens**, **utilizar itens** e **batalha**.
 
 ## Objetivo
 
@@ -23,7 +23,6 @@ Os modelos BPMN foram elaborados com base nos resultados obtidos na engenharia r
 | Equipar itens | Cibelly Lourenço Ferreira | Vídeo, quatro capturas e BPMN |
 | Utilizar itens | Yogi Nam de Souza Barbosa | Vídeo, sete capturas e BPMN |
 | Batalha | Gabriel Andrade Magioli | Vídeo, quatro capturas e BPMN |
-| Lojas | Demais integrantes | Pendente |
 
 <p align="center">Tabela 1: Escopo dos fluxos de engenharia reversa da SubEquipe_01.</p>
 
@@ -144,6 +143,8 @@ O modelo separa os participantes **Jogador** e **Sistema do jogo** em dois *pool
 
 <p align="center">Figura 1: Modelo BPMN do fluxo de equipar item. Fonte: Cibelly Lourenço Ferreira, 2026.</p>
 
+O diagrama explicita a separação entre as escolhas do jogador e as consultas, simulações e atualizações realizadas pelo sistema. Essa divisão é útil para orientar responsabilidades no projeto, embora os comportamentos de otimização e remoção em massa ainda precisem de detalhamento caso sejam incorporados.
+
 #### Utilizar item
 
 O modelo separa os participantes **Jogador** e **Sistema do jogo** em dois *pools*. O fluxo representa o carregamento do inventário, a validação das condições de uso, a necessidade de selecionar um alvo, a validação desse alvo, a execução do efeito, o consumo da unidade e a atualização da interface.
@@ -152,6 +153,8 @@ O modelo separa os participantes **Jogador** e **Sistema do jogo** em dois *pool
 
 <p align="center">Figura 2: Modelo BPMN do fluxo de utilizar item. Fonte: Yogi Nam de Souza Barbosa, 2026.</p>
 
+O modelo evidencia que utilizar um item envolve validações de contexto e de alvo, e não apenas reduzir sua quantidade no inventário. A atividade genérica de executar o efeito mantém o BPMN legível, mas as regras específicas de cada item deverão ser definidas separadamente na lógica de domínio.
+
 #### Navegar entre fases do mapa
 
 O modelo organiza o **Sistema do jogo** em dois *pools*, **StepOrchestrator** e **ExecuteBattle**, e demonstra a interação entre esses dois mecanismos. O fluxo representa a validação e a atualização das fases conforme o jogador avança no jogo, bem como o subprocesso de batalha, no qual o dano é causado ao jogador e aos seus inimigos.
@@ -159,6 +162,10 @@ O modelo organiza o **Sistema do jogo** em dois *pools*, **StepOrchestrator** e 
 ![Modelo BPMN do fluxo de batalha](assets/subgrupo_01_bpmn_batalha.png)
 
 <p align="center">Figura 3: Modelo BPMN do fluxo de batalha. Fonte: Gabriel Andrade Magioli, 2026.</p>
+
+O diagrama ajuda a visualizar a coordenação entre o avanço nas fases e a execução das batalhas. Os nomes **StepOrchestrator** e **ExecuteBattle** representam uma abstração proposta a partir do comportamento observado, não uma confirmação da arquitetura interna de *Final Fantasy VI*.
+
+Em conjunto, os modelos fornecem operações concretas para os critérios de Jogabilidade e Usabilidade/UX representados no [NFR Framework](NFRFramework.md).
 
 ## Referências
 
@@ -186,17 +193,16 @@ TLDRAW. **tldraw: a very good whiteboard**. Disponível em: <https://tldraw.com>
 
 <p align="center">Tabela 5: Contribuição dos integrantes.</p>
 
-Os percentuais deverão ser recalculados após a inclusão do fluxo pendente de lojas.
-
 ## Histórico de Versão
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
-| 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | |
-| 1.1 | 26/08/2026 | Documentação da engenharia reversa dos fluxos de equipar e utilizar itens | Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa | |
-| 1.2 | 26/08/2026 | Inserção dos modelos BPMN | Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa | |
-| 1.3 | 28/08/2026 | Documentação da engenharia reversa e inserção do modelo BPMN do fluxo de batalha; renumeração de tabelas e figuras | Gabriel Andrade Magioli | |
+| 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | Marcos Vinícius Gündel da Silva |
+| 1.1 | 26/08/2026 | Documentação da engenharia reversa dos fluxos de equipar e utilizar itens | Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
+| 1.2 | 26/08/2026 | Inserção dos modelos BPMN dos fluxos de equipar e utilizar itens | Cibelly Lourenço Ferreira e Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
+| 1.3 | 28/08/2026 | Documentação da engenharia reversa e inserção do modelo BPMN do fluxo de batalha; renumeração de tabelas e figuras | Gabriel Andrade Magioli | Marcos Vinícius Gündel da Silva |
+| 1.4 | 28/08/2026 | Inclusão da análise crítica dos modelos e da rastreabilidade com o NFR Framework | Cibelly Lourenço Ferreira, Gabriel Andrade Magioli e Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 6: Histórico de versão.</p>
 
-Ver também: [Ata Geral 02](/Atas/AtaGeral02.md) · [Artefato Generalista](ArtefatoGeneralista.md) · [Rich Picture](RichPicture.md) · [NFR Framework](NFRFramework.md) · [IA Generativa](IAGenerativa.md)
+Ver também: [Ata Geral 02](/Atas/AtaGeral02.md) · [Rich Picture](RichPicture.md) · [NFR Framework](NFRFramework.md) · [IA Generativa](IAGenerativa.md)
