@@ -30,7 +30,7 @@ A primeira versão combina referências de jogos digitais como o jogo [Soul Knig
 
 ![Rich Picture da proposta de RPG educacional de matemática](assets/subgrupo01_rich_picture_v1.png)
 
-<p align="center">Figura 1: Versão 1 do Rich Picture de RPG educacional de matemática. Fonte: Cibelly, Gabriel e Yogi, 2026.</p>
+<p align="center">Figura 1: Versão 1 do Rich Picture de RPG educacional de matemática. Fonte: Cibelly Lourenço Ferreira, Gabriel Andrade Magioli e Yogi Nam de Souza Barbosa, 2026.</p>
 
 ### Versão 2: Plataforma de jogos de estimulação cognitiva
 
@@ -38,9 +38,11 @@ A segunda versão organiza a situação em torno de uma persona idosa, da recome
 
 ![Rich Picture da plataforma de jogos de estimulação cognitiva](assets/subgrupo01_rich_picture_v2.png)
 
-<p align="center">Figura 2: Versão 2 do Rich Picture da plataforma de jogos de estimulação cognitiva. Fonte: Cibelly, Gabriel e Yogi, 2026.</p>
+<p align="center">Figura 2: Versão 2 do Rich Picture da plataforma de jogos de estimulação cognitiva. Fonte: Cibelly Lourenço Ferreira, Gabriel Andrade Magioli e Yogi Nam de Souza Barbosa, 2026.</p>
 
 > **Limitação da versão 2:** a referência consultada descreve potencial de estimulação cognitiva como recurso complementar, planejado e supervisionado. O artefato não deve ser interpretado como evidência de que jogos previnem ou tratam Alzheimer ou outras demências.
+
+Embora outra proposta tenha sido escolhida na reunião geral, conceitos comuns da versão 1, como combate, itens, equipamentos e HUD, reaparecem no [NFR Framework](NFRFramework.md) e nos fluxos recuperados por [Engenharia Reversa e BPMN](BPMN.md).
 
 ## Referências
 
@@ -67,9 +69,10 @@ TLDRAW. **tldraw: collaborative digital whiteboard** [software]. Disponível em:
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | Marcos Vinícius Gündel da Silva |
-| 1.1 | 26/08/2026 | Documentação e publicação das duas versões do Rich Picture | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
+| 1.1 | 26/08/2026 | Documentação e publicação das duas versões do Rich Picture | Cibelly Lourenço Ferreira, Gabriel Andrade Magioli e Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 | 1.2 | 26/08/2026 | Remoção de referências metodológicas descontinuadas e inclusão da iniciativa experimental com IA | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
+| 1.3 | 28/08/2026 | Correção da autoria e inclusão da rastreabilidade com os demais artefatos | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 2: Histórico de versão.</p>
 
-Ver também: [Experimento com IA](RichPictureIA.md) · [Artefato Generalista](ArtefatoGeneralista.md) · [NFR Framework](NFRFramework.md) · [BPMN](BPMN.md) · [IA Generativa](IAGenerativa.md)
+Ver também: [Experimento com IA](RichPictureIA.md) · [NFR Framework](NFRFramework.md) · [Engenharia Reversa e BPMN](BPMN.md) · [IA Generativa](IAGenerativa.md)

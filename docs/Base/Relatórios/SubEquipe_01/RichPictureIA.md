@@ -54,7 +54,7 @@ Prompt utilizado: `docs/Base/Relatórios/SubEquipe_01/prompt_02.txt`.
 | Confiabilidade | A coerência visual não valida requisitos, viabilidade técnica nem alegações pedagógicas ou médicas. Todo conteúdo gerado precisa ser confrontado com as decisões do grupo e com referências adequadas. |
 | Limites do experimento | A tentativa no Cloudairy não gerou uma saída comparável, e apenas uma configuração do ChatGPT foi avaliada. Portanto, o experimento não permite uma comparação geral entre plataformas ou modelos. |
 
-<p align="center">Tabela 1: Síntese da avaliação qualitativa dos resultados. Fonte: Cibelly, Gabriel e Yogi, 2026.</p>
+<p align="center">Tabela 1: Síntese da avaliação qualitativa dos resultados. Fonte: Cibelly Lourenço Ferreira, Gabriel Andrade Magioli e Yogi Nam de Souza Barbosa, 2026.</p>
 
 O experimento indicou que a IA pode ajudar a reorganizar e comunicar visualmente uma concepção já bem descrita, além de revelar elementos que o grupo pode incorporar em revisões futuras. Entretanto, ela não substitui a construção colaborativa: os Rich Pictures originais registram o raciocínio, as divergências e as decisões ocorridas durante a reunião, enquanto as imagens geradas representam uma interpretação posterior dos prompts.
 
@@ -80,7 +80,8 @@ OPENAI. **ChatGPT** [software]. Disponível em: <https://chatgpt.com/overview/>.
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
-| 1.0 | 26/08/2026 | Criação da página e documentação do experimento de recriação dos Rich Pictures com IA | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
+| 1.0 | 26/08/2026 | Criação da página e documentação do experimento de recriação dos Rich Pictures com IA | Cibelly Lourenço Ferreira, Gabriel Andrade Magioli e Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
+| 1.1 | 28/08/2026 | Correção da autoria compartilhada do experimento e da análise qualitativa | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 3: Histórico de versão.</p>
 
