@@ -52,7 +52,8 @@ Toda reunião é registrada em uma ata própria, seguindo o modelo definido em [
 |:------:|------|:----------|:----------|:--------|
 | 1.0 | 22/08/2026 | Criação da página de atas | Marcelo de Araújo Lopes | |
 | 1.1 | 24/08/2026 | Registro da Ata 01 e adequação das legendas das tabelas organizacionais | Yogi Nam de Souza Barbosa | |
+| 1.2 | 28/08/2026 | Correção dos links para os artefatos da SubEquipe 01 | Yogi Nam de Souza Barbosa | Marcos Vinícius Gündel da Silva |
 
 <p align="center">Tabela 4: Histórico de versão.</p>
 
-Ver também: [Reuniões Gerais](Gerais.md) · [Subgrupo 02](SubEquipe_02.md) · [Subgrupo 03](SubEquipe_03.md) · [Ata Padrão](/Guias/AtaPadrao.md) · [Artefatos do Subgrupo 01](/Base/Relatórios/SubEquipe_01/ArtefatoGeneralista.md)
+Ver também: [Reuniões Gerais](Gerais.md) · [Subgrupo 02](SubEquipe_02.md) · [Subgrupo 03](SubEquipe_03.md) · [Ata Padrão](/Guias/AtaPadrao.md) · [Rich Picture](/Base/Relatórios/SubEquipe_01/RichPicture.md) · [NFR Framework](/Base/Relatórios/SubEquipe_01/NFRFramework.md) · [Engenharia Reversa e BPMN](/Base/Relatórios/SubEquipe_01/BPMN.md) · [IA Generativa](/Base/Relatórios/SubEquipe_01/IAGenerativa.md)
