@@ -28,7 +28,7 @@ A rastreabilidade com o [Rich Picture](RichPicture.md) foi mantida: os elementos
 ## Conteúdo
 
 <p align="center">
-  <img src="assets/subequipe01_sig_nfr_v1.png" alt="SIG na notação NFR Framework do G4_ProjetoJogo - Jogabilidade e Usabilidade/UX" width="100%">
+  <img src="Base/Relatórios/SubEquipe_01/assets/subequipe01_sig_nfr_v1.png" alt="SIG na notação NFR Framework do G4_ProjetoJogo - Jogabilidade e Usabilidade/UX" width="100%">
 </p>
 
 <p align="center">Figura 1: SIG de Jogabilidade e Usabilidade/UX na notação do NFR Framework. Fonte: Yogi Nam de Souza Barbosa, 2026.</p>
