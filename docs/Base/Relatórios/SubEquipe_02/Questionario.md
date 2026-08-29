@@ -123,10 +123,10 @@ NIELSEN, Jakob. **10 Usability Heuristics for User Interface Design**. Nielsen N
 
 | Nome | % de Contribuição |
 |------|-------------------|
-| João Igor Pereira da Costa | 30% |
-| João Victor da Silva Batista de Farias | 50% |
-| Marcelo de Araújo Lopes | 0% |
-| Marcos Vinícius Gündel da Silva | 20% |
+| João Igor Pereira da Costa | 30,0% |
+| João Victor da Silva Batista de Farias | 50,0% |
+| Marcelo de Araújo Lopes | 0,0% |
+| Marcos Vinícius Gündel da Silva | 20,0% |
 
 <p align="center">Tabela 5: Contribuição dos integrantes.</p>
 
@@ -134,7 +134,9 @@ NIELSEN, Jakob. **10 Usability Heuristics for User Interface Design**. Nielsen N
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
-| 1.0 | 27/08/2026 | Criação da página no modelo do artefato padrão e preenchimento das seções Descrição, Objetivo e Metodologia, do instrumento e das respostas coletadas do questionário | Marcos Vinícius Gündel da Silva | |
+| 1.0 | 19/08/2026 | Ideação do Questionário | João Igor Pereira da Costa | |
+| 1.1 | 20/08/2026 | Criação do Questionário | João Victor da Silva Batista de Farias | |
+| 1.2 | 27/08/2026 | Limpeza dos dados do questionário; Relação com as Heurísticas de Nielsen e preenchimento da seção de metodologia | Marcos Vinícius Gündel da Silva | |
 
 <p align="center">Tabela 6: Histórico de versão.</p>
 

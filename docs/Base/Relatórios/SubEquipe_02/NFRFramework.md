@@ -54,10 +54,10 @@ NIELSEN, Jakob. **10 Usability Heuristics for User Interface Design**. Nielsen N
 
 | Nome | % de Contribuição |
 |------|-------------------|
-| João Igor Pereira da Costa | 25% |
-| João Victor da Silva Batista de Farias | 25% |
-| Marcelo de Araújo Lopes | 25% |
-| Marcos Vinícius Gündel da Silva | 25% |
+| João Igor Pereira da Costa | 25,0% |
+| João Victor da Silva Batista de Farias | 25,0% |
+| Marcelo de Araújo Lopes | 25,0% |
+| Marcos Vinícius Gündel da Silva | 25,0% |
 
 <p align="center">Tabela 1: Contribuição dos integrantes.</p>
 
@@ -65,10 +65,10 @@ NIELSEN, Jakob. **10 Usability Heuristics for User Interface Design**. Nielsen N
 
 | Versão | Data | Descrição | Autor(es) | Revisor |
 |:------:|------|:----------|:----------|:--------|
-| 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes | Marcos Vinícius Gündel da Silva |
-| 1.1 | 23/08/2026 | Elaboração da versão 1 do SIG na notação do NFR Framework | Marcelo de Araújo Lopes | |
-| 1.2 | 28/08/2026 | Elaboração da versão 2 do SIG na notação do NFR Framework | Marcos Vinícius Gündel da Silva | |
-| 1.3 | 28/08/2026 | Preenchimento das seções Metodologia e Referências | Marcos Vinícius Gündel da Silva | |
+| 1.0 | 22/08/2026 | Criação da página no modelo do artefato padrão | Marcelo de Araújo Lopes |  |
+| 1.1 | 23/08/2026 | Elaboração da versão 1 do SIG na notação do NFR Framework | Marcelo de Araújo Lopes |  |
+| 1.2 | 28/08/2026 | Elaboração da versão 2 do SIG na notação do NFR Framework | João Igor Pereira da Costa<br><br>João Victor da Silva Batista de Farias<br><br> Marcos Vinícius Gündel da Silva |  |
+| 1.3 | 28/08/2026 | Preenchimento das seções Metodologia e Referências | João Igor Pereira da Costa<br><br>João Victor da Silva Batista de Farias<br><br> Marcos Vinícius Gündel da Silva |  |
 
 <p align="center">Tabela 2: Histórico de versão.</p>
 
